@@ -1,0 +1,26 @@
+-- Disable foreign key checks
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+
+INSERT INTO `junxiaci_newlab`.`conference_conference`(`id`, `T2`, `CY`, `PY`, `DA`, `PB_id`, `C1`, `LA`)
+VALUES (1, 'Structures Congress', 'Orlando, FL', '2010', '', 9, '', ''),
+  (2, 'High performance fiber reinforced cement composites 2', 'Ann Arbor', '1995', '', 21, '', ''),
+  (3, 'High performance fiber reinforced cement composites 3', 'Mainz, Germany', '1999', '', NULL, '', ''),
+  (4, 'High performance fiber reinforced cement composites 4', 'Ann Arbor', '2003', 'June 16-18', NULL, '', ''),
+  (5, 'High performance fiber reinforced cement composites 5', 'Cachan, Frence', '2007', '', NULL, '', ''),
+  (6, 'High performance fiber reinforced cement composites 1', 'Mainz, Germany', '1991', 'June', NULL, '', ''),
+  (7, 'International Symposium on Ultra High Performance Concrete', 'Kassel, Germany', '2004', 'September 13-15', NULL, '', ''),
+  (8, '	International Symposium on Ultra High Performance Concrete', 'Kassel, Germany', '2008', 'March 5-7', NULL, '', ''),
+  (9, 'International Symposium on Ultra High Performance Concrete', 'Kassel, Germany', '2012', 'March 7-9', NULL, '', ''),
+  (10, 'self-consolidate concrete', 'Montreal, Canada', '2010', 'September 26a€???29', NULL, '', ''),
+  (11, 'ICCBT2008', '', '', '', NULL, '', '');
+  
+INSERT INTO `junxiaci_newlab`.`conference_conferenceproceeding`(`id`, `conference_id`, `C3`, `C2`, `NV`, `ST`, `C5`, `T3`, `ET`)
+VALUES (1, 9, 'Ultra-high performance concrete and nanotechnology in construction', '', '', '', '', '', ''),
+  (2, 7, 'Ultra High Performance Concrete', '2004', '', '', '', '', ''),
+  (3, 8, 'Ultra High Performance Concrete', '', '', '', '', '', ''),
+  (4, 10, 'Design, Production and Placement of Self-Consolidating Concrete', '2010', '', '', '', '', '');
+  
+  -- Re-enable foreign key checks
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+
+-- End of script

@@ -1,0 +1,118 @@
+
+{% extends "financial_base.html" %}
+{% load account_summary %}
+{% block scripts %}
+     <script type="text/javascript" src="{{MEDIA_URL}}js/jquery-1.6.2.js"></script>
+		 <script type="text/javascript" src="{{MEDIA_URL}}js/jquery/countdown/jquery.countdown.js"></script>
+    {{forms.media}}
+
+		
+
+
+		
+		 <script type="text/javascript">	 	
+		 $(document).ready(function () {
+		 	function ajax_call() {
+      $.ajax({
+                url: 'search/',
+                dataType: 'json',
+                data: {'account':$("#id_account").val(),
+                       'year':$("#id_year").val(),
+                       'month':$("#id_month").val()
+                       },
+                success: function(data1, textStatus, jqXHR){
+                  alert('Found Total ' + data1.total_transactions + ' transactions');
+                  
+                  $("#id_summary").empty();
+                  $("#id_summary").last().append(
+                      "<tr><td>" + "account" + "</td>" + "<td>" + data1.account + "</td>" + "</tr>" +
+                      "<tr><td>" + "year" + "</td>" + "<td>" + data1.year + "</td>" + "</tr>" +
+                      "<tr><td>" + "month" + "</td>" + "<td>" + data1.month + "</td>" + "</tr>" +
+                      "<tr><td>" + "Total Credit" + "</td>" + "<td>" + data1.total_credit + "</td>" + "</tr>" +
+                      "<tr><td>" + "Total Debit" + "</td>" + "<td>" + data1.total_debit + "</td>" + "</tr>" +
+                      "<tr><td>" + "Total Monthly Net" + "</td>" + "<td>" + data1.total_all + "</td>" + "</tr>"
+                      );
+                  
+                  
+                  
+                	$("#id_transaction").empty();
+                	$("#id_transaction").last().append(
+                	      "<tr><td>" + "id" + "</td>" + 
+			                  "<td>" + "Amount +" + "</td>" +
+			                  "<td>" + "Amount -" + "</td>" + 
+			                  "<td>" + "date" + "</td>" +
+                        "<td>" + "note" + "</td>" +
+			                  "</tr>");
+                	
+                	$.each(data1.transactions, function(index, value) {
+                		    $("#id_transaction").last().append(
+			                  "<tr><td>" + value.id + "</td>" + 
+			                  "<td>" + value.amountplus + "</td>" + 
+			                  "<td>" + value.amountminus + "</td>" + 
+			                  "<td>" + value.ddate + "</td>" +
+                        "<td>" + value.notes + "</td>" +
+                        
+			                  "</tr>");		                  
+			                  
+                    });
+                          },
+
+                error:function(xhr, status, error) {
+                         //alert(data1);
+                         //if (xhr.status == 200) 
+
+                         alert("An AJAX error occured: " + status + "\nError: " + error);
+                         
+                          }
+
+                });};
+        
+        $('#id_submit').click(function(){
+             ajax_call();}	);
+    });
+		 		</script>
+
+
+	 		
+		 		
+{% endblock %}
+
+
+
+{% block content %}
+
+        <table class='form_table' border="1">
+          
+        {% for field in forms.visible_fields %}
+                <tr>
+                <td>{{ field.label_tag }}</td>
+                <td>
+               
+                 {{ field }}
+           
+                </td>
+                </tr>
+        {% endfor %}
+        </table>
+        <button type="button" id='id_submit'>Search</button>
+         
+         
+         <div>
+             <h2>Monthly Account Summary</h2>
+             <table border=1  id='id_summary'>
+                 
+            
+             </table>           
+          
+         </div>  
+         <div>
+             <h2>List of related transactions</h2>
+             <table border=1 id='id_transaction'>
+            
+             </table> 
+         </div> 
+        
+        <div id='id_popup'>
+        
+        </div>
+{% endblock %}

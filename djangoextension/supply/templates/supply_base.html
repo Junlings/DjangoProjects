@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+
+ {% block leftfloat %}
+ <hr color=#b9d2e3>
+ Purchase Information
+ <ul> 
+  <li><a href="{{ROOT_URL}}supply/supplies/create/search.*/">Add by Search</a> </li>
+  <li><a href="{{ROOT_URL}}manufacture/manufacturers/create/">Add Manufacturer</a> </li>
+  <li><a href="{{ROOT_URL}}manufacture/products/create/">Add Product</a> </li>
+  <li><a href="{{ROOT_URL}}supply/supplies/create/">Add Supplier</a> </li>
+  <li><a href="{{ROOT_URL}}supply/items/create/">Add Item Template</a> </li>
+ </ul>
+ {% endblock %}

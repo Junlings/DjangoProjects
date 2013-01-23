@@ -1,0 +1,16 @@
+{% load url from future %}
+{% load i18n %}
+
+<div class="Updates">
+        
+    <h2> New Updates</h2>
+    <ul>
+    {% for updates in updates_list %}
+        <li>{{updates.timestamp|date:"D d M Y"}}</br>
+             <a href={{updates.url}}>{{ updates.index|capfirst }}</a>
+
+        </li>
+        </br>
+    {% endfor %}
+    </ul>
+</div>

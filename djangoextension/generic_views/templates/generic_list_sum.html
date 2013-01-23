@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load url from future %}
+
+{% block scripts %}
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="{{ROOT_URL}}media/js/demos.css">
+{% endblock %}
+
+
+{% block content %}
+  <h2> Transaction and balance for Year: {{year}}, Month: {{month}} </h2>
+  <p> Total Number of record is {{item_list.count}}  </p>
+	{%if item_list %}
+		{% autopaginate item_list %}
+		{% paginate %}
+		<table class='list_table' border="1">
+    <STYLE type="text/css">
+      #last_row { background: yellow }
+
+    </STYLE>
+        
+		<tr>
+		{% for field in fields %}
+		<td>
+			{{field}}
+		</td>
+		{% endfor %}
+		
+		{# add detail links #}
+		<td> Link to details </td>
+		</tr>
+		
+		{% for item in item_list %}
+			<tr>
+			    {% for field in fields %}
+			        <td>
+				{{ item|lookup:field}}
+				     </td>
+			    {% endfor %}
+			 <td><a href="{% url detail_view item.id %}">Details</a> </td>
+			<tr>
+		{% endfor %}
+	
+	<TR id="last_row">
+		  <td>	Sum	  </td>
+      <td>	{{sum_debit}}	  </td>		  
+      <td>	{{sum_credit}}	  </td>		  
+      <td>	--	  </td>		  
+      <td>	Net balance:	  </td>		
+      <td>	{{sum_total}}	  </td>	  
+	</TR>
+  </table> 
+	{% else %}
+		<p>No Model instance record are available.</p>
+	{% endif %}
+
+
+{% endblock %}
+		  
+{% block footer %}
+	<div id="footer">
+	    <div class="block">
+		<p>Copyright &copy; 2012 Fprime Solution LLC.</p>
+	    </div>
+	</div>
+{% endblock %}

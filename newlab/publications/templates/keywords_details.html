@@ -1,0 +1,28 @@
+{% extends "publication_base.html" %}
+{% load pagination_tags %}
+{% load url from future %}
+{% load pub_generic_views_helpers %}
+
+{% block scripts %}
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="{{ROOT_URL}}media/js/demos.css">
+{% endblock %}
+
+
+{% block content %}
+
+   <h1>{{kw}}</h1>
+
+   {% if pubs %}
+   <h2> The Publication Contain this Keyword </h2>
+   <table class='list_table' border="1">   
+      {% for pub in pubs %}
+         <tr>
+	    <td><a href="{{ROOT_URL}}publications/lb/{{pub.label}}/"> {{pub.label}}</a></td>
+	    <td>{{pub|get_verbose_name}}</td>
+	    <td>{{pub.TI}}</td>
+	 </tr>  
+      {% endfor %}
+    </table>
+   {% endif %}
+{% endblock %}

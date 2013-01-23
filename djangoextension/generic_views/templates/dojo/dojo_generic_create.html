@@ -1,0 +1,160 @@
+{% extends base_template %}
+
+
+{% block scripts %}
+		<script src="http://fprimes.com/media/js/dojo-1.7.2/dojo/dojo.js" 
+			data-dojo-config="async: true"></script>
+		<script type="text/javascript">
+			require(["dijit/registry", "dojo/parser", "dojox/form/Manager", "dijit/dijit", "dijit/form/Button", "dijit/form/CheckBox", "dijit/form/RadioButton", "dijit/form/TextBox", "dijit/form/ComboBox", "dijit/form/SimpleTextarea", "dijit/form/Select", "dijit/layout/BorderContainer", "dijit/layout/ContentPane", "dojo/domReady!"], function(registry, parser) {
+				parser.parse();
+			});
+
+		</script>
+		
+    <style type="text/css">
+		.error-msg {
+			color:red;
+			font-weight: bold;
+		}
+	  </style>
+
+<script>
+require(["dojo/dom","dojo/store/JsonRest","dojo/_base/json","dojo/on","dijit/dijit", "dojox/form/Manager","dojo/query","dojo/dom-class","dojo/dom-attr","dojo/_base/json","dojo/NodeList-traverse","dojo/domReady!"], function(dom,JsonRestStore,dojo,on,dijit,formmagr,query,domClass,domAttr){
+
+    var mysubmitbutton = dom.byId("submitbutton");
+    var myinputs = {};
+
+    function handle_error(error_msg) // function to add django validation error to the form
+        {
+        	for (var key in error_msg.field_errors)
+        	{
+             	node = dojo.query("#error-"+key)[0];
+             	//console.log(node);
+             	node.innerHTML = error_msg.field_errors[key];
+             	
+           }
+        
+        };
+
+    function remove_handle_error()  //function to remove all django validation error message
+        {
+             	nodelist = dojo.query(".error-msg").forEach(function(node){
+                  node.innerHTML = '';});
+   
+        };
+
+
+    function reset_form(form_id)  // reset the forms to the blank state
+      {
+          var myinputs = {};
+        
+           query(form_id+" input").forEach(function(node, index, nodelist){
+            // for each node in the array returned by query,
+            // execute the following code
+            
+            domAttr.set(node,'value','')
+
+            });
+            
+            query(form_id+" select").forEach(function(node, index, nodelist){
+            // for each node in the array returned by query,
+            // execute the following code
+            
+            domAttr.set(node,'value','')
+
+            });
+            remove_handle_error()
+            return myinputs;
+      };
+       
+    function collect_form(form_id)  // collect form content
+      {
+          var myinputs = {};
+        
+           query(form_id+" input").forEach(function(node, index, nodelist){
+            // for each node in the array returned by query,
+            // execute the following code
+            
+            var mylabel = domAttr.get(node,'name')
+            var myvalue = domAttr.get(node,'value')
+            myinputs[mylabel] = myvalue;
+
+            });
+            
+            query(form_id+" select").forEach(function(node, index, nodelist){
+            // for each node in the array returned by query,
+            // execute the following code
+            
+            var mylabel = domAttr.get(node,'name')
+            var myvalue = domAttr.get(node,'value')
+            myinputs[mylabel] = myvalue;
+
+            });
+            
+            return myinputs;
+      };
+
+    //console.log(collect_form('#myform'));
+
+    
+    var store = new JsonRestStore({target: "../api/" });
+    on(mysubmitbutton, "click", function(){
+        //alert('start put data to server');
+       
+        
+        dfd= store.add(collect_form('#myform'));  // get information from all form elements
+        dfd.addErrback(function(error){           // add fallback function to show the errors
+            if(error.status == 400){
+                 var parsed = error.responseText;
+                  //alert(parsed);
+                  remove_handle_error();               // first remove all existing error msg
+                  handle_error(dojo.fromJson(parsed))  // then add new error messages
+                  
+                  };
+                  
+                  
+                  
+                  });
+        dfd.addCallback(function(obj){                    // add success callback function  and alert message
+            alert('Creation success. Object ID:'+obj.id);
+            reset_form('#myform');});                     // reset the form
+
+    });
+});
+
+
+    
+</script>
+
+{% endblock %}
+
+{% block content %}
+
+<form id="myform" lang="en" data-dojo-type="dojox.form.Manager" widgetid="myform">
+	
+        <table class='form_table' border="1">
+        
+        {% for field in form.visible_fields %}
+                <tr>
+                <td>{{ field.label_tag }}
+
+              {% if field.field.required %}*{% endif %}  
+                
+                	
+                </td>
+                <td>
+                <div class="flash">
+                	{{ field }}
+                	 <div id="error-{{field.name}}" class="error-msg">
+                	</div>
+                </td>
+                </tr>
+        {% endfor %}       
+        
+        </table>
+</form>
+<input type="submit" value="Submit" id="submitbutton"/>
+
+
+
+{% endblock %}

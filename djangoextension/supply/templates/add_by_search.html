@@ -1,0 +1,290 @@
+{% extends "supply_base.html" %}
+{% load i18n %}
+{% load url from future %}
+
+{% block scripts %}
+<script src="http://fprimes.com/media/js/jquery-1.7.2.min.js" type="text/javascript"> </script>
+<script>
+
+generate = function(data1){
+			 $("#id_searchresults").html("<h2> Product </h2>" +
+			                  "<table id='id_product' border=2>" +
+			                  "<tr><td>Long Name</td>" + "<td>" + data1.itemproduct.longname+" </td></tr>" + 
+			                  "<tr><td>Short Name</td>" + "<td>" + data1.itemproduct.shortname+" </td></tr>" +
+			                  "<tr><td>Manufacturer Name</td>" + "<td>" + data1.itemproduct.manufacturer.name+" </td></tr>" +
+			                  "<tr><td>Brand</td>" + "<td>" + data1.itemproduct.brand+" </td></tr>" +
+			                  "<tr><td>model id</td>" + "<td>" + data1.itemproduct.modelid+" </td></tr>" +
+			                  "<tr><td>upc</td>" + "<td>" + data1.itemproduct.upc+" </td></tr>" +
+			                  "<tr><td>Img</td>" + "<td><img src="  + data1.itemproduct.mainimagepath+ " /></td></tr>" +
+			                  " </table> " + "<h2> Supply </h2>" +
+			                  "<table id='id_supply' border=2>" +
+			                  "<tr><td>Supplier</td>" + "<td>" + data1.suppliers+" </td></tr>" + 
+			                  "<tr><td>PID</td>" + "<td>" + data1.suppliers_PID+" </td></tr>" +
+			                  "<tr><td>platform</td>" + "<td>" + data1.platform+" </td></tr>" +
+			                  "<tr><td>Price_base</td>" + "<td>" + data1.price_base+" </td></tr>" +
+			                  "<tr><td>local_avail</td>" + "<td>" + data1.local_avail+" </td></tr>" +
+			                  "<tr><td>online_avail</td>" + "<td>"+ data1.online_avail + "</td></tr>" +
+			                  " </table> "
+			                 
+			                 
+			                );	}
+	
+	
+$(document).ready(function() {
+	
+$('#spinner').ajaxStart(function() {
+    $(this).show();
+}).ajaxComplete(function() {
+    $(this).hide();
+});
+
+$("#SearchSubmit").click(function(){
+	
+  $.ajax({
+  url: 'search/',
+  dataType: 'json',
+  data: {'store':$("#id_store").val(),'pid':$("#id_pid").val()},
+  success: function(data1, textStatus, jqXHR){
+  	        alert('Find the product specificed');
+  	        if (data1.local_avail) {
+         		    $("#id_localsearch").show();
+         		    $("#Local_Search_Results").hide();
+         		    };
+
+			 $("#id_searchresults").html("<h2> Product </h2>" +
+			                  "<table id='id_product' border=2>" +
+			                  "<tr><td>Long Name</td>" + "<td>" + data1.itemproduct.longname+" </td></tr>" + 
+			                  "<tr><td>Short Name</td>" + "<td>" + data1.itemproduct.shortname+" </td></tr>" +
+			                  "<tr><td>Manufacturer Name</td>" + "<td>" + data1.itemproduct.manufacturer.name+" </td></tr>" +
+			                  "<tr><td>Brand</td>" + "<td>" + data1.itemproduct.brand+" </td></tr>" +
+			                  "<tr><td>model id</td>" + "<td>" + data1.itemproduct.modelid+" </td></tr>" +
+			                  "<tr><td>upc</td>" + "<td>" + data1.itemproduct.upc+" </td></tr>" +
+			                  "<tr><td>Img</td>" + "<td><img src="  + data1.itemproduct.mainimagepath+ " /></td></tr>" +
+			                  " </table> " + "<h2> Supply </h2>" +
+			                  "<table id='id_supply' border=2>" +
+			                  "<tr><td>Supplier</td>" + "<td>" + data1.suppliers.name+" </td></tr>" + 
+			                  "<tr><td>PID</td>" + "<td>" + data1.suppliers_PID+" </td></tr>" +
+			                  "<tr><td>platform</td>" + "<td>" + data1.platform+" </td></tr>" +
+			                  "<tr><td>Price_base</td>" + "<td>" + data1.price_base+" </td></tr>" +
+			                  "<tr><td>local_avail</td>" + "<td>" + data1.local_avail+" </td></tr>" +
+			                  "<tr><td>online_avail</td>" + "<td>"+ data1.online_avail + "</td></tr>" +
+			                  " </table> "
+			                 
+			                 
+			                );
+
+
+            },
+
+  error:function(xhr, status, error) {
+    alert("An AJAX error occured: " + status + "\nError: " + error);
+  },
+
+});
+
+});
+});
+</script>
+
+<script type="text/javascript"
+     src="http://maps.googleapis.com/maps/api/js?sensor=true">
+</script>
+        
+ 
+<script>
+$(document).ready(function() {
+	
+	$("#id_localsearch").hide();
+		
+});
+	
+</script>
+ 
+ 
+<script>
+	var data1
+$(document).ready(function() {
+	
+
+$('#spinner').ajaxStart(function() {
+    $(this).show();
+}).ajaxComplete(function() {
+    $(this).hide();
+});
+
+
+function store_image(availcode){
+	
+	
+	if (availcode == '3'){
+	    var iimage = 'http://fprimes.com/media/images/icon/in_stock.png';
+	    return iimage
+	    }
+	else if (availcode == '2'){
+	    var iimage = 'http://fprimes.com/media/images/icon/low_stock.png';
+	    return iimage
+	    }
+	else if (availcode == '1'){
+	    var iimage = 'http://fprimes.com/media/images/icon/clearance.png';
+	    return iimage
+	    }
+	else if (availcode == '0'){
+	    var iimage = 'http://fprimes.com/media/images/icon/not_sold.png';
+	    return iimage
+	    }
+	else {
+	    var iimage = 'http://fprimes.com/media/images/icon/no_info.png';
+	    return iimage
+	    }			    
+};
+
+$("#mapSubmit").click(function(){
+	$("#Local_Search_Results").hide();
+  $.ajax({
+  url: 'local/',
+  dataType: 'json',
+  data: {'zipcode':$("#id_zipcode").val(),
+  	     'distance':$("#id_distance").val(),
+  	     'store':$("#id_store").val(),
+  	     'pid':$("#id_pid").val()},
+  success: function(data1, textStatus, jqXHR){
+            var latlng = new google.maps.LatLng(data1[0].lat,data1[0].lng);
+            var myOptions = {
+              zoom: 7,
+              center: latlng,
+              mapTypeId: google.maps.MapTypeId.ROADMAP};
+
+            var map = new google.maps.Map(document.getElementById("map_canvas"),myOptions);
+            
+           $.each(data1, function(index,value){
+                var mylatlng = new google.maps.LatLng(value.lat,value.lng);
+                var marker = new google.maps.Marker({
+                 position: mylatlng,
+                 map:map,
+                 icon: store_image(value.availcode),
+                });
+                
+                var contentString = "<div id='map_title'><h2>" + value.name + "</h2></div>" +
+                "<div id='map_intro'><p>" + value.address + '<br>'+
+                value.city + ', ' + value.state       + '<br>'+
+                'Phone Number: '+ value.phone      + '<br>'+
+                'Zip Code: ' + value.zipcode        + '<br>'+
+                'Availbility: ' + value.availbility + '<br>';
+                //'<a href="http://127.0.0.1:8000/uhpcapp/{{app.id}}">Details</a></div>';
+          
+                var infowindow = new google.maps.InfoWindow({
+                content: contentString
+                });
+                 
+                google.maps.event.addListener(marker, 'click', function() {
+                  infowindow.open(map,marker);
+                });
+          
+          
+          
+          
+            });
+            
+            
+            $("#Local_Search_Results").show();
+            
+            },
+
+  error:function(xhr, status, error) {
+    alert("An AJAX error occured: " + status + "\nError: " + error);
+  }
+,
+});});
+
+
+
+
+
+})
+</script> 
+ 
+{% endblock %}
+
+
+{% block content %}
+
+<div id = 'spinner' style="display: none">
+<img src="http://fprimes.com/media/images/spinner.gif" alt="Please wait" height="42" width="42" /> 
+</div>
+
+
+<div class="form-row store">
+<div>
+<label for="id_store">Search store:</label>
+<select id="id_store" name="store">
+<option value="staples">Staples</option>
+<option value="bestbuy">Bestbuy</option>
+<option value="target">Target</option>
+<option value="walmart">Walmart</option>
+<option value="amazon">Amazon</option>
+</select>
+</div>
+</div>
+
+
+
+
+
+
+<div class="form-row pid">
+<div>
+<form>
+Supplier PID: <input type="text" name="pid" id="id_pid"/><br />
+</form> 
+</div>
+</div>
+
+<p>
+<button id = 'SearchSubmit'>
+	Search the product
+</button>
+</p>
+
+
+<div id="id_searchresults">
+
+</div>
+
+
+<div id='id_localsearch'>
+<h2> Local Availability Search </h2>
+
+zipcode: <input type="text" name="pid" id="id_zipcode"/><br />
+distance: <select id="id_distance" name="distance">
+<option value="50">50</option>
+<option value="100">100</option>
+<option value="150">150</option>
+<option value="200">200</option>
+</select>
+
+<p>
+<button id = 'mapSubmit'>
+	Local Search
+</button>
+</p>
+
+<div id = 'spinner' style="display: none">
+<img src="http://fprimes.com/media/images/spinner.gif" alt="Please wait" height="42" width="42" /> 
+</div>
+
+
+            <div id="Local_Search_Results"> 
+                <div id="local_search_summary"> 
+                	
+                </div>
+                
+                <div id="map_canvas" style="width:1000px; height:600px"></div>
+                </div>
+            </div>
+
+
+{% endblock %}
+
+
+
+

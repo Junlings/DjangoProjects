@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load url from future %}
+
+{% block scripts %}
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="{{ROOT_URL}}media/js/demos.css">
+{% endblock %}
+
+
+{% block content %}
+    <h2> Project Summary  </h2>
+	
+	<table class='list_table' border="1">    
+            <tr> <td>Name</td><td>{{project.shortname}}</td></tr> 
+            <tr> <td>Topics</td><td>{{project.topics}}</td></tr> 
+            <tr> <td>Managers</td><td>{{project.managers.all}}</td></tr> 
+            <tr> <td>Contributors</td><td>{{project.contributors.all}}</td></tr>
+	    <tr> <td>Number of single review records</td><td>{{reviews.count}}</td></tr>
+	    <tr> <td>reference lib</td><td>{{reflib}}</td></tr> 
+	    <tr> <td>Total Number of literatures</td><td>{{reflib.count_ref}}</td></tr> 
+
+        </table>
+    
+
+    {% if questions %}
+    <h2> Questions  </h2>
+    
+    <table class='list_table' border="1">
+	<tr>
+	    <td>Order</td>
+	    <td>Questions</td>
+	    <td>Type</td>
+	    <td>Choices</td>
+	<tr>
+	{% for key in questions %}
+	    <td>{{key.order}}</td>
+	    <td>{{key.question}}</td>
+	    <td>{{key.qtype}}</td>
+            <td>{{key.get_choices}}</td>
+	</tr>
+	{% endfor %}    
+    
+    
+    </table>
+    {% endif %}
+
+    {% if matrix %}
+    <h2> Progress of review  </h2>
+    
+    <table class='list_table' border="1">
+	<tr>
+	    <td>Label</td>
+
+	    <td>Contributor Progress</td>
+	
+	<tr>
+	{% for key,ref in matrix.items %}
+	    <td><a href="{{ROOT_URL}}publications/lb/{{key.object_LB}}/"> {{key.object_LB}} </a></td>
+            <td><a href="{{ROOT_URL}}lreviews/project/{{project.id}}/{{key.object_LB}}/"> {{ref}}</a></td>
+ 
+	</tr>
+	{% endfor %}    
+    
+    
+    </table>
+    {% endif %}
+    
+
+	
+    {%if reviews %}
+    <h2> List of reviews  </h2>
+    	
+    		{% autopaginate reviews 5 %}
+		{% paginate %}
+    
+         <table class='list_table' border="1">   
+        {% for review in reviews %}
+	 
+	<tr>
+	    <td><a href="{{ROOT_URL}}publications/{{review.object_type}}/lb/{{review.object_LB}}/"> {{review.object_type}},{{review.object_LB}} </a></td>
+	    <td>By {{review.reviewer}} </td>
+	    <td>last modify on {{review.modifiedon.date}}</td>
+	    
+	    <td>{{review.question.order}}</td>
+	    <td>{{review.reviews}} </td>
+	
+	
+	</tr>
+	    
+    
+    
+	{% endfor %}
+    </table>
+    {% endif %}
+{% endblock %}
+		  

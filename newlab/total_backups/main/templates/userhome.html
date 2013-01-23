@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+    {% block scripts %}
+	<link rel="stylesheet" href="{{MEDIA_URL}}js/themes/redmond/jquery-ui-1.8.21.custom.css">
+	<script src="{{MEDIA_URL}}js/jquery-1.7.2.js"></script>
+	<script src="{{MEDIA_URL}}js/ui/jquery.ui.core.js"></script>
+	<script src="{{MEDIA_URL}}js/ui/jquery.ui.widget.js"></script>
+	<script src="{{MEDIA_URL}}js/ui/jquery.ui.tabs.js"></script>
+
+	<script>
+	$(function() {
+		$( "#tabs" ).tabs();
+	});
+	</script>
+	
+
+	
+    {% endblock %}
+  
+ {% block leftfloat %}
+
+
+    
+ {% endblock %}
+       
+ {% block content %}
+
+   {% if UserRefLib %} 
+	<h2>Reference Group I Shared</h2>
+	<table class='list_table' border="1">
+	  <tr><td>Lib Name</td><td>Created on</td><td>Manage</td><td>Reference #</td></tr>
+	{% for key,slib in UserRefLib.items %}
+
+	  <tr>
+	  <td><a href="{{ROOT_URL}}user/reflib/{{slib.lib.id}}/"> {{slib.lib.name}}</a></td>
+	  <td>{{slib.lib.addon}}</td><td>{{slib.owner}}</td><td>{{slib.lib.count_ref}}</td>
+	  </tr>
+	{% endfor%}
+	</table>
+   {% endif %}
+  
+   
+ {% endblock %}
+

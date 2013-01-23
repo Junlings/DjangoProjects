@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load url from future %}
+
+{% block scripts %}
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="{{ROOT_URL}}media/js/demos.css">
+{% endblock %}
+
+
+{% block content %}
+    <div id='journal'>
+        <h1> Journal </h1>
+        <table class='table_journal' border="1">    
+            <tr> <td>Number of Journal</td><td>{{info.journal.journal}}</td></tr> 
+            <tr> <td>Number of Journal paper</td><td>{{info.journal.paper}}</td></tr> 
+            <tr> <td>Number of full text</td><td>{{info.journal.fulltext}}</td></tr> 
+       </table>	
+    </div>
+    
+    <div id='conf'>
+        <h1> Conference </h1>
+        <table class='table_Conference' border="1">    
+            <tr> <td>Number of Conference</td><td>{{info.conf.conf}}</td></tr> 
+            <tr> <td>Number of proceeding</td><td>{{info.conf.proc}}</td></tr>
+            <tr> <td>Number of Cpaper</td><td>{{info.conf.cpaper}}</td></tr> 
+            <tr> <td>Number of full text</td><td>{{info.conf.fulltext}}</td></tr> 
+       </table>	
+    </div>    
+
+    <div id='book'>
+        <h1> Books </h1>
+        <table class='table_Conference' border="1">    
+            <tr> <td>Number of Books</td><td>{{info.book.book}}</td></tr> 
+            <tr> <td>Number of full text</td><td>{{info.book.fulltext}}</td></tr> 
+       </table>	
+    </div>    
+
+    <div id='stand'>
+        <h1> Standard </h1>
+        <table class='table_stand' border="1">    
+            <tr> <td>Number of Standards</td><td>{{info.stand.stand}}</td></tr> 
+            <tr> <td>Number of full text</td><td>{{info.stand.fulltext}}</td></tr> 
+       </table>	
+    </div>     
+
+    <div id='thes'>
+        <h1> Thesis/Disseratation </h1>
+        <table class='table_thes' border="1">    
+            <tr> <td>Number of Thesis</td><td>{{info.thes.thes}}</td></tr> 
+            <tr> <td>Number of full text</td><td>{{info.thes.fulltext}}</td></tr> 
+       </table>	
+    </div>
+
+    <div id='rprt'>
+        <h1> Reports </h1>
+        <table class='table_rprt' border="1">    
+            <tr> <td>Number of Reports</td><td>{{info.rprt.rprt}}</td></tr> 
+            <tr> <td>Number of full text</td><td>{{info.rprt.fulltext}}</td></tr> 
+       </table>	
+    </div>
+    
+{% endblock %}
+		  

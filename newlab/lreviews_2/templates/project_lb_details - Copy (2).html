@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load url from future %}
+
+{% block scripts %}
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="{{ROOT_URL}}media/js/demos.css">
+	<link rel="stylesheet" href="{{MEDIA_URL}}js/themes/base/jquery.ui.all.css">
+	<script src="{{MEDIA_URL}}js/jquery-1.6.2.js"></script>
+	<script src="{{MEDIA_URL}}js/ui/jquery.ui.core.js"></script>
+	
+	
+	{% if items %}
+	<script>
+	  
+		 $(document).ready(function () {
+		 	$("#Submit").click(function(){
+		 	  var a = {};
+
+		 	  a['1'] = $("#question_1").val();
+		 	  a['2'] = $("#question_2_1").is(":checked");	   	
+       a['3'] = $("#question_3:checked").val();	   	
+       a['4'] = $("#question_4:checked").val();
+       alert(a['1']); 	
+      });
+       
+      });
+	 </script>	
+    {% endif %}
+    	
+{% endblock %}
+
+
+{% block content %}
+    <h1> Project Summary  </h1>
+	    <div id="project">
+	    <table class='list_table' border="1">    
+            <tr> <td>Name</td><td>{{project.shortname}}</td></tr> 
+            <tr> <td>Topics</td><td>{{project.topics}}</td></tr> 
+            <tr> <td>Managers</td><td>{{project.managers.all}}</td></tr> 
+            <tr> <td>Contributors</td><td>{{project.contributors.all}}</td></tr>
+      </table>
+    </div>
+    
+    <div id="paper">
+    <h1> Literature  </h1>
+	    
+   
+         {{label|safe}}
+
+    </div>
+       
+
+    {% if items %}
+    <div id=questions>
+    <h1> Questions  </h1>
+        
+	      {% for key,item in items.items %}
+	      <div id=question_zone_{{key}}>
+	         <h2>
+           {{item.question.order}}-{{item.question.question}}
+	        </h2>
+	        
+	        <div id=choices>
+	          {% if item.choices %}
+	             {{ item.choices|safe }}
+
+	          {% endif %}
+	        
+	        </div>
+         </div>
+	      {% endfor %}    
+      
+      
+       
+      <div id=submit>
+      </br>
+      <input id="Submit" type="submit" value="Submit" />
+    </div>
+    
+    </div>
+    {% endif %}
+
+{% endblock %}
+		  

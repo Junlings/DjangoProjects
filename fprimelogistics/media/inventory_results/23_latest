@@ -1,0 +1,793 @@
+(dp1
+L8577L
+(dp2
+S'city'
+p3
+VWinter Park
+p4
+sS'num'
+p5
+V2032
+p6
+sS'name'
+p7
+VOrlando East
+p8
+sS'zipcode'
+p9
+V32792
+p10
+sS'availbility'
+p11
+VLimited Availability
+p12
+sS'phone'
+p13
+V(407) 670-0388
+p14
+sS'state'
+p15
+VFL
+p16
+sS'availcode'
+p17
+I2
+sS'address'
+p18
+V3770 N Goldenrod Rd
+p19
+sS'lat'
+p20
+V28.5961
+p21
+sS'lng'
+p22
+V-81.288
+p23
+sS'last_update'
+p24
+S'Friday, 11. May 2012 03:03PM'
+p25
+sS'id'
+p26
+L8577L
+ssL8486L
+(dp27
+g3
+VKissimmee
+p28
+sg5
+V1918
+p29
+sg7
+VKissimmee West
+p30
+sg9
+V34746
+p31
+sg11
+VAvailable
+p32
+sg13
+V(407) 594-0029
+p33
+sg15
+VFL
+p34
+sg17
+I3
+sg18
+V4795 W Irlo Bronson Memorial Hwy
+p35
+sg20
+V28.3318
+p36
+sg22
+V-81.4717
+p37
+sg24
+S'Friday, 11. May 2012 03:03PM'
+p38
+sg26
+L8486L
+ssL8292L
+(dp39
+g3
+VOrlando
+p40
+sg5
+V1518
+p41
+sg7
+VOrlando Millenia
+p42
+sg9
+V32839
+p43
+sg11
+VLimited Availability
+p44
+sg13
+V(407) 541-0019
+p45
+sg15
+VFL
+p46
+sg17
+I2
+sg18
+V4750 Millenia Plaza Way
+p47
+sg20
+V28.494
+p48
+sg22
+V-81.4287
+p49
+sg24
+S'Friday, 11. May 2012 03:03PM'
+p50
+sg26
+L8292L
+ssL8293L
+(dp51
+g3
+VClermont
+p52
+sg5
+V1519
+p53
+sg7
+VClermont
+p54
+sg9
+V34711
+p55
+sg11
+VLimited Availability
+p56
+sg13
+V(352) 394-8510
+p57
+sg15
+VFL
+p58
+sg17
+I2
+sg18
+V2660 East Hwy 50
+p59
+sg20
+V28.5491
+p60
+sg22
+V-81.7053
+p61
+sg24
+S'Friday, 11. May 2012 03:03PM'
+p62
+sg26
+L8293L
+ssL7654L
+(dp63
+g3
+VKissimmee
+p64
+sg5
+V829
+p65
+sg7
+VKissimmee
+p66
+sg9
+V34741
+p67
+sg11
+VLimited Availability
+p68
+sg13
+V(407) 846-6611
+p69
+sg15
+VFL
+p70
+sg17
+I2
+sg18
+V3003 W Vine St
+p71
+sg20
+V28.3064
+p72
+sg22
+V-81.4412
+p73
+sg24
+S'Friday, 11. May 2012 03:03PM'
+p74
+sg26
+L7654L
+ssL7719L
+(dp75
+g3
+VOviedo
+p76
+sg5
+V897
+p77
+sg7
+VOviedo
+p78
+sg9
+V32765
+p79
+sg11
+VAvailable
+p80
+sg13
+V(407) 366-5900
+p81
+sg15
+VFL
+p82
+sg17
+I3
+sg18
+V820 Oviedo Mall Blvd
+p83
+sg20
+V28.6577
+p84
+sg22
+V-81.2344
+p85
+sg24
+S'Friday, 11. May 2012 03:03PM'
+p86
+sg26
+L7719L
+ssL7720L
+(dp87
+g3
+VCasselberry
+p88
+sg5
+V898
+p89
+sg7
+VCasselberry
+p90
+sg9
+V32707
+p91
+sg11
+VLimited Availability
+p92
+sg13
+V(407) 830-7979
+p93
+sg15
+VFL
+p94
+sg17
+I2
+sg18
+V4410 S Highway 17 92
+p95
+sg20
+V28.6713
+p96
+sg22
+V-81.3402
+p97
+sg24
+S'Friday, 11. May 2012 03:03PM'
+p98
+sg26
+L7720L
+ssL8361L
+(dp99
+g3
+VOrlando
+p100
+sg5
+V1790
+p101
+sg7
+VHunters Creek
+p102
+sg9
+V32837
+p103
+sg11
+VLimited Availability
+p104
+sg13
+V(407) 251-5133
+p105
+sg15
+VFL
+p106
+sg17
+I2
+sg18
+V2155 Town Center Blvd
+p107
+sg20
+V28.3699
+p108
+sg22
+V-81.4068
+p109
+sg24
+S'Friday, 11. May 2012 03:03PM'
+p110
+sg26
+L8361L
+ssL7530L
+(dp111
+g3
+VAltamonte Springs
+p112
+sg5
+V647
+p113
+sg7
+VAltamonte Springs
+p114
+sg9
+V32714
+p115
+sg11
+VOut Of Stock
+p116
+sg13
+V(407) 788-7377
+p117
+sg15
+VFL
+p118
+sg17
+I0
+sg18
+V886 W State Road 436
+p119
+sg20
+V28.6631
+p120
+sg22
+V-81.4177
+p121
+sg24
+S'Friday, 11. May 2012 03:03PM'
+p122
+sg26
+L7530L
+ssL7531L
+(dp123
+g3
+VOrlando
+p124
+sg5
+V649
+p125
+sg7
+VEast Colonial
+p126
+sg9
+V32803
+p127
+sg11
+VOut Of Stock
+p128
+sg13
+V(407) 896-0401
+p129
+sg15
+VFL
+p130
+sg17
+I0
+sg18
+V718 Maguire Blvd
+p131
+sg20
+V28.5551
+p132
+sg22
+V-81.3456
+p133
+sg24
+S'Friday, 11. May 2012 03:03PM'
+p134
+sg26
+L7531L
+ssL7532L
+(dp135
+g3
+VOrlando
+p136
+sg5
+V650
+p137
+sg7
+VOrlando South
+p138
+sg9
+V32809
+p139
+sg11
+VAvailable
+p140
+sg13
+V(407) 856-5459
+p141
+sg15
+VFL
+p142
+sg17
+I3
+sg18
+V880 Sand Lake Rd
+p143
+sg20
+V28.4497
+p144
+sg22
+V-81.391
+p145
+sg24
+S'Friday, 11. May 2012 03:03PM'
+p146
+sg26
+L7532L
+ssL7565L
+(dp147
+g3
+VDaytona Beach
+p148
+sg5
+V688
+p149
+sg7
+VDaytona Beach
+p150
+sg9
+V32114
+p151
+sg11
+VLimited Availability
+p152
+sg13
+V(386) 257-4778
+p153
+sg15
+VFL
+p154
+sg17
+I2
+sg18
+V2380 W International Speedway Blvd
+p155
+sg20
+V29.1839
+p156
+sg22
+V-81.0801
+p157
+sg24
+S'Friday, 11. May 2012 03:03PM'
+p158
+sg26
+L7565L
+ssL7568L
+(dp159
+g3
+VLeesburg
+p160
+sg5
+V691
+p161
+sg7
+VLeesburg
+p162
+sg9
+V34788
+p163
+sg11
+VLimited Availability
+p164
+sg13
+V(352) 360-1100
+p165
+sg15
+VFL
+p166
+sg17
+I2
+sg18
+V10401 US Highway 441
+p167
+sg20
+V28.8266
+p168
+sg22
+V-81.7844
+p169
+sg24
+S'Friday, 11. May 2012 03:03PM'
+p170
+sg26
+L7568L
+ssL7697L
+(dp171
+g3
+VOrange City
+p172
+sg5
+V874
+p173
+sg7
+VOrange City
+p174
+sg9
+V32763
+p175
+sg11
+VAvailable
+p176
+sg13
+V(386) 774-5574
+p177
+sg15
+VFL
+p178
+sg17
+I3
+sg18
+V2575 Enterprise Rd
+p179
+sg20
+V28.9161
+p180
+sg22
+V-81.2929
+p181
+sg24
+S'Friday, 11. May 2012 03:03PM'
+p182
+sg26
+L7697L
+ssN(dp183
+g3
+VThe Villages
+p184
+sg5
+V2058
+p185
+sg7
+VLady Lake
+p186
+sg9
+V32159
+p187
+sg11
+VLimited Availability
+p188
+sg13
+V(352) 205-8934
+p189
+sg15
+VFL
+p190
+sg17
+I2
+sg18
+V716 N US Highway 441/27
+p191
+sg20
+V28.9345
+p192
+sg22
+V-81.9398
+p193
+sg24
+S'Friday, 11. May 2012 03:03PM'
+p194
+sg26
+NssL8885L
+(dp195
+g3
+VDavenport
+p196
+sg5
+V2366
+p197
+sg7
+VNE Polk County
+p198
+sg9
+V33837
+p199
+sg11
+VLimited Availability
+p200
+sg13
+V(863) 256-1051
+p201
+sg15
+VFL
+p202
+sg17
+I2
+sg18
+V5000 Grandview Pkwy
+p203
+sg20
+V28.232329
+p204
+sg22
+V-81.643094
+p205
+sg24
+S'Friday, 11. May 2012 03:03PM'
+p206
+sg26
+L8885L
+ssL7670L
+(dp207
+g3
+VLake Mary
+p208
+sg5
+V845
+p209
+sg7
+VLake Mary
+p210
+sg9
+V32746
+p211
+sg11
+VLimited Availability
+p212
+sg13
+V(407) 330-9330
+p213
+sg15
+VFL
+p214
+sg17
+I2
+sg18
+V4155 W Lake Mary Blvd
+p215
+sg20
+V28.7538
+p216
+sg22
+V-81.3484
+p217
+sg24
+S'Friday, 11. May 2012 03:03PM'
+p218
+sg26
+L7670L
+ssL8889L
+(dp219
+g3
+VKissimmee
+p220
+sg5
+V2370
+p221
+sg7
+VOrlando SW
+p222
+sg9
+V34747
+p223
+sg11
+VLimited Availability
+p224
+sg13
+V(321) 677-3971
+p225
+sg15
+VFL
+p226
+sg17
+I2
+sg18
+V3200 Rolling Oaks Blvd
+p227
+sg20
+V28.344987
+p228
+sg22
+V-81.614297
+p229
+sg24
+S'Friday, 11. May 2012 03:03PM'
+p230
+sg26
+L8889L
+ssL8603L
+(dp231
+g3
+VMount Dora
+p232
+sg5
+V2062
+p233
+sg7
+VMt Dora
+p234
+sg9
+V32757
+p235
+sg11
+VLimited Availability
+p236
+sg13
+V(352) 385-0516
+p237
+sg15
+VFL
+p238
+sg17
+I2
+sg18
+V17450 US Highway 441
+p239
+sg20
+V28.8198
+p240
+sg22
+V-81.671
+p241
+sg24
+S'Friday, 11. May 2012 03:03PM'
+p242
+sg26
+L8603L
+ssL8895L
+(dp243
+g3
+VOrlando
+p244
+sg5
+V2376
+p245
+sg7
+VOrlando - Sodo
+p246
+sg9
+V32806
+p247
+sg11
+VLimited Availability
+p248
+sg13
+V(407) 608-1580
+p249
+sg15
+VFL
+p250
+sg17
+I2
+sg18
+V120 W Grant St
+p251
+sg20
+V28.515487
+p252
+sg22
+V-81.379909
+p253
+sg24
+S'Friday, 11. May 2012 03:03PM'
+p254
+sg26
+L8895L
+ss.

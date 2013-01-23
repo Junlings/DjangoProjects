@@ -1,0 +1,790 @@
+[
+    {
+        "pk": 7,
+        "model": "manufacture.manufacturer",
+        "fields": {
+            "name": "Amazon",
+            "notes": "",
+            "contact": null,
+            "local_store": true,
+            "address": null,
+            "online_store": true
+        }
+    },
+    {
+        "pk": 17,
+        "model": "manufacture.manufacturer",
+        "fields": {
+            "name": "apple",
+            "notes": "",
+            "contact": null,
+            "local_store": true,
+            "address": null,
+            "online_store": true
+        }
+    },
+    {
+        "pk": 18,
+        "model": "manufacture.manufacturer",
+        "fields": {
+            "name": "blizzard entertainment",
+            "notes": "",
+            "contact": null,
+            "local_store": true,
+            "address": null,
+            "online_store": true
+        }
+    },
+    {
+        "pk": 2,
+        "model": "manufacture.manufacturer",
+        "fields": {
+            "name": "Brother",
+            "notes": "",
+            "contact": null,
+            "local_store": true,
+            "address": null,
+            "online_store": true
+        }
+    },
+    {
+        "pk": 3,
+        "model": "manufacture.manufacturer",
+        "fields": {
+            "name": "Canon",
+            "notes": "",
+            "contact": null,
+            "local_store": true,
+            "address": null,
+            "online_store": true
+        }
+    },
+    {
+        "pk": 4,
+        "model": "manufacture.manufacturer",
+        "fields": {
+            "name": "cricket",
+            "notes": null,
+            "contact": null,
+            "local_store": true,
+            "address": null,
+            "online_store": true
+        }
+    },
+    {
+        "pk": 10,
+        "model": "manufacture.manufacturer",
+        "fields": {
+            "name": "EA SPORTS",
+            "notes": "",
+            "contact": null,
+            "local_store": true,
+            "address": null,
+            "online_store": true
+        }
+    },
+    {
+        "pk": 5,
+        "model": "manufacture.manufacturer",
+        "fields": {
+            "name": "Epson",
+            "notes": "",
+            "contact": null,
+            "local_store": true,
+            "address": null,
+            "online_store": true
+        }
+    },
+    {
+        "pk": 6,
+        "model": "manufacture.manufacturer",
+        "fields": {
+            "name": "Hewlett-Pack",
+            "notes": "",
+            "contact": null,
+            "local_store": true,
+            "address": null,
+            "online_store": true
+        }
+    },
+    {
+        "pk": 8,
+        "model": "manufacture.manufacturer",
+        "fields": {
+            "name": "kodak",
+            "notes": null,
+            "contact": null,
+            "local_store": true,
+            "address": null,
+            "online_store": true
+        }
+    },
+    {
+        "pk": 9,
+        "model": "manufacture.manufacturer",
+        "fields": {
+            "name": "Microsoft Software",
+            "notes": "",
+            "contact": null,
+            "local_store": true,
+            "address": null,
+            "online_store": true
+        }
+    },
+    {
+        "pk": 11,
+        "model": "manufacture.manufacturer",
+        "fields": {
+            "name": "Nike",
+            "notes": "",
+            "contact": null,
+            "local_store": true,
+            "address": null,
+            "online_store": true
+        }
+    },
+    {
+        "pk": 13,
+        "model": "manufacture.manufacturer",
+        "fields": {
+            "name": "Norton",
+            "notes": "",
+            "contact": null,
+            "local_store": true,
+            "address": null,
+            "online_store": true
+        }
+    },
+    {
+        "pk": 14,
+        "model": "manufacture.manufacturer",
+        "fields": {
+            "name": "obi",
+            "notes": "",
+            "contact": null,
+            "local_store": true,
+            "address": null,
+            "online_store": true
+        }
+    },
+    {
+        "pk": 12,
+        "model": "manufacture.manufacturer",
+        "fields": {
+            "name": "Philip",
+            "notes": "",
+            "contact": null,
+            "local_store": true,
+            "address": null,
+            "online_store": true
+        }
+    },
+    {
+        "pk": 15,
+        "model": "manufacture.manufacturer",
+        "fields": {
+            "name": "Samsung",
+            "notes": null,
+            "contact": null,
+            "local_store": true,
+            "address": null,
+            "online_store": true
+        }
+    },
+    {
+        "pk": 1,
+        "model": "manufacture.itemproduct",
+        "fields": {
+            "mainimage": null,
+            "brand": "Brother",
+            "upc": "12502626749",
+            "created_on": "2012-06-10",
+            "mainimagepath": "http://ecx.images-amazon.com/images/I/41RaggnhBzL._SL75_.jpg",
+            "longname": "Brother HL-2270DW Compact Laser Printer with Wireless Networking and Duplex",
+            "shortname": "Brother HL-2270DW",
+            "manufacturer": 2,
+            "modelid": "HL2270DW"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "manufacture.itemproduct",
+        "fields": {
+            "mainimage": null,
+            "brand": "",
+            "upc": "",
+            "created_on": "2012-06-10",
+            "mainimagepath": "",
+            "longname": "Canon MG6120",
+            "shortname": "Canon MG6120",
+            "manufacturer": 3,
+            "modelid": ""
+        }
+    },
+    {
+        "pk": 3,
+        "model": "manufacture.itemproduct",
+        "fields": {
+            "mainimage": null,
+            "brand": "cricket",
+            "upc": "711868000384",
+            "created_on": "2012-06-10",
+            "mainimagepath": "http://images.bestbuy.com/BestBuy_US/images/products/3099/3099146_rc.jpg",
+            "longname": "Cricket - Muve Samsung Vitality No-Contract Mobile Phone - Red",
+            "shortname": "SCH-r720",
+            "manufacturer": 4,
+            "modelid": "SCH-r720"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "manufacture.itemproduct",
+        "fields": {
+            "mainimage": null,
+            "brand": "",
+            "upc": "",
+            "created_on": "2012-06-10",
+            "mainimagepath": "",
+            "longname": "Epson workforce 645",
+            "shortname": "Epson 645",
+            "manufacturer": 5,
+            "modelid": ""
+        }
+    },
+    {
+        "pk": 5,
+        "model": "manufacture.itemproduct",
+        "fields": {
+            "mainimage": null,
+            "brand": "",
+            "upc": "",
+            "created_on": "2012-06-10",
+            "mainimagepath": "",
+            "longname": "HP P1102w CE657A",
+            "shortname": "HP P1102w",
+            "manufacturer": 6,
+            "modelid": ""
+        }
+    },
+    {
+        "pk": 6,
+        "model": "manufacture.itemproduct",
+        "fields": {
+            "mainimage": null,
+            "brand": "kindle",
+            "upc": "",
+            "created_on": "2012-06-10",
+            "mainimagepath": "",
+            "longname": "Kindle DX, Free 3G, 9.7\" E Ink Display, 3G Works Globally",
+            "shortname": "Kindle DX",
+            "manufacturer": 7,
+            "modelid": "B003O86810"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "manufacture.itemproduct",
+        "fields": {
+            "mainimage": null,
+            "brand": "",
+            "upc": "",
+            "created_on": "2012-06-10",
+            "mainimagepath": "",
+            "longname": "kindle fire",
+            "shortname": "kindle fire",
+            "manufacturer": 7,
+            "modelid": ""
+        }
+    },
+    {
+        "pk": 8,
+        "model": "manufacture.itemproduct",
+        "fields": {
+            "mainimage": null,
+            "brand": "",
+            "upc": "",
+            "created_on": "2012-06-10",
+            "mainimagepath": "",
+            "longname": "kindle gift card $25",
+            "shortname": "giftcard 25",
+            "manufacturer": 7,
+            "modelid": ""
+        }
+    },
+    {
+        "pk": 9,
+        "model": "manufacture.itemproduct",
+        "fields": {
+            "mainimage": null,
+            "brand": "amazon",
+            "upc": "814916014590",
+            "created_on": "2012-06-10",
+            "mainimagepath": "http://images.bestbuy.com/BestBuy_US/images/products/2506/2506182_sc.jpg",
+            "longname": "Amazon - Kindle Touch 3G with Special Offers",
+            "shortname": "Kindle Touch",
+            "manufacturer": 7,
+            "modelid": "B0051890FZS"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "manufacture.itemproduct",
+        "fields": {
+            "mainimage": null,
+            "brand": "",
+            "upc": "",
+            "created_on": "2012-06-10",
+            "mainimagepath": "",
+            "longname": "kindle wifi",
+            "shortname": "kindle wifi",
+            "manufacturer": 7,
+            "modelid": ""
+        }
+    },
+    {
+        "pk": 11,
+        "model": "manufacture.itemproduct",
+        "fields": {
+            "mainimage": null,
+            "brand": "Kodak",
+            "upc": "0004177144210",
+            "created_on": "2012-06-10",
+            "mainimagepath": "http://i.walmartimages.com/i/p/00/04/17/71/44/0004177144210_500X500.jpg",
+            "longname": "Kodak PlaySport Black Waterproof High-Def Pocket Camcorder, 2.0\" LCD",
+            "shortname": "Kodak PlaySport",
+            "manufacturer": 8,
+            "modelid": "PlaySport Black"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "manufacture.itemproduct",
+        "fields": {
+            "mainimage": null,
+            "brand": "XBOX",
+            "upc": "799366847038",
+            "created_on": "2012-06-10",
+            "mainimagepath": "http://images.bestbuy.com/BestBuy_US/images/products/1272/1272483_sc.jpg",
+            "longname": "Microsoft - Xbox LIVE 12-Month Gold Membership Card",
+            "shortname": "XBOX 12 MON",
+            "manufacturer": 9,
+            "modelid": "12 MON"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "manufacture.itemproduct",
+        "fields": {
+            "mainimage": null,
+            "brand": "",
+            "upc": "",
+            "created_on": "2012-06-10",
+            "mainimagepath": "",
+            "longname": "MADDEN 2012",
+            "shortname": "MADDEN 2012",
+            "manufacturer": 10,
+            "modelid": ""
+        }
+    },
+    {
+        "pk": 14,
+        "model": "manufacture.itemproduct",
+        "fields": {
+            "mainimage": null,
+            "brand": "",
+            "upc": "",
+            "created_on": "2012-06-10",
+            "mainimagepath": "",
+            "longname": "Nike fuel band",
+            "shortname": "",
+            "manufacturer": 11,
+            "modelid": ""
+        }
+    },
+    {
+        "pk": 15,
+        "model": "manufacture.itemproduct",
+        "fields": {
+            "mainimage": null,
+            "brand": "norelco",
+            "upc": "075020004420",
+            "created_on": "2012-06-10",
+            "mainimagepath": "http://images.bestbuy.com/BestBuy_US/images/products/8834/8834844_sc.jpg",
+            "longname": "Norelco - Rechargeable Cordless Men's Razor - Black",
+            "shortname": "7310XL",
+            "manufacturer": 12,
+            "modelid": "7310XL"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "manufacture.itemproduct",
+        "fields": {
+            "mainimage": null,
+            "brand": "",
+            "upc": "",
+            "created_on": "2012-06-10",
+            "mainimagepath": "",
+            "longname": "Norton 360 V5.0",
+            "shortname": "Norton 360 V5.0",
+            "manufacturer": 13,
+            "modelid": ""
+        }
+    },
+    {
+        "pk": 17,
+        "model": "manufacture.itemproduct",
+        "fields": {
+            "mainimage": null,
+            "brand": "",
+            "upc": "",
+            "created_on": "2012-06-10",
+            "mainimagepath": "",
+            "longname": "obi 110",
+            "shortname": "obi 110",
+            "manufacturer": 14,
+            "modelid": ""
+        }
+    },
+    {
+        "pk": 18,
+        "model": "manufacture.itemproduct",
+        "fields": {
+            "mainimage": null,
+            "brand": "Canon",
+            "upc": "13803140538",
+            "created_on": "2012-06-10",
+            "mainimagepath": "http://ecx.images-amazon.com/images/I/51L3eUEUMLL._SL75_.jpg",
+            "longname": "Canon PowerShot SX150 IS 14.1 MP Digital Camera with 12x Wide-Angle Optical Image Stabilized Zoom with 3.0-Inch LCD (Black)",
+            "shortname": "Canon SX150",
+            "manufacturer": 3,
+            "modelid": "5664B001"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "manufacture.itemproduct",
+        "fields": {
+            "mainimage": null,
+            "brand": "Samsung",
+            "upc": "635753621662",
+            "created_on": "2012-06-10",
+            "mainimagepath": "http://ecx.images-amazon.com/images/I/21H8WWNOGnL._SL75_.jpg",
+            "longname": "Samsung Electronics ML-1865W Wireless Monochrome Printer",
+            "shortname": "Samsung ML-1865W",
+            "manufacturer": 15,
+            "modelid": "ML-1865W"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "manufacture.itemproduct",
+        "fields": {
+            "mainimage": null,
+            "brand": "Microsoft",
+            "upc": "885370298802",
+            "created_on": "2012-06-10",
+            "mainimagepath": "http://ecx.images-amazon.com/images/I/41Y0zOo0ydL._SL75_.jpg",
+            "longname": "Xbox 360 Wireless Headset with Bluetooth",
+            "shortname": "Xbox 360 Wireless",
+            "manufacturer": 9,
+            "modelid": "22J-00001"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "manufacture.itemproduct",
+        "fields": {
+            "mainimage": null,
+            "brand": "",
+            "upc": "",
+            "created_on": "2012-06-10",
+            "mainimagepath": "http://ecx.images-amazon.com/images/I/31xzUr%2BkodL._SL500_AA300_.jpg",
+            "longname": "Xbox LIVE 3-Month Gold Card",
+            "shortname": "Xbox LIVE 3-Month",
+            "manufacturer": 9,
+            "modelid": ""
+        }
+    },
+    {
+        "pk": 22,
+        "model": "manufacture.itemproduct",
+        "fields": {
+            "mainimage": null,
+            "brand": "",
+            "upc": "",
+            "created_on": "2012-06-10",
+            "mainimagepath": "",
+            "longname": "itune gift card $100",
+            "shortname": "itune gift card $100",
+            "manufacturer": 17,
+            "modelid": ""
+        }
+    },
+    {
+        "pk": 23,
+        "model": "manufacture.itemproduct",
+        "fields": {
+            "mainimage": null,
+            "brand": "Activision",
+            "upc": "0002062672850",
+            "created_on": "2012-06-10",
+            "mainimagepath": "http://i.walmartimages.com/i/p/00/02/06/26/72/0002062672850_500X500.jpg",
+            "longname": "Diablo III Collector\\'s Edition (PC/ Mac)",
+            "shortname": "Diablo III Collector",
+            "manufacturer": 18,
+            "modelid": "72850"
+        }
+    },
+    {
+        "pk": 1,
+        "model": "supply.supplier",
+        "fields": {
+            "name": "amazon",
+            "notes": null,
+            "platform": null,
+            "created_on": "2012-06-10",
+            "contact": null,
+            "local_store": false,
+            "address": null,
+            "online_store": false
+        }
+    },
+    {
+        "pk": 7,
+        "model": "supply.supplier",
+        "fields": {
+            "name": "apple",
+            "notes": "",
+            "platform": "",
+            "created_on": "2012-06-10",
+            "contact": null,
+            "local_store": false,
+            "address": null,
+            "online_store": false
+        }
+    },
+    {
+        "pk": 2,
+        "model": "supply.supplier",
+        "fields": {
+            "name": "bestbuy",
+            "notes": null,
+            "platform": null,
+            "created_on": "2012-06-10",
+            "contact": null,
+            "local_store": false,
+            "address": null,
+            "online_store": false
+        }
+    },
+    {
+        "pk": 5,
+        "model": "supply.supplier",
+        "fields": {
+            "name": "gamestop",
+            "notes": "",
+            "platform": "",
+            "created_on": "2012-06-10",
+            "contact": null,
+            "local_store": false,
+            "address": null,
+            "online_store": false
+        }
+    },
+    {
+        "pk": 8,
+        "model": "supply.supplier",
+        "fields": {
+            "name": "officemax",
+            "notes": "",
+            "platform": "",
+            "created_on": "2012-06-10",
+            "contact": null,
+            "local_store": false,
+            "address": null,
+            "online_store": false
+        }
+    },
+    {
+        "pk": 4,
+        "model": "supply.supplier",
+        "fields": {
+            "name": "staples",
+            "notes": null,
+            "platform": null,
+            "created_on": "2012-06-10",
+            "contact": null,
+            "local_store": false,
+            "address": null,
+            "online_store": false
+        }
+    },
+    {
+        "pk": 6,
+        "model": "supply.supplier",
+        "fields": {
+            "name": "tigerdirect",
+            "notes": "",
+            "platform": "",
+            "created_on": "2012-06-10",
+            "contact": null,
+            "local_store": false,
+            "address": null,
+            "online_store": false
+        }
+    },
+    {
+        "pk": 3,
+        "model": "supply.supplier",
+        "fields": {
+            "name": "walmart",
+            "notes": null,
+            "platform": null,
+            "created_on": "2012-06-10",
+            "contact": null,
+            "local_store": false,
+            "address": null,
+            "online_store": false
+        }
+    },
+    {
+        "pk": 1,
+        "model": "supply.itemtemplate",
+        "fields": {
+            "itemproduct": 1,
+            "price_base": 134.97,
+            "online_avail": true,
+            "suppliers": 1,
+            "suppliers_PID": "B00450DVDY",
+            "notes": null,
+            "local_avail": false,
+            "local_PID": null
+        }
+    },
+    {
+        "pk": 2,
+        "model": "supply.itemtemplate",
+        "fields": {
+            "itemproduct": 3,
+            "price_base": 99.99,
+            "online_avail": true,
+            "suppliers": 2,
+            "suppliers_PID": "3099146",
+            "notes": null,
+            "local_avail": true,
+            "local_PID": "3099146"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "supply.itemtemplate",
+        "fields": {
+            "itemproduct": 6,
+            "price_base": 79.00,
+            "online_avail": true,
+            "suppliers": 4,
+            "suppliers_PID": "912243",
+            "notes": null,
+            "local_avail": false,
+            "local_PID": "912243"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "supply.itemtemplate",
+        "fields": {
+            "itemproduct": 9,
+            "price_base": 149.99,
+            "online_avail": true,
+            "suppliers": 2,
+            "suppliers_PID": "2506182",
+            "notes": null,
+            "local_avail": false,
+            "local_PID": "2506182"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "supply.itemtemplate",
+        "fields": {
+            "itemproduct": 11,
+            "price_base": 149.00,
+            "online_avail": true,
+            "suppliers": 3,
+            "suppliers_PID": "14220551",
+            "notes": null,
+            "local_avail": true,
+            "local_PID": "14220551"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "supply.itemtemplate",
+        "fields": {
+            "itemproduct": 12,
+            "price_base": 59.99,
+            "online_avail": true,
+            "suppliers": 2,
+            "suppliers_PID": "1272483",
+            "notes": null,
+            "local_avail": true,
+            "local_PID": "1272483"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "supply.itemtemplate",
+        "fields": {
+            "itemproduct": 15,
+            "price_base": 0.00,
+            "online_avail": false,
+            "suppliers": 2,
+            "suppliers_PID": "8834844",
+            "notes": null,
+            "local_avail": false,
+            "local_PID": "8834844"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "supply.itemtemplate",
+        "fields": {
+            "itemproduct": 18,
+            "price_base": 149.00,
+            "online_avail": true,
+            "suppliers": 1,
+            "suppliers_PID": "B005I6DVC0",
+            "notes": null,
+            "local_avail": false,
+            "local_PID": null
+        }
+    },
+    {
+        "pk": 9,
+        "model": "supply.itemtemplate",
+        "fields": {
+            "itemproduct": 19,
+            "price_base": null,
+            "online_avail": true,
+            "suppliers": 1,
+            "suppliers_PID": "B004P2SIV2",
+            "notes": null,
+            "local_avail": false,
+            "local_PID": null
+        }
+    },
+    {
+        "pk": 10,
+        "model": "supply.itemtemplate",
+        "fields": {
+            "itemproduct": 20,
+            "price_base": 39.99,
+            "online_avail": true,
+            "suppliers": 1,
+            "suppliers_PID": "B005FMLXW2",
+            "notes": null,
+            "local_avail": false,
+            "local_PID": null
+        }
+    }]

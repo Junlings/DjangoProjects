@@ -1,0 +1,219 @@
+{% extends "base.html" %}
+
+{% block scripts %}
+
+		<script src="http://fprimes.com/media/js/dojo-1.7.2/dojo/dojo.js" 
+			data-dojo-config="async: true"></script>
+
+		<script type="text/javascript">
+			require(["dijit/registry", "dojo/parser", "dojox/form/Manager", "dijit/dijit", "dijit/form/Button", "dijit/form/CheckBox", "dijit/form/RadioButton", "dijit/form/TextBox", "dijit/form/ComboBox", "dijit/form/SimpleTextarea", "dijit/form/Select", "dijit/layout/BorderContainer", "dijit/layout/ContentPane", "dojo/domReady!"], function(registry, parser) {
+				parser.parse();
+			});
+
+		</script>
+		
+    <style type="text/css">
+		.error-msg {
+			color:red;
+			font-weight: bold;
+		}
+	  </style>
+
+<script>
+require(["dojo/dom","dojo/store/JsonRest","dojo/_base/json","dojo/on","dijit/dijit", "dojox/form/Manager","dojo/query","dojo/dom-class","dojo/dom-attr","dojo/_base/json","dojo/NodeList-traverse","dojo/domReady!"], function(dom,JsonRestStore,dojo,on,dijit,formmagr,query,domClass,domAttr){
+
+    var mysubmitbutton = dom.byId("submitbutton");
+    var myinputs = {};
+
+    function handle_error(error_msg) // function to add django validation error to the form
+        {
+        	for(var key in error_msg){
+        	    var tableid = key
+        	    var tablecon = error_msg[key]
+        	    for(var key in tablecon){
+        	    	  fieldid = key
+        	    	  fieldcont = tablecon[key]
+        	    
+                  //alert(tableid+fieldid);
+                  node = dojo.query('#' + tableid + " #error-" + fieldid)[0];
+                  node.innerHTML = fieldcont;
+                  }; 
+               };
+
+
+            };
+
+    function remove_handle_error()  //function to remove all django validation error message
+        {
+             	nodelist = dojo.query(".error-msg").forEach(function(node){
+                  node.innerHTML = '';});
+   
+        };
+
+
+    function reset_form(form_id)  // reset the forms to the blank state
+      {
+          var myinputs = {};
+        
+           query(form_id+" input").forEach(function(node, index, nodelist){
+            // for each node in the array returned by query,
+            // execute the following code
+            
+            domAttr.set(node,'value','')
+
+            });
+            
+            query(form_id+" select").forEach(function(node, index, nodelist){
+            // for each node in the array returned by query,
+            // execute the following code
+            
+            domAttr.set(node,'value','')
+
+            });
+            remove_handle_error()
+            return myinputs;
+      };
+    
+    function collect_csrftoken()   // readout the csrf token and add to cusom header para
+    {
+    	var node = query('input[name="csrfmiddlewaretoken"]');
+    	var csrftoken = domAttr.get(node[0],'value');
+    	//console.log(node);
+    	//alert(node);
+    	//alert(csrftoken);
+    	return csrftoken
+    };
+    
+    
+    function collect_table(table_id)
+    {
+          var myinputs = {};
+        
+           query('#' + table_id + " input").forEach(function(node, index, nodelist){
+            // for each node in the array returned by query,
+            // execute the following code
+            
+            var mylabel = domAttr.get(node,'name')
+            var myvalue = domAttr.get(node,'value')
+            myinputs[mylabel] = myvalue;
+
+            });
+            
+            query('#' + table_id +" select").forEach(function(node, index, nodelist){
+            // for each node in the array returned by query,
+            // execute the following code
+            
+            var mylabel = domAttr.get(node,'name')
+            var myvalue = domAttr.get(node,'value')
+            myinputs[mylabel] = myvalue;
+
+            });
+            
+            return myinputs;    	
+    	
+    };
+    
+    
+    function collect_form(form_id)  // collect form content
+      {
+          var myinputs = {};
+        
+           query(form_id+" table").forEach(function(node, index, nodelist){
+            // for each node in the array returned by query,
+            // execute the following code
+            
+            //var tableinputs =  collect_table(node.id);
+            myinputs[node.id] =  collect_table(node.id);
+
+            });
+            
+            return myinputs;
+      };
+
+    on(mysubmitbutton, "click", function(){
+    dfd = collect_form('#myform');  // get information from all form elements
+    console.log(dfd);
+    var postreq = dojo.xhrPost({postData: dojo.toJson(dfd),
+               headers: { "Content-Type": "application/json","X-CSRFToken":collect_csrftoken()},
+               url:"{{target}}",
+               handleAs: 'json',
+               });
+              
+    postreq.addErrback(function(response){
+               	    alert('error back'+response);
+               	    if(response.status == 400){
+                          var parsed = response.responseText;
+                          //alert(parsed);
+                          remove_handle_error();               // first remove all existing error msg
+                          handle_error(dojo.fromJson(parsed));  // then add new error messages
+               	    };});
+               	    
+    postreq.addCallback(function(response){
+                       alert('Creation success. Object ID:'+ response[0].id);
+                       reset_form('#myform');
+               	    });
+	
+    });
+});
+
+
+    
+</script>
+
+{% endblock %}
+
+{% block content %}
+
+    {% if form_is_multipart %}
+        <form enctype="multipart/form-data" method="{{ submit_method|default:'post' }}" action="" class="form" id="myform" lang="en" data-dojo-type="dojox.form.Manager" widgetid="myform">
+    {% else %}
+        <form method="{{ submit_method|default:'post' }}" action="" class="form"  id="myform" lang="en" data-dojo-type="dojox.form.Manager" widgetid="myform">
+    {% endif %}
+    
+    {% if submit_method != 'GET' and submit_method != 'get' %}
+        {% csrf_token %}
+    {% endif %}
+ 
+ 
+{% for form in form_list%}
+    <h2> Inputs for {{form.form}} </h2>
+
+
+    {% for hidden in form.form.hidden_fields %}
+    {{ hidden }}
+    {% endfor %}
+    {# Include the visible fields #}
+    
+    {% if form_display_mode_table %}
+        <table class='form_table' border="1" id="id_{{form.id}}">
+        
+        {% for field in form.form.visible_fields %}
+                <tr>
+                <td>{{ field.label_tag }} {% if field.field.required %}*{% endif %} </td>
+                <td>   
+                	{{ field }}
+                	<div class="flash">
+                	   <div id="error-{{field.name}}" class="error-msg">
+                	   </div>
+                	</div>              	                
+                </td>
+                </tr>
+        {% endfor %}
+        </table>
+        
+    {% else %}
+        {% for field in form.form.visible_fields %}
+            <div class="fieldWrapper">
+                <div id="error-{{field.name}}" class="error-msg">{{ field.errors }}</div>
+                {{ field.label_tag }}: {{ field }}
+            </div>
+        {% endfor %}
+
+    {% endif %}
+{% endfor %}
+
+ </form>
+<button type="button" id="submitbutton">Submit</button> 
+
+
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "asset_base.html" %}
+
+{% block content %}
+
+        
+        <div>
+            <h2> Assets at User owned storage "{{storage.nickname}}"</h2>
+            {{summary}}
+
+        <table>
+              {% for asset,num in asset_instock.items %}
+        
+               <tr><td><IMG SRC={{num.img}} height="50"> </td><td>{{asset}}</td><td>{{num.quantity}}</td></tr>
+
+             {% endfor %}    
+            </table> 
+            
+         </div>     
+         
+{% endblock %}

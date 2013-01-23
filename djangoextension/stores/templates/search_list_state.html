@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load url from future %}
+
+{% block scripts %}
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="{{ROOT_URL}}media/js/demos.css">
+{% endblock %}
+
+
+{% block content %}
+  <table class='list_table' border="1">
+ <tr>
+<th>ipad3_64_4_Att_W</th>
+<th>ipad3_64_4_Att_B</th>
+</tr>
+	{%if item_list %}
+	 {% for state,name in item_list %}
+	 <tr>
+	 	<td><p><a href="{{ROOT_URL}}store/bestbuy/ipad3/10/{{state}}">{{name}}</a></p></td>
+    <td><p><a href="{{ROOT_URL}}store/bestbuy/ipad3/11/{{state}}">{{name}}</a></p></td>
+   </tr> 
+    {% endfor %}
+	{% else %}
+	{% endif %}
+</table>
+		
+{% endblock %}
+		  

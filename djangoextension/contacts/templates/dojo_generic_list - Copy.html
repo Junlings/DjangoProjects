@@ -1,0 +1,162 @@
+{% extends "base.html" %}
+
+{% block scripts %}
+		<script src="http://127.0.0.1:8000/media/js/dojo-1.7.2/dojo/dojo.js" 
+			data-dojo-config="async: true"></script>
+	<style type="text/css">
+		@import "http://127.0.0.1:8000/media/js/dojo-1.7.2/dojo/resources/dojo.css";
+		@import "http://127.0.0.1:8000/media/js/dojo-1.7.2/dojox/grid/resources/Grid.css";
+		@import "http://127.0.0.1:8000/media/js/dojo-1.7.2/dojox/grid/resources/tundraGrid.css";
+		body {
+			font-size: 0.9em;
+			font-family: Geneva, Arial, Helvetica, sans-serif;
+		}
+		.heading {
+			font-weight: bold;
+			padding-bottom: 0.25em;
+		}
+		#mygrid {
+			width: 65em;
+			height: 25em;
+			padding: 1px;
+		}
+	</style>
+	
+		<script type="text/javascript">
+			require(["dijit/registry", "dojo/parser", "dojox/form/Manager", "dijit/dijit", "dijit/form/Button", "dijit/form/CheckBox", "dijit/form/RadioButton", "dijit/form/TextBox", "dijit/form/ComboBox", "dijit/form/SimpleTextarea", "dijit/form/Select", "dijit/layout/BorderContainer", "dijit/layout/ContentPane", "dojo/domReady!"], function(registry, parser) {
+				parser.parse();
+			});
+
+		</script>
+
+
+<script>
+require([
+    "dojox/grid/DataGrid",
+    "dojo/data/ObjectStore",
+    "dojo/store/JsonRest",
+    "dojo/domReady!"
+], function(DataGrid, ObjectStore,JsonRestStore){
+	   var myStore = new JsonRestStore({target: "api/" });
+     console.log(myStore)
+     function myStyleRow(row){
+       /* The row object has 4 parameters, and you can set two others to provide your own styling
+          These parameters are :
+            -- index : the row index
+           -- selected: whether or not the row is selected
+           -- over : whether or not the mouse is over this row
+           -- odd : whether or not this row index is odd. */
+
+       row.customStyles += "color:blue;";
+       grid.focus.styleRow(row);
+       grid.edit.styleRow(row);
+    }
+    
+     var gridLayout = [
+                { name: "id", field: "id", width: "15%"},
+                { name: "address_line1", field: "address_line1", width: "15%",editable:"true"},
+                { name: "address_line2", field: "address_line2", width: "10%" },
+                { name: "nickname", field: "nickname", width: "10%" },
+                { name: "country", field: "country", width: "10%" },
+                { name: "state", field: "state", width: "10%" },
+                { name: "city", field: "city", width: "10%"},
+                { name: "zipcode", field: "zipcode", width: "5%" },
+                { name: "notes", field: "notes", width: "5%" }
+            ]
+            
+    grid = new DataGrid({
+        store: dataStore = ObjectStore({objectStore: myStore}),
+        structure: gridLayout,
+        //onStyleRow: myStyleRow,                     //custom row style
+        rowSelector: true,                           // add row select indicator column
+        loadingMessage:'The grid is being loaded',   // show loading message
+        selectable:true,                            // make grid content selectable
+    }, "mygrid"); // make sure you have a target HTML element with this id
+    grid.startup();
+    console.log(dataStore);
+    
+    var grid = dijit.byId("mygrid");
+dojo.connect(grid, 'onApplyCellEdit',
+            function (value,index,fieldName) {
+                var item = grid.getItem(index);
+                //alert('some changed');
+                dijit.byId("mygrid").store.put(item);
+
+            });
+    
+});
+	
+	
+require(["dojo/dom","dojo/store/JsonRest","dojo/_base/json","dojo/on","dijit/dijit", "dojox/form/Manager","dojo/query","dojo/dom-class","dojo/dom-attr","dojo/_base/json","dojox/grid/DataGrid","dojo/domReady!"], function(dom,JsonRestStore,dojo,on,dijit,formmagr,query,domClass,domAttr){
+
+    var mysubmitbutton = dojo.query("#submit-query")
+    on(mysubmitbutton, "click", function(){
+        
+
+   
+    });
+});
+
+
+    
+</script>
+
+{% endblock %}
+
+{% block content %}
+
+   <div id="mygrid"></div>
+
+<div id="gridDiv"></div>
+
+<p>
+     <span data-dojo-type="dijit.form.Button">
+         get all Selected Items
+         <script type="dojo/method" data-dojo-event="onClick" data-dojo-args="evt">
+             /* Get all selected items from the Grid: */
+             var items = grid.selection.getSelected();
+             if(items.length){
+                 /* Iterate through the list of selected items.
+                    The current item is available in the variable
+                    "selectedItem" within the following function: */
+                 dojo.forEach(items, function(selectedItem){
+                     if(selectedItem !== null){
+                         /* Iterate through the list of attributes of each item.
+                            The current attribute is available in the variable
+                            "attribute" within the following function: */
+                         dojo.forEach(grid.store.getAttributes(selectedItem), function(attribute){
+                             /* Get the value of the current attribute:*/
+                             var value = grid.store.getValues(selectedItem, attribute);
+                             /* Now, you can do something with this attribute/value pair.
+                                Our short example shows the attribute together
+                                with the value in an alert box, but we are sure, that
+                                you'll find a more ambitious usage in your own code:*/
+                             alert('attribute: ' + attribute + ', value: ' + value);
+                         }); /* end forEach */
+                     } /* end if */
+                 }); /* end forEach */
+             } /* end if */
+         </script>
+     </span>
+ </p>
+ 
+ 
+ <p>
+<span data-dojo-type="dijit.form.Button">
+    Filter
+    <script type="dojo/method" data-dojo-event="onClick" data-dojo-args="evt">
+        /* Filter the movies from the data store: */
+        grid.filter({state: "FL"});
+    </script>
+</span>
+
+<span data-dojo-type="dijit.form.Button">
+    Show all
+    <script type="dojo/method" data-dojo-event="onClick" data-dojo-args="evt">
+        /* reset the filter: */
+        grid.filter({state: '*'});
+    </script>
+</span>
+</p>
+
+{% endblock %}

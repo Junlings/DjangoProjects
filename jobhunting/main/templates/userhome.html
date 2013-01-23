@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+    {% block scripts %}
+	<link rel="stylesheet" href="{{MEDIA_URL}}js/themes/base/jquery.ui.all.css">
+	<script src="{{MEDIA_URL}}js/jquery-1.6.2.js"></script>
+	<script src="{{MEDIA_URL}}js/ui/jquery.ui.core.js"></script>
+	<script src="{{MEDIA_URL}}js/ui/jquery.ui.widget.js"></script>
+	<script src="{{MEDIA_URL}}js/ui/jquery.ui.tabs.js"></script>
+	<link rel="stylesheet" href="{{MEDIA_URL}}js/demos.css">
+	
+	<script>
+	$(function() {
+		$( "#tabs" ).tabs();
+	});
+	</script>
+    {% endblock %}
+    
+ 
+
+       
+ {% block content %}       
+ 
+
+{% endblock %}
+

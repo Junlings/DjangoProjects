@@ -1,0 +1,18 @@
+   <h2> Conference paper summary </h2>
+   <table class='list_table' border="1">
+      <tr> <td>Label</td><td>{{paper.LB}}</td></tr>
+      <tr> <td>Title</td><td>{{content.TI}}</td></tr>
+      <tr> <td>Conference</td><td>{{paper.conference}}</td></tr>
+      <tr> <td>Author</td><td>{{authors}}</td></tr>
+      <tr> <td>Keywords</td><td>{{KWs}}</td></tr>
+      <tr> <td>Abstract</td><td>{{content.AB}}</td></tr>
+      <tr> <td>Placement</td><td>{{placement.PY}}-{{placement.VL}}-{{placement.IS}}</td></tr>
+      <tr>
+	 {% if fulltext %}
+	 <td>Fulltext</td><td><a href="{{MEDIA_URL}}{{fulltext.doc}}"> Link to full text </a></td>
+         {% else %}
+	  <td>Fulltext</td><td> No full text found </td>
+	 {% endif %}
+      </tr>
+  </table>
+   

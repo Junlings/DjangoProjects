@@ -1,0 +1,105 @@
+{% extends "sell_base.html" %}
+{% block scripts %}
+     <script src="{{MEDIA_URL}}js/jquery-1.6.2.js"></script>
+	<script>	 	
+		 $(document).ready(function () {
+		 	$('#id_spin').hide();
+		 	function ajax_call() {
+      $.ajax({
+                url: '../search/',
+                dataType: 'json',
+                data: {'sell':'',
+                       'year':$("#id_year").val(),
+                       'month':$("#id_month").val(),                       
+                       },
+                success: function(data1, textStatus, jqXHR){
+                  alert('Found Total ' + data1[1].length + ' sell record');
+                	$("#id_sell").empty();
+                	$("#id_summary").empty();
+             		  $("#id_summary").last().append(
+                		    "<tr><td>Number of transaction</td><td>"+data1[0].ntrans + "</td></tr>" + 
+                		    "<tr><td>Total Profit</td><td>"+data1[0].profit + "</td></tr>");
+
+
+             		  $("#id_sell").last().append(
+                		    "<tr><td>id</td><td>Name</td><td>Image</td><td>Quantity</td><td>Sale</td><td>Date</td><td>Cost</td><td>Income</td><td>Profit</td></tr>");
+		
+                	$('#id_spin').hide();
+                	$.each(data1[1], function(index, value) {
+                		    $("#id_sell").last().append(
+                		    //"<tr><td>id</td><td>Name</td><td>image</td><td>quantity</td><td>sale</td><td>date</td><td>Cost</td><td>income</td><td>profit</td></tr>"+
+			                  "<tr><td>" + value.id + "</td>" + 
+			                  "<td>" + value.shortname + "</td>" +
+			                  '<td><IMG SRC="'+ value.imagepath + '" height="50"> </td>' +
+			                  "<td>" + value.quantity + "</td>" +
+			                  "<td>" + value.platform + "</td>" +
+			                  "<td>" + value.orderon + "</td>" +
+			                  //"<td>" + value.customer + "</td>" +
+			                  "<td>" + value.estimate.cost + "</td>" +
+                        "<td>" + value.estimate.income + "</td>" +
+                        "<td>" + value.estimate.profit + "</td>" +
+			                  "</tr>");});		 
+                     },                          
+                          
+
+                error:function(xhr, status, error) {
+                         //alert(data1);
+                         $('#id_spin').hide();
+   
+                         alert("An AJAX error occured: " + status + "\nError: " + error);
+                         
+                          },
+
+                });};
+        
+        $('#id_submit').click(function(){
+             $('#id_spin').show();
+             ajax_call();}	);
+    });
+		 		</script>
+		 		
+		 		
+{% endblock %}
+
+
+{% block content %}
+
+        <h2> Sell Record monthly </h2>
+        <table class='form_table' border="1">
+          
+        {% for field in forms.visible_fields %}
+                <tr>
+                <td>{{ field.label_tag }}</td>
+                <td>
+               
+                 {{ field }}
+           
+                </td>
+                </tr>
+        {% endfor %}
+        </table>
+
+
+        <button type="button" id='id_submit'>Search</button>
+         <p> </p>
+         
+         <div id="id_spin">
+            <IMG SRC={{MEDIA_URL}}images/spinner.gif + ' height="50">
+        </div>
+         
+         <div>
+             <h2> Sell summary <h2>
+                 <table border=1 id='id_summary'>     
+                 </table>
+       
+         </div> 
+         
+                           
+         <div>
+             <h2> Sell Information <h2>
+                 <table border=1 id='id_sell'>     
+                 </table>
+       
+         </div>     
+         
+{% endblock %}

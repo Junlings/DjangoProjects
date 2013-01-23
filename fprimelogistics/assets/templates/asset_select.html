@@ -1,0 +1,88 @@
+{% extends "asset_base.html" %}
+{% block scripts %}
+     <script src="{{MEDIA_URL}}js/jquery-1.6.2.js"></script>
+		 <script type="text/javascript" src="{{MEDIA_URL}}js/jquery/countdown/jquery.countdown.js"></script>
+		<style type="text/css">@import "{{MEDIA_URL}}js/jquery/countdown/jquery.countdown.css";
+			#Countdown { width: 240px; height: 45px; }</style>
+				  
+		 <script>	 	
+		 $(document).ready(function () {
+		 	function ajax_call() {
+      $.ajax({
+                url: 'search/',
+                dataType: 'json',
+                data: {'storage':$("#id_storage").val(),
+                       'purchase':$("#id_purchase").val(),
+                       'sell_platform':$("#id_sell_platform").val(),
+                       'onsale':$("#id_onsale").val(),
+                       'sold':$("#id_sold").val(),
+                       },
+                success: function(data1, textStatus, jqXHR){
+                  alert('Found Total ' + data1.length + ' assets');
+
+                	$("#id_assets").empty();
+                	$("#id_assets").last().append(
+                	      "<tr><td>" + "Shortname" + "</td>" + 
+			                  "<td>" + "createdon" + "</td>" + 
+			                  "<td>" +  "Image" + "</td>" + 
+			                  "<td>" + "Put on Sale ?" + "</td>" +
+                        "<td>" + "Sold ?" + "</td>" +
+                        "<td>" + "Detail Link" + "</td>" +
+			                  "</tr>");
+                	
+                	$.each(data1, function(index, value) {
+                		    $("#id_assets").last().append(
+			                  "<tr><td>" + value.item.itemproduct.shortname + "</td>" + 
+			                  "<td>" + value.created + "</td>" + 
+			                  "<td>" + '<IMG SRC="' + value.item.itemproduct.mainimagepath +'"height="75"></td>' + 
+			                  "<td>" + value.onsale + "</td>" +
+                        "<td>" + value.sold + "</td>" +
+                        "<td>" + '<a href="{{ROOT_URL}}assets/asset/details/'+ value.FSIN + '">Details</a>'  + "</td>" +
+			                  "</tr>");		                  
+			                  
+                    });
+                          },
+
+                error:function(xhr, status, error) {
+                         //alert(data1);
+
+                         alert("An AJAX error occured: " + status + "\nError: " + error);
+                         
+                          },
+
+                });};
+        
+        $('#id_submit').click(function(){
+             ajax_call();}	);
+    });
+		 		</script>
+		 		
+		 		
+{% endblock %}
+
+
+{% block content %}
+
+        <table class='form_table' border="1">
+          
+        {% for field in forms.visible_fields %}
+                <tr>
+                <td>{{ field.label_tag }}</td>
+                <td>
+                {% if field.errors %}<div class="flash"><div class="error">{% endif %}
+                  {{ field }}
+                {% if field.errors %}{{ field.errors }}</div></div>{% endif %}
+                </td>
+                </tr>
+        {% endfor %}
+        </table>
+        <button type="button" id='id_submit'>Search</button>
+         
+          <div>
+         <table border=1 id='id_assets'>
+           
+            
+         </table> 
+         </div>     
+         
+{% endblock %}

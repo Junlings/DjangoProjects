@@ -1,0 +1,50 @@
+{% extends "publication_base.html" %}
+{% load pagination_tags %}
+{% load url from future %}
+{% load pub_generic_views_helpers %}
+
+
+{% block scripts %}
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="{{ROOT_URL}}media/js/demos.css">
+{% endblock %}
+
+{% block content %}
+	<h1> {{item_list|first|get_verbose_name }}  </h1>
+        <p> Total Number of record is {{item_list.count}}  </p>
+	{%if item_list %}
+		{% autopaginate item_list %}
+		{% paginate %}
+		<table class='list_table' border="1">
+		<tr>
+		{% for field in fields %}
+		<td>
+			{{field}}
+		</td>
+		{% endfor %}
+		
+		</tr>
+		
+		{% for item in item_list %}
+			<tr>
+			    {% for field in fields %}
+			        <td>
+				{{ item|deeplookup:field|safe}}
+				     </td>
+			    {% endfor %}
+			<tr>
+		{% endfor %}
+		
+                </table> 
+	{% else %}
+		<p>No Model instance record are available.</p>
+	{% endif %}
+{% endblock %}
+		  
+{% block footer %}
+	<div id="footer">
+	    <div class="block">
+		<p>Copyright &copy; 2012 Fprime Solution LLC.</p>
+	    </div>
+	</div>
+{% endblock %}		

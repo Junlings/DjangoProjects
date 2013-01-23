@@ -1,0 +1,142 @@
+{% extends "asset_base.html" %}
+{% block scripts %}
+	<link rel="stylesheet" href="{{MEDIA_URL}}js/themes/redmond/jquery-ui-1.8.21.custom.css">
+	<script src="{{MEDIA_URL}}js/jquery-1.7.2.js"></script>
+	<script src="{{MEDIA_URL}}js/ui/jquery.ui.core.js"></script>
+	<script src="{{MEDIA_URL}}js/ui/jquery.ui.widget.js"></script>
+	<script src="{{MEDIA_URL}}js/ui/jquery.ui.tabs.js"></script>
+	<link rel="stylesheet" href="{{MEDIA_URL}}js/demos.css">
+	
+	<script>
+	$(function() {
+		$( "#tabs" ).tabs();
+	});
+	</script>
+{% endblock %}
+
+
+{% block content %}
+
+        <div id="product">
+          <h2>Product Information</h2>
+          <table border=1>
+			       <tr><td>Shortname</td><td>{{asset.item.itemproduct.shortname}} </td></tr>
+			       <tr><td>Created on</td><td>{{asset.created}} </td></tr>
+			       <tr><td>Image</td><td><IMG SRC={{asset.item.itemproduct.mainimagepath}} height="100"> </td></tr>
+			       <tr><td>Put on sale?</td><td>{{asset.onsale}} </td></tr>
+			       <tr><td>Sold ?</td><td>{{asset.sold}} </td></tr>
+			    </table>
+        </div>
+
+    <p> </p>
+    <div id="tabs">
+	  <ul id='tabs'>
+	  	<li><a href="#tabs-1">Storage</a></li>
+		  <li><a href="#tabs-2">Purchase</a></li>
+		  <li><a href="#tabs-3">Sell</a></li>
+		  <li><a href="#tabs-4">Profit</a></li>
+		  
+	  </ul>
+	  
+
+        
+        <div id="tabs-1">
+          <h2>Product Storage History</h2>
+          <table border=1>
+           <tr><td>Index</td><td>Location</td><td>Move in</td><td>Move out</td></tr>
+           
+          {% for obj in storageobjs %}
+           <tr><td>{{obj.id}}</td><td>{{obj.location.nickname}}</td><td>{{obj.movein}}</td><td>{{obj.moveout}}</td></tr>      
+          {% endfor %}
+           </table>
+        
+          
+        
+        </div>
+        
+        <div id="tabs-2">
+          <h2>Asset Purchase Information</h2>
+          <ul>
+          <li> Purchase request reported by {{purchasereq.person}}  </li>
+          <li> Brought {{purchasereq.quantity}} of product:{{purchasereq.item.itemproduct.longname}} </li> 
+          
+
+           {% if purchasereq.fullfilled %}
+                  <li> This purchase request has been fullfilled, and corresponding transaction and assets created </li>
+           {% else %}
+                  <li> This purchase request has NOT been fullfilled, no corresponding transaction and assets created yet</li>
+           {% endif %}
+
+        </ul>
+        
+         <h2>Document on record</h2>
+         <ul>
+         {% for pdoc in purchasedoc %} 
+            <li>{{pdoc.doc.name}}</li>
+         {% endfor %}
+         </ul>
+        </div>
+        
+        
+        <div id="tabs-3">
+        <h2>Asset Sell Information</h2>
+        
+           {% if not sellreq %}
+                  <li> This asset has not been put on sell </li>
+           {% else %}
+                   <ul>
+                     <li> Sell on :{{sellslot.platform.name}} </li> 
+                     <li> Customer :{{sellreq.custom}}  </li> 
+                     <li> Sell URL: {{sellslot.url}} </li> 
+                     <li> Sell listed created on: {{sellslot.createdon}} </li> 
+                     <li> Sell confirmed on: {{sellslot.orderon}} </li> 
+                     <li> Sell order id: {{sellslot.order_id}} </li> 
+                     
+
+                     {% if sellreq.fullfilled %}
+                           <li> This sell request has been fullfilled, and corresponding transaction created and assets modified </li>
+                      {% else %}
+                           <li> This sell request has NOT been fullfilled, no corresponding transaction created and no assets modified yet</li>
+                      {% endif %}
+
+                     </ul>
+           
+           {% endif %}
+           
+         <h2>Document on record</h2>
+         <ul>
+         {% for pdoc in selldoc %} 
+            <li>{{pdoc.doc.name}}</li>
+         {% endfor %}
+         </ul>                     
+
+        </div>
+        
+        
+        <div id="tabs-4">
+        <h2>Asset profit estimate</h2>
+        
+          <table border=1>
+           <tr><td>Item</td><td>+</td><td>-</td></tr>
+           
+           <tr><td>cost_purchase_product</td><td>--</td><td>{{estimateobj.cost_purchase_product}}</td></tr>
+           <tr><td>cost_purchase_tax</td><td>--</td><td>{{estimateobj.cost_purchase_tax}}</td></tr>
+           <tr><td>cost_purchase_shipping</td><td>--</td><td>{{estimateobj.cost_purchase_shipping}}</td></tr>
+           <tr><td>cost_purchase_commision</td><td>--</td><td>{{estimateobj.cost_purchase_commision}}</td></tr>
+           <tr><td>earn_product</td><td>{{estimateobj.earn_product}}</td><td>--</td></tr>
+           <tr><td>earn_tax</td><td>{{estimateobj.earn_tax}}</td><td>--</td></tr>
+           <tr><td>earn_shipping</td><td>{{estimateobj.earn_shipping}}</td><td>--</td></tr>
+           <tr><td>cost_sell_tax</td><td>--</td><td>{{estimateobj.cost_sell_tax}}</td></tr>
+           <tr><td>cost_sell_shipping</td><td>--</td><td>{{estimateobj.cost_sell_shipping}}</td></tr>
+           <tr><td>cost_sell_platform</td><td>--</td><td>{{estimateobj.cost_sell_platform}}</td></tr>
+           <tr><td>cost_sell_financial</td><td>--</td><td>{{estimateobj.cost_sell_financial}}</td></tr>
+           <tr><td>Profit</td><td>--</td><td>--</td></tr>
+
+           </table>        
+        </div>       
+          
+          
+    
+    </div>        
+        
+{% endblock %}

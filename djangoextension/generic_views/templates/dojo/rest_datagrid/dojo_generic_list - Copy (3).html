@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+
+{% block scripts %}
+		<script src="{{MEDIA_URL}}js/dojo-1.7.2/dojo/dojo.js" 
+			data-dojo-config="async: true"></script>
+	<style type="text/css">
+		@import "{{MEDIA_URL}}js/dojo-1.7.2/dojo/resources/dojo.css";
+		@import "{{MEDIA_URL}}js/dojo-1.7.2/dojox/grid/resources/Grid.css";
+		@import "{{MEDIA_URL}}js/dojo-1.7.2/dojox/grid/resources/tundraGrid.css";
+		body {
+			font-size: 0.9em;
+			font-family: Geneva, Arial, Helvetica, sans-serif;
+		}
+		.heading {
+			font-weight: bold;
+			padding-bottom: 0.25em;
+		}
+		#mygrid {
+			width: {{ grid.wdith}}; /*65em */;
+			height: {{ grid.height}};
+			padding: {{ grid.padding}};
+		}
+	</style>
+	
+		<script type="text/javascript">
+			require(["dijit/registry", "dojo/parser", "dojox/form/Manager", 
+			         "dijit/dijit", "dijit/form/Button", "dojo/domReady!"], function(registry, parser) {
+				parser.parse();
+			});
+
+		</script>
+
+
+
+
+
+<script>
+require([
+    "dojox/grid/DataGrid",
+    "dojo/data/ObjectStore",
+    "dojo/store/JsonRest",
+    "dojo/domReady!"
+], function(DataGrid, ObjectStore,JsonRestStore){
+	   var myStore = new JsonRestStore({target: "api/" });
+     console.log(myStore)
+     function myStyleRow(row){
+       /* The row object has 4 parameters, and you can set two others to provide your own styling
+          These parameters are :
+            -- index : the row index
+           -- selected: whether or not the row is selected
+           -- over : whether or not the mouse is over this row
+           -- odd : whether or not this row index is odd. */
+
+       row.customStyles += "color:blue;";
+       grid.focus.styleRow(row);
+       grid.edit.styleRow(row);
+    }
+    
+     var gridLayout = [
+                		{% for field in grid.structure %}
+
+                			  { name:  "{{field.name|capfirst}}", field: "{{field.field}}", width: "{{field.width}}"},
+		               	{% endfor %}
+            ]
+            
+    grid = new DataGrid({
+        store: dataStore = ObjectStore({objectStore: myStore}),
+        structure: gridLayout,
+        //onStyleRow: myStyleRow,                     //custom row style
+        rowSelector: true,                           // add row select indicator column
+        loadingMessage:'The grid is being loaded',   // show loading message
+        selectable:true,                            // make grid content selectable
+    }, "mygrid"); // make sure you have a target HTML element with this id
+    grid.startup();
+    console.log(dataStore);
+    
+    var grid = dijit.byId("mygrid");
+dojo.connect(grid, 'onApplyCellEdit',
+            function (value,index,fieldName) {
+                var item = grid.getItem(index);
+                //alert('some changed');
+                dijit.byId("mygrid").store.save();
+
+            });
+    
+});
+	
+	
+require(["dojo/dom","dojo/store/JsonRest","dojo/_base/json","dojo/on",
+         "dijit/dijit", "dojox/form/Manager","dojo/query","dojo/dom-class",
+         "dojo/dom-attr","dojo/_base/json","dojox/grid/DataGrid","dojo/domReady!"], 
+         function(dom,JsonRestStore,dojo,on,dijit,formmagr,query,domClass,domAttr){
+
+    var mysubmitbutton = dojo.query("#submit-query")
+    on(mysubmitbutton, "click", function(){
+        
+
+   
+    });
+});
+
+
+    
+</script>
+
+{% endblock %}
+
+{% block content %}
+
+   <div id="mygrid"></div>
+
+
+
+{% endblock %}

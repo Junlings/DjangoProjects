@@ -1,0 +1,43 @@
+{% extends "publication_base.html" %}
+{% load pagination_tags %}
+{% load url from future %}
+
+{% block scripts %}
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="{{ROOT_URL}}media/js/demos.css">
+{% endblock %}
+
+
+{% block content %}
+  <p> Total Number of record is {{item_list.count}}  </p>
+	{%if item_list %}
+		{% autopaginate item_list %}
+		{% paginate %}
+		<table class='list_table' border="1">
+		<tr>
+		{% for field in fields %}
+		<td>
+			{{field}}
+		</td>
+		{% endfor %}
+		
+		{# add detail links #}
+		<td> Link to details </td>
+		</tr>
+		
+		{% for item in item_list %}
+			<tr>
+			  <td>{{item.name}}</td>
+			  <td>{{item.impact}}</td>
+			  <td>{{item.publisher}}</td>
+			  <td>Link</td> 
+			</tr>
+		{% endfor %}
+		
+                </table> 
+	{% else %}
+		<p>No Model instance record are available.</p>
+	{% endif %}
+		
+{% endblock %}
+		  

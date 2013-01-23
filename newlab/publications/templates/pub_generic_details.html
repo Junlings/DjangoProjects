@@ -1,0 +1,12 @@
+ {% load pub_generic_views_helpers %}
+  
+  
+   <h2> {{obj|get_verbose_name }} </h2>
+   <table class='list_table' border="1">
+
+			    {% for field in fields %}
+			        <tr> <td>{% simple_tag obj field %}</td>
+			          <td>{{ obj|deeplookup:field|safe}}</td></tr>
+				     </td>
+			    {% endfor %}
+  </table>

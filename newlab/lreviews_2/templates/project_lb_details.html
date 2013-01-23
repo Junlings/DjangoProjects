@@ -1,0 +1,166 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load url from future %}
+
+{% block scripts %}
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="{{ROOT_URL}}media/js/demos.css">
+	<link rel="stylesheet" href="{{MEDIA_URL}}js/themes/base/jquery.ui.all.css">
+	<script src="{{MEDIA_URL}}js/jquery-1.6.2.js"></script>
+	<script src="{{MEDIA_URL}}js/ui/jquery.ui.core.js"></script>
+	<script>
+$(document).ajaxSend(function(event, xhr, settings) {  
+    function getCookie(name) {  
+        var cookieValue = null;  
+        if (document.cookie && document.cookie != '') {  
+            var cookies = document.cookie.split(';');  
+            for (var i = 0; i < cookies.length; i++) {  
+                var cookie = jQuery.trim(cookies[i]);  
+                // Does this cookie string begin with the name we want?  
+                if (cookie.substring(0, name.length + 1) == (name + '=')) {  
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));  
+                    break;  
+                }  
+            }  
+        }  
+        return cookieValue;  
+    }  
+    function sameOrigin(url) {  
+        // url could be relative or scheme relative or absolute  
+        var host = document.location.host; // host + port  
+        var protocol = document.location.protocol;  
+        var sr_origin = '//' + host;  
+        var origin = protocol + sr_origin;  
+        // Allow absolute or scheme relative URLs to same origin  
+        return (url == origin || url.slice(0, origin.length + 1) == origin + '/') ||  
+            (url == sr_origin || url.slice(0, sr_origin.length + 1) == sr_origin + '/') ||  
+            // or any other URL that isn't scheme relative or absolute i.e relative.  
+            !(/^(\/\/|http:|https:).*/.test(url));  
+    }  
+    function safeMethod(method) {  
+        return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));  
+    }  
+  
+    if (!safeMethod(settings.type) && sameOrigin(settings.url)) {  
+        xhr.setRequestHeader("X-CSRFToken", getCookie('csrftoken'));  
+    }  
+}); 	  
+	  
+	 </script> 
+	
+	
+	
+	{% if items %}
+	<script>
+	  
+		 $(document).ready(function () {
+		 	$("#Submit").click(function(){
+		 	  var a = {};
+        var b = {};
+        
+        b['project'] = {{project.id}}
+        b['label'] = '{{label2}}'
+        b['ptype'] = '{{ptype}}'
+        
+	      {% for key,item in items.items %}
+	      {{item.ajax|safe}}
+	      {% endfor %} 
+	      b['answers'] = JSON.stringify(a)
+	      
+       var acc = []
+       $.each(b, function(index, value) {
+        acc.push(index + ': ' + value);
+       });
+       //alert(JSON.stringify(acc));
+
+
+    $.ajax({
+        url: "../../submit/",
+        type: "post",
+        data: b,
+        // callback handler that will be called on success
+        success: function(response, textStatus, jqXHR){
+            // log a message to the console
+            console.log("Hooray, it worked!");
+            alert("Review data successfully submitted");
+        },
+        // callback handler that will be called on error
+        error: function(jqXHR, textStatus, errorThrown){
+            // log the error to the console
+            console.log(
+                "The following error occured: "+
+                textStatus, errorThrown
+            );
+            alert("OOps, Review data not submitted");
+        },
+        // callback handler that will be called on completion
+        // which means, either on success or error
+        complete: function(){
+            // enable the inputs
+            //$inputs.removeAttr("disabled");
+        }
+    });
+
+
+
+
+      });
+      });
+	 </script>	
+    {% endif %}
+    	
+{% endblock %}
+
+
+{% block content %}
+    <h1> Project Summary  </h1>
+	    <div id="project">
+	    <table class='list_table' border="1">    
+            <tr> <td>Name</td><td>{{project.shortname}}</td></tr> 
+            <tr> <td>Topics</td><td>{{project.topics}}</td></tr> 
+            <tr> <td>Managers</td><td>{{project.managers.all}}</td></tr> 
+            <tr> <td>Contributors</td><td>{{project.contributors.all}}</td></tr>
+      </table>
+    </div>
+    
+    <div id="paper">
+    <h1> Literature  </h1>
+	    
+   
+         {{label|safe}}
+
+    </div>
+       
+
+    {% if items %}
+    <div id=questions>
+    <h1> Questions  </h1>
+        
+	      {% for key,item in items.items %}
+	      <div id=question_zone_{{key}}>
+	         <h2>
+           {{item.question.order}}-{{item.question.question}}
+	        </h2>
+	        
+	        <div id=choices>
+	          {% if item.choices %}
+	             {{ item.choices|safe }}
+
+	          {% endif %}
+	        
+	        </div>
+         </div>
+	      {% endfor %}    
+      
+      
+       
+      <div id=submit>
+      </br>
+      <input id="Submit" type="submit" value="Submit" />
+    </div>
+    
+    </div>
+    {% endif %}
+
+{% endblock %}
+		  

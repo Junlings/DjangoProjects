@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<rdf:RDF 
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/" 
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:co="http://purl.org/rss/1.0/modules/company/"
+	xmlns:ti="http://purl.org/rss/1.0/modules/textinput/"
+	xmlns="http://purl.org/rss/1.0/"
+>
+	<channel rdf:about="http://www.mitbbs.com/rss/mitbbs_board_rss.php?board=FleaMarket">
+		<title>未名空间-二手市场(FleaMarket)版</title>
+		<link>http://www.mitbbs.com/bbsdoc/FleaMarket.html</link>
+		<description>二手市场(FleaMarket)版</description>
+
+		<dc:language>zh-cn</dc:language> 
+		<dc:rights>Copyright 未名空间(mitbbs.com)</dc:rights> 
+		<items>
+			<rdf:Seq>
+				<rdf:li resource="http://www.mitbbs.com/rss/mitbbs_board_rss.php?board=FleaMarket" /> 
+				<rdf:li resource="http://www.mitbbs.com/bbsdoc/FleaMarket.html" /> 
+			</rdf:Seq>
+		</items>
+	</channel>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233379.html">
+		<title>[出售] chase sapphire points 90k @ 1.90 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233379.html</link>
+		<dc:creator>soothsaying</dc:creator> 
+		<dc:date>2012-05-13T14:26:55-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33231351.html">
+		<title>[出售]T-mobile refill card $50 x4 @0.92 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33231351.html</link>
+		<dc:creator>woshishui198</dc:creator> 
+		<dc:date>2012-05-12T13:01:38-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233339.html">
+		<title>[出售]dell promotion gc $50@0.7 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233339.html</link>
+		<dc:creator>guocoh</dc:creator> 
+		<dc:date>2012-05-13T14:14:58-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33232577.html">
+		<title>[出售] chase sapphire point 20k (可零售) @1.95 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33232577.html</link>
+		<dc:creator>plainheart</dc:creator> 
+		<dc:date>2012-05-13T00:26:39-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233371.html">
+		<title>求购 OFFICEMAX REWARDS cards@0.87 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233371.html</link>
+		<dc:creator>mitcocogreen</dc:creator> 
+		<dc:date>2012-05-13T14:24:31-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33230695.html">
+		<title>：[label ready求购] $ 92 for epson 545 to ME, FL,NY, PA </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33230695.html</link>
+		<dc:creator>lelemama</dc:creator> 
+		<dc:date>2012-05-11T23:29:47-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233367.html">
+		<title>：[label ready求购] $88 for 2270dw to CA, AZ </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233367.html</link>
+		<dc:creator>lelemama</dc:creator> 
+		<dc:date>2012-05-13T14:21:27-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33196761.html">
+		<title>[出售] Marriot Rewards point &gt;2w@0.8 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33196761.html</link>
+		<dc:creator>smartcici</dc:creator> 
+		<dc:date>2012-04-26T15:32:09-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/32821503.html">
+		<title>【大呆购】老牌信誉Sapphire182+3,Freedom172 FIA,INK185 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/32821503.html</link>
+		<dc:creator>hli1108</dc:creator> 
+		<dc:date>2011-12-06T02:09:54-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/32965841.html">
+		<title>【大呆购】Amex reward point@195+3，FIA170 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/32965841.html</link>
+		<dc:creator>hli1108</dc:creator> 
+		<dc:date>2012-01-29T03:44:40-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33226541.html">
+		<title>【出售】Sharp XE-A106 Business Cash Register </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33226541.html</link>
+		<dc:creator>CDL</dc:creator> 
+		<dc:date>2012-05-10T03:23:57-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33192611.html">
+		<title>【大呆购】AA帐户55000@930...67500@1150 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33192611.html</link>
+		<dc:creator>hli1108</dc:creator> 
+		<dc:date>2012-04-24T19:37:04-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33212611.html">
+		<title>出售 Hilton HHonors Points 100K </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33212611.html</link>
+		<dc:creator>tx2267072</dc:creator> 
+		<dc:date>2012-05-04T00:11:41-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/32812883.html">
+		<title>【大呆购】航空帐号AA170+3,BA125,UA170,DL125,AF112 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/32812883.html</link>
+		<dc:creator>hli1108</dc:creator> 
+		<dc:date>2011-12-03T20:09:05-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/32948083.html">
+		<title>【大呆购】Rate updated酒店积分Marriott, Hyatt, SPG </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/32948083.html</link>
+		<dc:creator>hli1108</dc:creator> 
+		<dc:date>2012-01-19T21:59:58-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33123157.html">
+		<title>【大呆收】0.84酒店GIFT CARD--Marriott, Hyatt, SPG, Club Ca </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33123157.html</link>
+		<dc:creator>hli1108</dc:creator> 
+		<dc:date>2012-03-27T17:54:43-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233345.html">
+		<title>[出售]SONY NEX-5 + 16/2.8 + 18-55 + flashlight </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233345.html</link>
+		<dc:creator>sigmand</dc:creator> 
+		<dc:date>2012-05-13T14:18:12-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33230945.html">
+		<title>[出售]new ipad 16g 黑v版 560 一个 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33230945.html</link>
+		<dc:creator>chanlq</dc:creator> 
+		<dc:date>2012-05-12T04:20:18-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233341.html">
+		<title>ebags 10 off 20 or more code </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233341.html</link>
+		<dc:creator>CRC340</dc:creator> 
+		<dc:date>2012-05-13T14:15:36-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33192197.html">
+		<title>【求购】Chase Sapphire Preferred 1K 起 @ 1.85 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33192197.html</link>
+		<dc:creator>feimo</dc:creator> 
+		<dc:date>2012-04-24T15:57:34-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33153117.html">
+		<title>[出售]各种GC [JCP, GAP, Sears, Red Lobster, Dillards, Saks </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33153117.html</link>
+		<dc:creator>Social</dc:creator> 
+		<dc:date>2012-04-08T19:47:58-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33230273.html">
+		<title>（（（收购）））HP Touchpad 32G new, $230      == </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33230273.html</link>
+		<dc:creator>Iloveflea</dc:creator> 
+		<dc:date>2012-05-11T19:00:08-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33231241.html">
+		<title>[出售]Adobe Photoshop Elements 10 &amp; Premier </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33231241.html</link>
+		<dc:creator>Social</dc:creator> 
+		<dc:date>2012-05-12T11:27:11-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233275.html">
+		<title>label ready求购】$172 for epson 837 to MD,pa.DC </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233275.html</link>
+		<dc:creator>lelemama</dc:creator> 
+		<dc:date>2012-05-13T13:17:41-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33232455.html">
+		<title>chase sapphire points 7.5w @ 2.0 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33232455.html</link>
+		<dc:creator>bluejian</dc:creator> 
+		<dc:date>2012-05-12T23:01:48-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233325.html">
+		<title>出售chase sapphire 51K @ 1.95 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233325.html</link>
+		<dc:creator>hellovivi</dc:creator> 
+		<dc:date>2012-05-13T14:03:06-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233323.html">
+		<title>[label ready求购] $ 93 for epson 545 to CA, CO </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233323.html</link>
+		<dc:creator>lelemama</dc:creator> 
+		<dc:date>2012-05-13T14:01:28-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233309.html">
+		<title>[出售] 3* HP Pavilion dm4-3050US @ $535 from PA </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233309.html</link>
+		<dc:creator>sleetrain</dc:creator> 
+		<dc:date>2012-05-13T13:51:12-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233317.html">
+		<title>[广告]钢琴促销 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233317.html</link>
+		<dc:creator>pianobel</dc:creator> 
+		<dc:date>2012-05-13T13:54:18-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233315.html">
+		<title>[出售]1*Marriot cat 1-4 certificate exp Jun 15 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233315.html</link>
+		<dc:creator>jacuzzi</dc:creator> 
+		<dc:date>2012-05-13T13:52:22-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233305.html">
+		<title>[出售]Officemax om online $30 off $150 @ $14 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233305.html</link>
+		<dc:creator>zli999</dc:creator> 
+		<dc:date>2012-05-13T13:50:01-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233311.html">
+		<title>[出售]大量amazon gc，实体卡，receipt,老id </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233311.html</link>
+		<dc:creator>to10</dc:creator> 
+		<dc:date>2012-05-13T13:52:00-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/32872153.html">
+		<title>[出售] UA国际升舱券SWU </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/32872153.html</link>
+		<dc:creator>ohfish</dc:creator> 
+		<dc:date>2011-12-21T15:20:42-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233303.html">
+		<title>★★★ Amazon Prime Membership $16 from 5/13/12 to 5/12/13 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233303.html</link>
+		<dc:creator>doubleclick</dc:creator> 
+		<dc:date>2012-05-13T13:47:29-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233301.html">
+		<title>for sale: officemax 25 off 100 online coupon--$10each </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233301.html</link>
+		<dc:creator>bluebird2007</dc:creator> 
+		<dc:date>2012-05-13T13:44:35-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233299.html">
+		<title>[出售] FIA  worldpoint 26k @1.78 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233299.html</link>
+		<dc:creator>boster</dc:creator> 
+		<dc:date>2012-05-13T13:44:00-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33190651.html">
+		<title>【出售】delta 25K $280 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33190651.html</link>
+		<dc:creator>jamezhou</dc:creator> 
+		<dc:date>2012-04-23T22:49:05-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33198915.html">
+		<title>求购生物试剂 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33198915.html</link>
+		<dc:creator>ammen</dc:creator> 
+		<dc:date>2012-04-27T13:43:53-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33232821.html">
+		<title>[出售]UA miles 65000 miles </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33232821.html</link>
+		<dc:creator>mikepa</dc:creator> 
+		<dc:date>2012-05-13T07:54:01-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33229987.html">
+		<title>[出售]25 off 75 Staples instore coupon @10 包子 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33229987.html</link>
+		<dc:creator>Marchrain</dc:creator> 
+		<dc:date>2012-05-11T16:22:57-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33203281.html">
+		<title>AMEX Membership Rewards 84k@2.1 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33203281.html</link>
+		<dc:creator>andalusia</dc:creator> 
+		<dc:date>2012-04-29T21:30:10-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33231419.html">
+		<title>[bssd][-] ashanti 原文更新，并发100个包子 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33231419.html</link>
+		<dc:creator>smthiid</dc:creator> 
+		<dc:date>2012-05-12T13:39:38-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/32835409.html">
+		<title>出售home depot, bonton, boscov大于100刀free shipping </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/32835409.html</link>
+		<dc:creator>danieljune</dc:creator> 
+		<dc:date>2011-12-09T12:05:14-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233283.html">
+		<title>【出售】Kohl&#039;s store credit @ 0.85 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233283.html</link>
+		<dc:creator>JSIS</dc:creator> 
+		<dc:date>2012-05-13T13:30:18-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/32818159.html">
+		<title>【出售】united airlines CO/UA 65K Miles / 1200+ tax + fee </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/32818159.html</link>
+		<dc:creator>kzhu</dc:creator> 
+		<dc:date>2011-12-05T09:27:05-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233279.html">
+		<title>【出售】AMEX membership reward points 81k @ 2.1 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233279.html</link>
+		<dc:creator>kuangliang</dc:creator> 
+		<dc:date>2012-05-13T13:28:20-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33207893.html">
+		<title>【出售】 2x Nook simple touch @ 83 from CA </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33207893.html</link>
+		<dc:creator>hanshan</dc:creator> 
+		<dc:date>2012-05-02T02:30:07-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233267.html">
+		<title>【出售】 Brother 3*2270dw from CA $90 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233267.html</link>
+		<dc:creator>zhbjwqt</dc:creator> 
+		<dc:date>2012-05-13T13:13:38-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33230133.html">
+		<title>[求购]label ready 1 * canon mx 870 150 each to TX </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33230133.html</link>
+		<dc:creator>sparkcar</dc:creator> 
+		<dc:date>2012-05-11T17:48:21-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33231523.html">
+		<title>【赔本出售] 全新 4* ipad3 ATT 16G @ 620 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33231523.html</link>
+		<dc:creator>Flyingbug</dc:creator> 
+		<dc:date>2012-05-12T13:58:19-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33221317.html">
+		<title>【四叶草出售】AT&amp;T 4S解约服务 四条线600刀 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33221317.html</link>
+		<dc:creator>clovermobile</dc:creator> 
+		<dc:date>2012-05-07T21:31:15-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233261.html">
+		<title>【出售】Macys 0.92 victoria&#039;s secret 0.86 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233261.html</link>
+		<dc:creator>JSIS</dc:creator> 
+		<dc:date>2012-05-13T13:08:34-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233257.html">
+		<title>【出售】Tiffany 0.91 walmart 0.95 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233257.html</link>
+		<dc:creator>JSIS</dc:creator> 
+		<dc:date>2012-05-13T13:06:17-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233255.html">
+		<title>求购 Tjmax gift card </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233255.html</link>
+		<dc:creator>paperdu</dc:creator> 
+		<dc:date>2012-05-13T13:05:48-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233253.html">
+		<title>【出售】starbucks 0.88 ToysRus 0.9 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233253.html</link>
+		<dc:creator>JSIS</dc:creator> 
+		<dc:date>2012-05-13T13:04:51-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233249.html">
+		<title>【出售】Belk 0.88 sephora 0.84/0.91 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233249.html</link>
+		<dc:creator>JSIS</dc:creator> 
+		<dc:date>2012-05-13T13:03:41-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233247.html">
+		<title>$75 united airline certificate for $30 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233247.html</link>
+		<dc:creator>Yuran</dc:creator> 
+		<dc:date>2012-05-13T13:02:06-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33190249.html">
+		<title>出售US Airways60K 可定星空联盟回国往返$1050 +tax/fee </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33190249.html</link>
+		<dc:creator>goldenfire12</dc:creator> 
+		<dc:date>2012-04-23T19:19:48-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233243.html">
+		<title>【出售】Jcpenney 0.84 homedepot lowes 0.9 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233243.html</link>
+		<dc:creator>JSIS</dc:creator> 
+		<dc:date>2012-05-13T13:01:00-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233241.html">
+		<title>求购北京经芝加哥转机到fayetteville (AR) 机场代号XNA 往返票� </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233241.html</link>
+		<dc:creator>pxz</dc:creator> 
+		<dc:date>2012-05-13T13:00:46-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33216649.html">
+		<title>【出售】25 off 75 Staples IN-STORE ONLY coupon @ 10包子 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33216649.html</link>
+		<dc:creator>atuwh</dc:creator> 
+		<dc:date>2012-05-05T21:15:08-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233223.html">
+		<title>【出售】FIA  worldpoint 52K 1.78 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233223.html</link>
+		<dc:creator>JSIS</dc:creator> 
+		<dc:date>2012-05-13T12:50:46-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33209133.html">
+		<title>[出售] Chase Sapphire Preferred points 160K+ @ 2 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33209133.html</link>
+		<dc:creator>robustsong</dc:creator> 
+		<dc:date>2012-05-02T18:53:51-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233233.html">
+		<title>[出售]shoes.com gift code 180@0.83 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233233.html</link>
+		<dc:creator>balsid</dc:creator> 
+		<dc:date>2012-05-13T12:55:16-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233231.html">
+		<title>got求购：officemax 30 off 150 online coupon--$14 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233231.html</link>
+		<dc:creator>nightstar</dc:creator> 
+		<dc:date>2012-05-13T12:54:01-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233229.html">
+		<title>【出售】sears/kmart/landsend 0.9 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233229.html</link>
+		<dc:creator>JSIS</dc:creator> 
+		<dc:date>2012-05-13T12:52:30-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233227.html">
+		<title>【出售】Microsoft store gift card 0.89 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233227.html</link>
+		<dc:creator>JSIS</dc:creator> 
+		<dc:date>2012-05-13T12:51:21-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33212709.html">
+		<title>版上谁卖北京飞美国的机票么？ </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33212709.html</link>
+		<dc:creator>MITNew</dc:creator> 
+		<dc:date>2012-05-04T00:47:08-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233221.html">
+		<title>[出售]$150x3 Sears/Kmart/Land&#039;s end </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233221.html</link>
+		<dc:creator>optimalctrl</dc:creator> 
+		<dc:date>2012-05-13T12:50:25-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233219.html">
+		<title>【求购】UA E-Cert $150或以下面额 @ .75 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233219.html</link>
+		<dc:creator>intheshed</dc:creator> 
+		<dc:date>2012-05-13T12:49:29-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233217.html">
+		<title>【出售】 coach 0.94 (0.93) </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233217.html</link>
+		<dc:creator>JSIS</dc:creator> 
+		<dc:date>2012-05-13T12:49:27-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233215.html">
+		<title>[出售]Southwest RR Points 50254@$600 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233215.html</link>
+		<dc:creator>aaar</dc:creator> 
+		<dc:date>2012-05-13T12:49:10-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/32921901.html">
+		<title>【MATCH求购】amex membership reward pt @1.95 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/32921901.html</link>
+		<dc:creator>mcheng82</dc:creator> 
+		<dc:date>2012-01-10T09:31:19-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/32874493.html">
+		<title>【MATCH求购】worldpoints @1.7 (fia or boa) </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/32874493.html</link>
+		<dc:creator>mcheng82</dc:creator> 
+		<dc:date>2011-12-22T10:55:20-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33086427.html">
+		<title>【MATCH求购】delta 25k 270；50k 550 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33086427.html</link>
+		<dc:creator>mcheng82</dc:creator> 
+		<dc:date>2012-03-14T01:25:49-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33155563.html">
+		<title>【MATCH求购】delta 110K 起 @1.25 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33155563.html</link>
+		<dc:creator>mcheng82</dc:creator> 
+		<dc:date>2012-04-09T21:53:21-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233201.html">
+		<title>[出售] CVS 4off20 不跟卡coupon 5.21过期@3包子 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233201.html</link>
+		<dc:creator>magic0</dc:creator> 
+		<dc:date>2012-05-13T12:46:50-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233199.html">
+		<title>【老ID出售】AA 70K @1250 + fee/tax </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233199.html</link>
+		<dc:creator>mttbbs</dc:creator> 
+		<dc:date>2012-05-13T12:46:41-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233143.html">
+		<title>$13 paypal 求OM 30 off 150 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233143.html</link>
+		<dc:creator>PMturtlemove</dc:creator> 
+		<dc:date>2012-05-13T12:02:26-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33232921.html">
+		<title>[求购]OM 30 off 150 online code $7 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33232921.html</link>
+		<dc:creator>stmy41</dc:creator> 
+		<dc:date>2012-05-13T09:48:23-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33232943.html">
+		<title>[求购]$10 Officemax $30 off $150 coupon </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33232943.html</link>
+		<dc:creator>iciclemelt</dc:creator> 
+		<dc:date>2012-05-13T10:00:50-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33225011.html">
+		<title>[出售][出售] 2x Brother Fax 575 @$22 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33225011.html</link>
+		<dc:creator>enjoy288</dc:creator> 
+		<dc:date>2012-05-09T13:18:01-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233043.html">
+		<title>[求购] bestbuy gift card@0.95 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233043.html</link>
+		<dc:creator>NONB</dc:creator> 
+		<dc:date>2012-05-13T10:57:36-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33230119.html">
+		<title>[lable ready 出售】$175 for epson 837 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33230119.html</link>
+		<dc:creator>xinyu051219</dc:creator> 
+		<dc:date>2012-05-11T17:36:44-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33232361.html">
+		<title>label ready 出售2270 DW from KY at $88.00 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33232361.html</link>
+		<dc:creator>xinyu051219</dc:creator> 
+		<dc:date>2012-05-12T22:18:06-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233177.html">
+		<title>[出售]2*Delta sky club one day pass@$15 eacj </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233177.html</link>
+		<dc:creator>abao2000</dc:creator> 
+		<dc:date>2012-05-13T12:31:54-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33040511.html">
+		<title>{便宜卖鱼油维生素，希望都拿走} NatureMade 便宜鱼油维生素等 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33040511.html</link>
+		<dc:creator>icool</dc:creator> 
+		<dc:date>2012-02-25T16:05:46-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33221473.html">
+		<title>[出售]Southwest Rapid Rewards Point 50,000 @ 1.2 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33221473.html</link>
+		<dc:creator>chenxinger</dc:creator> 
+		<dc:date>2012-05-07T22:55:26-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33221245.html">
+		<title>[出售] 4 united club one time pass $15 each </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33221245.html</link>
+		<dc:creator>dadabing</dc:creator> 
+		<dc:date>2012-05-07T20:42:57-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33204993.html">
+		<title>[求购]officemax coupon </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33204993.html</link>
+		<dc:creator>pglac</dc:creator> 
+		<dc:date>2012-04-30T18:02:29-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/32876995.html">
+		<title>amazon/homedepot/sears/staples/CVS/dell to belk/dillard </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/32876995.html</link>
+		<dc:creator>gracelaqiu</dc:creator> 
+		<dc:date>2011-12-22T22:04:12-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33111889.html">
+		<title>[出售]回国必带 关节药  鱼油 维生素 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33111889.html</link>
+		<dc:creator>tracy1</dc:creator> 
+		<dc:date>2012-03-22T18:01:04-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233161.html">
+		<title>$3求购TYP 200点。 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233161.html</link>
+		<dc:creator>cq168088</dc:creator> 
+		<dc:date>2012-05-13T12:23:22-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33213727.html">
+		<title>[求购]iTunes10 美金@0.92 大量 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33213727.html</link>
+		<dc:creator>pglac</dc:creator> 
+		<dc:date>2012-05-04T14:26:29-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33208945.html">
+		<title>[出售]全新行货Canon 24-105mm F/4 L Lens </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33208945.html</link>
+		<dc:creator>ahgan</dc:creator> 
+		<dc:date>2012-05-02T16:46:38-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233153.html">
+		<title>RebTel母亲节特大优惠：充值$10送$20，让你的国际长途电话便宜� </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233153.html</link>
+		<dc:creator>lanshuyu12</dc:creator> 
+		<dc:date>2012-05-13T12:15:56-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33223021.html">
+		<title>招免税州护士下单！ </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33223021.html</link>
+		<dc:creator>raccoon1201</dc:creator> 
+		<dc:date>2012-05-08T16:23:24-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33215761.html">
+		<title>[少量出售] 国泰 北美 - 香港直飞商务舱单程@含税$1200 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33215761.html</link>
+		<dc:creator>lijiang555</dc:creator> 
+		<dc:date>2012-05-05T12:35:33-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233147.html">
+		<title>[出售]Overstock GC $1100 @0.85 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233147.html</link>
+		<dc:creator>ITSTIME</dc:creator> 
+		<dc:date>2012-05-13T12:04:46-04:00</dc:date> 
+	</item>
+	<item rdf:about="http://www.mitbbs.com/article_t/FleaMarket/33233145.html">
+		<title>[求购] Chase Sapphire Prefer Points 7400 @1.9 </title> 
+		<link>http://www.mitbbs.com/article_t/FleaMarket/33233145.html</link>
+		<dc:creator>qiangzhy</dc:creator> 
+		<dc:date>2012-05-13T12:02:36-04:00</dc:date> 
+	</item>
+</rdf:RDF>

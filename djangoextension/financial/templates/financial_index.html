@@ -1,0 +1,18 @@
+{% extends "financial_base.html" %}
+{% load account_summary %}
+
+ {% block content %}
+ <h2> Account summaries </h2>
+  {% for account in accounts %}
+      <p> YTD summary:{{account}} </p>
+      <table>
+         <tr><td>Credit</td><td>{{ account|YTD_sum:'credit' }}</td></tr>
+         <tr> <td>Debit</td><td>{{ account|YTD_sum:'debit' }}</td></tr>
+         <tr> <td>balance</td><td>{{ account|YTD_sum:'balance' }}</td></tr>
+      </table>
+      {% endfor %}
+    </ul>
+   
+    
+ {% endblock %}
+

@@ -1,0 +1,4837 @@
+(dp1
+L7639L
+(dp2
+S'city'
+p3
+VVenice
+p4
+sS'num'
+p5
+V813
+p6
+sS'name'
+p7
+VVenice
+p8
+sS'zipcode'
+p9
+V34293
+p10
+sS'availbility'
+p11
+VAvailable
+p12
+sS'phone'
+p13
+V(941) 492-9224
+p14
+sS'state'
+p15
+VFL
+p16
+sS'availcode'
+p17
+I3
+sS'address'
+p18
+V4271 Tamiami Trl S
+p19
+sS'lat'
+p20
+V27.0522
+p21
+sS'lng'
+p22
+V-82.3918
+p23
+sS'last_update'
+p24
+S'Friday, 11. May 2012 12:14AM'
+p25
+sS'id'
+p26
+L7639L
+ssL7949L
+(dp27
+g3
+VFort Lauderdale
+p28
+sg5
+V1163
+p29
+sg7
+VFt Lauderdale
+p30
+sg9
+V33306
+p31
+sg11
+VAvailable
+p32
+sg13
+V(954) 390-7992
+p33
+sg15
+VFL
+p34
+sg17
+I3
+sg18
+V3200 N Federal Hwy
+p35
+sg20
+V26.168
+p36
+sg22
+V-80.1158
+p37
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p38
+sg26
+L7949L
+ssL7696L
+(dp39
+g3
+VOcala
+p40
+sg5
+V873
+p41
+sg7
+VOcala
+p42
+sg9
+V34471
+p43
+sg11
+VAvailable
+p44
+sg13
+V(352) 629-1333
+p45
+sg15
+VFL
+p46
+sg17
+I3
+sg18
+V2000 SW College Rd
+p47
+sg20
+V29.1738
+p48
+sg22
+V-82.1572
+p49
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p50
+sg26
+L7696L
+ssL8721L
+(dp51
+g3
+VMiami
+p52
+sg5
+V2188
+p53
+sg7
+VMiami Central
+p54
+sg9
+V33127
+p55
+sg11
+VAvailable
+p56
+sg13
+V(786) 437-0164
+p57
+sg15
+VFL
+p58
+sg17
+I3
+sg18
+V3401 N Miami Ave Ste 100
+p59
+sg20
+V25.8089
+p60
+sg22
+V-80.1937
+p61
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p62
+sg26
+L8721L
+ssL7700L
+(dp63
+g3
+VHollywood
+p64
+sg5
+V877
+p65
+sg7
+VHollywood
+p66
+sg9
+V33021
+p67
+sg11
+VAvailable
+p68
+sg13
+V(954) 963-1200
+p69
+sg15
+VFL
+p70
+sg17
+I3
+sg18
+V300 Hollywood Mall
+p71
+sg20
+V26.0126
+p72
+sg22
+V-80.1747
+p73
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p74
+sg26
+L7700L
+ssL8793L
+(dp75
+g3
+VWinter Garden
+p76
+sg5
+V2264
+p77
+sg7
+VWinter Garden
+p78
+sg9
+V34787
+p79
+sg11
+VAvailable
+p80
+sg13
+V(407) 395-0111
+p81
+sg15
+VFL
+p82
+sg17
+I3
+sg18
+V3343 Daniels Rd
+p83
+sg20
+V28.523062
+p84
+sg22
+V-81.585764
+p85
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p86
+sg26
+L8793L
+ssL8729L
+(dp87
+g3
+VMiami Gardens
+p88
+sg5
+V2196
+p89
+sg7
+VMiami Lakes
+p90
+sg9
+V33055
+p91
+sg11
+VAvailable
+p92
+sg13
+V(305) 760-7008
+p93
+sg15
+VFL
+p94
+sg17
+I3
+sg18
+V5601 NW 183rd St
+p95
+sg20
+V25.940511
+p96
+sg22
+V-80.292665
+p97
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p98
+sg26
+L8729L
+ssL8798L
+(dp99
+g3
+VTitusville
+p100
+sg5
+V2269
+p101
+sg7
+VTitusville
+p102
+sg9
+V32780
+p103
+sg11
+VAvailable
+p104
+sg13
+V(321) 360-1086
+p105
+sg15
+VFL
+p106
+sg17
+I3
+sg18
+V3055 Columbia Blvd
+p107
+sg20
+V28.5521
+p108
+sg22
+V-80.8411
+p109
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p110
+sg26
+L8798L
+ssL8990L
+(dp111
+g3
+VSpring Hill
+p112
+sg5
+V2489
+p113
+sg7
+VSpring Hill East
+p114
+sg9
+V34604
+p115
+sg11
+VAvailable
+p116
+sg13
+V(352) 593-2168
+p117
+sg15
+VFL
+p118
+sg17
+I3
+sg18
+V3101 Aerial Way
+p119
+sg20
+V28.477827
+p120
+sg22
+V-82.478374
+p121
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p122
+sg26
+L8990L
+ssL8740L
+(dp123
+g3
+VPanama City Beach
+p124
+sg5
+V2208
+p125
+sg7
+VPier Park
+p126
+sg9
+V32413
+p127
+sg11
+VAvailable
+p128
+sg13
+V(850) 236-3720
+p129
+sg15
+VFL
+p130
+sg17
+I3
+sg18
+V15555 Starfish St
+p131
+sg20
+V30.2188
+p132
+sg22
+V-85.8686
+p133
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p134
+sg26
+L8740L
+ssL8229L
+(dp135
+g3
+VCape Coral
+p136
+sg5
+V1454
+p137
+sg7
+VCape Coral
+p138
+sg9
+V33914
+p139
+sg11
+VAvailable
+p140
+sg13
+V(239) 458-5868
+p141
+sg15
+VFL
+p142
+sg17
+I3
+sg18
+V2430 Santa Barbara Blvd
+p143
+sg20
+V26.6064
+p144
+sg22
+V-81.9771
+p145
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p146
+sg26
+L8229L
+ssL8486L
+(dp147
+g3
+VKissimmee
+p148
+sg5
+V1918
+p149
+sg7
+VKissimmee West
+p150
+sg9
+V34746
+p151
+sg11
+VAvailable
+p152
+sg13
+V(407) 594-0029
+p153
+sg15
+VFL
+p154
+sg17
+I3
+sg18
+V4795 W Irlo Bronson Memorial Hwy
+p155
+sg20
+V28.3318
+p156
+sg22
+V-81.4717
+p157
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p158
+sg26
+L8486L
+ssL7719L
+(dp159
+g3
+VOviedo
+p160
+sg5
+V897
+p161
+sg7
+VOviedo
+p162
+sg9
+V32765
+p163
+sg11
+VAvailable
+p164
+sg13
+V(407) 366-5900
+p165
+sg15
+VFL
+p166
+sg17
+I3
+sg18
+V820 Oviedo Mall Blvd
+p167
+sg20
+V28.6577
+p168
+sg22
+V-81.2344
+p169
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p170
+sg26
+L7719L
+ssL7720L
+(dp171
+g3
+VCasselberry
+p172
+sg5
+V898
+p173
+sg7
+VCasselberry
+p174
+sg9
+V32707
+p175
+sg11
+VAvailable
+p176
+sg13
+V(407) 830-7979
+p177
+sg15
+VFL
+p178
+sg17
+I3
+sg18
+V4410 S Highway 17 92
+p179
+sg20
+V28.6713
+p180
+sg22
+V-81.3402
+p181
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p182
+sg26
+L7720L
+ssL8489L
+(dp183
+g3
+VJacksonville
+p184
+sg5
+V1921
+p185
+sg7
+VJacksonville East
+p186
+sg9
+V32224
+p187
+sg11
+VAvailable
+p188
+sg13
+V(904) 248-4363
+p189
+sg15
+VFL
+p190
+sg17
+I3
+sg18
+V13740 Beach Blvd
+p191
+sg20
+V30.2868
+p192
+sg22
+V-81.4573
+p193
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p194
+sg26
+L8489L
+ssL8882L
+(dp195
+g3
+VFt Myers
+p196
+sg5
+V2363
+p197
+sg7
+VFort Myers SW
+p198
+sg9
+V33908
+p199
+sg11
+VAvailable
+p200
+sg13
+V(239) 265-9002
+p201
+sg15
+VFL
+p202
+sg17
+I3
+sg18
+V15880 San Carlos Blvd
+p203
+sg20
+V26.509577
+p204
+sg22
+V-81.944629
+p205
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p206
+sg26
+L8882L
+ssL8286L
+(dp207
+g3
+VMiramar
+p208
+sg5
+V1512
+p209
+sg7
+VMiramar
+p210
+sg9
+V33027
+p211
+sg11
+VAvailable
+p212
+sg13
+V(954) 435-2571
+p213
+sg15
+VFL
+p214
+sg17
+I3
+sg18
+V16901 Miramar Pkwy
+p215
+sg20
+V25.98
+p216
+sg22
+V-80.372
+p217
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p218
+sg26
+L8286L
+ssL8502L
+(dp219
+g3
+VViera
+p220
+sg5
+V1934
+p221
+sg7
+VViera
+p222
+sg9
+V32940
+p223
+sg11
+VAvailable
+p224
+sg13
+V(321) 242-9631
+p225
+sg15
+VFL
+p226
+sg17
+I3
+sg18
+V8455 N Wickham Rd
+p227
+sg20
+V28.2281
+p228
+sg22
+V-80.7203
+p229
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p230
+sg26
+L8502L
+ssL8503L
+(dp231
+g3
+VWest Palm Beach
+p232
+sg5
+V1935
+p233
+sg7
+VRoyal Palm Beach
+p234
+sg9
+V33411
+p235
+sg11
+VAvailable
+p236
+sg13
+V(561) 204-2349
+p237
+sg15
+VFL
+p238
+sg17
+I3
+sg18
+V10155 Okeechobee Blvd
+p239
+sg20
+V26.7108
+p240
+sg22
+V-80.2029
+p241
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p242
+sg26
+L8503L
+ssL7738L
+(dp243
+g3
+VSpring Hill
+p244
+sg5
+V919
+p245
+sg7
+VSpring Hill
+p246
+sg9
+V34606
+p247
+sg11
+VAvailable
+p248
+sg13
+V(352) 596-1411
+p249
+sg15
+VFL
+p250
+sg17
+I3
+sg18
+V4401 Commercial Way
+p251
+sg20
+V28.4932
+p252
+sg22
+V-82.5996
+p253
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p254
+sg26
+L7738L
+ssL7739L
+(dp255
+g3
+VPembroke Pines
+p256
+sg5
+V920
+p257
+sg7
+VPembroke Pines
+p258
+sg9
+V33026
+p259
+sg11
+VAvailable
+p260
+sg13
+V(954) 435-3161
+p261
+sg15
+VFL
+p262
+sg17
+I3
+sg18
+V11253 Pines Blvd
+p263
+sg20
+V26.0097
+p264
+sg22
+V-80.2985
+p265
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p266
+sg26
+L7739L
+ssL8764L
+(dp267
+g3
+VJacksonville
+p268
+sg5
+V2233
+p269
+sg7
+VJacksonville West
+p270
+sg9
+V32222
+p271
+sg11
+VAvailable
+p272
+sg13
+V(904) 248-4366
+p273
+sg15
+VFL
+p274
+sg17
+I3
+sg18
+V9525 Crosshill Blvd
+p275
+sg20
+V30.1984
+p276
+sg22
+V-81.8272
+p277
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p278
+sg26
+L8764L
+ssL8509L
+(dp279
+g3
+VLake Park
+p280
+sg5
+V1941
+p281
+sg7
+VLake Park/Palm Beach Gardens
+p282
+sg9
+V33403
+p283
+sg11
+VAvailable
+p284
+sg13
+V(561) 352-2098
+p285
+sg15
+VFL
+p286
+sg17
+I3
+sg18
+V500 N Congress Ave
+p287
+sg20
+V26.8061
+p288
+sg22
+V-80.0827
+p289
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p290
+sg26
+L8509L
+ssL8766L
+(dp291
+g3
+VRiverview
+p292
+sg5
+V2235
+p293
+sg7
+VBrandon South
+p294
+sg9
+V33578
+p295
+sg11
+VAvailable
+p296
+sg13
+V(813) 387-1161
+p297
+sg15
+VFL
+p298
+sg17
+I3
+sg18
+V10150 Bloomingdale Ave
+p299
+sg20
+V27.895291
+p300
+sg22
+V-82.333009
+p301
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p302
+sg26
+L8766L
+ssL8255L
+(dp303
+g3
+VPlantation
+p304
+sg5
+V1480
+p305
+sg7
+VPlantation
+p306
+sg9
+V33324
+p307
+sg11
+VAvailable
+p308
+sg13
+V(954) 377-0085
+p309
+sg15
+VFL
+p310
+sg17
+I3
+sg18
+V8201 Federated West Roadway
+p311
+sg20
+V26.1176
+p312
+sg22
+V-80.2584
+p313
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p314
+sg26
+L8255L
+ssL9025L
+(dp315
+g3
+VWest Melbourne
+p316
+sg5
+V2547
+p317
+sg7
+VWest Melbourne
+p318
+sg9
+V32904
+p319
+sg11
+VAvailable
+p320
+sg13
+V(321) 821-7340
+p321
+sg15
+VFL
+p322
+sg17
+I3
+sg18
+V4305 Norfolk Pkwy
+p323
+sg20
+V28.039694
+p324
+sg22
+V-80.662203
+p325
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p326
+sg26
+L9025L
+ssL8535L
+(dp327
+g3
+VTrinity
+p328
+sg5
+V1967
+p329
+sg7
+VSeven Springs
+p330
+sg9
+V34655
+p331
+sg11
+VAvailable
+p332
+sg13
+V(727) 376-2140
+p333
+sg15
+VFL
+p334
+sg17
+I3
+sg18
+V2900 Little Rd
+p335
+sg20
+V28.2042
+p336
+sg22
+V-82.6646
+p337
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p338
+sg26
+L8535L
+ssL8332L
+(dp339
+g3
+VOrlando
+p340
+sg5
+V1760
+p341
+sg7
+VWaterford Lakes
+p342
+sg9
+V32828
+p343
+sg11
+VAvailable
+p344
+sg13
+V(407) 482-8155
+p345
+sg15
+VFL
+p346
+sg17
+I3
+sg18
+V325 N Alafaya Trl
+p347
+sg20
+V28.553
+p348
+sg22
+V-81.2002
+p349
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p350
+sg26
+L8332L
+ssL8778L
+(dp351
+g3
+VPort St Lucie
+p352
+sg5
+V2248
+p353
+sg7
+VPort St Lucie
+p354
+sg9
+V34987
+p355
+sg11
+VLimited Availability
+p356
+sg13
+V(772) 293-6152
+p357
+sg15
+VFL
+p358
+sg17
+I2
+sg18
+V10720 SW Village Pkwy
+p359
+sg20
+V27.2699
+p360
+sg22
+V-80.4279
+p361
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p362
+sg26
+L8778L
+ssL8271L
+(dp363
+g3
+VOrange Park
+p364
+sg5
+V1497
+p365
+sg7
+VFleming Island
+p366
+sg9
+V32003
+p367
+sg11
+VAvailable
+p368
+sg13
+V(904) 278-8652
+p369
+sg15
+VFL
+p370
+sg17
+I3
+sg18
+V1490 County Rd 220
+p371
+sg20
+V30.1037
+p372
+sg22
+V-81.7081
+p373
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p374
+sg26
+L8271L
+ssL8277L
+(dp375
+g3
+VOrange Park
+p376
+sg5
+V1503
+p377
+sg7
+VOrange Park
+p378
+sg9
+V32073
+p379
+sg11
+VAvailable
+p380
+sg13
+V(904) 264-2748
+p381
+sg15
+VFL
+p382
+sg17
+I3
+sg18
+V1919 Wells Rd
+p383
+sg20
+V30.1883
+p384
+sg22
+V-81.7366
+p385
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p386
+sg26
+L8277L
+ssL8534L
+(dp387
+g3
+VSanford
+p388
+sg5
+V1966
+p389
+sg7
+VSanford
+p390
+sg9
+V32771
+p391
+sg11
+VAvailable
+p392
+sg13
+V(407) 547-0007
+p393
+sg15
+VFL
+p394
+sg17
+I3
+sg18
+V1201 W P Ball Blvd
+p395
+sg20
+V28.7993
+p396
+sg22
+V-81.3337
+p397
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p398
+sg26
+L8534L
+ssL8889L
+(dp399
+g3
+VKissimmee
+p400
+sg5
+V2370
+p401
+sg7
+VOrlando SW
+p402
+sg9
+V34747
+p403
+sg11
+VAvailable
+p404
+sg13
+V(321) 677-3971
+p405
+sg15
+VFL
+p406
+sg17
+I3
+sg18
+V3200 Rolling Oaks Blvd
+p407
+sg20
+V28.344987
+p408
+sg22
+V-81.614297
+p409
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p410
+sg26
+L8889L
+ssL7524L
+(dp411
+g3
+VBoca Raton
+p412
+sg5
+V638
+p413
+sg7
+VWest Boca Raton
+p414
+sg9
+V33428
+p415
+sg11
+VAvailable
+p416
+sg13
+V(561) 483-3400
+p417
+sg15
+VFL
+p418
+sg17
+I3
+sg18
+V21637 State Road 7
+p419
+sg20
+V26.3553
+p420
+sg22
+V-80.2052
+p421
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p422
+sg26
+L7524L
+ssL8794L
+(dp423
+g3
+VCoral Springs
+p424
+sg5
+V2265
+p425
+sg7
+VCoral Springs NW
+p426
+sg9
+V33076
+p427
+sg11
+VOut Of Stock
+p428
+sg13
+V(954) 282-5000
+p429
+sg15
+VFL
+p430
+sg17
+I0
+sg18
+V9600 Westview Dr
+p431
+sg20
+V26.297005
+p432
+sg22
+V-80.251636
+p433
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p434
+sg26
+L8794L
+ssL8541L
+(dp435
+g3
+VTallahassee
+p436
+sg5
+V1973
+p437
+sg7
+VTallahassee North
+p438
+sg9
+V32309
+p439
+sg11
+VAvailable
+p440
+sg13
+V(850) 894-3213
+p441
+sg15
+VFL
+p442
+sg17
+I3
+sg18
+V3700 Bradfordville Rd
+p443
+sg20
+V30.5631
+p444
+sg22
+V-84.214
+p445
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p446
+sg26
+L8541L
+ssL8542L
+(dp447
+g3
+VJacksonville
+p448
+sg5
+V1974
+p449
+sg7
+VJacksonville St Johns
+p450
+sg9
+V32246
+p451
+sg11
+VAvailable
+p452
+sg13
+V(904) 596-0020
+p453
+sg15
+VFL
+p454
+sg17
+I3
+sg18
+V4567 River City Dr
+p455
+sg20
+V30.2608
+p456
+sg22
+V-81.5247
+p457
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p458
+sg26
+L8542L
+ssL7777L
+(dp459
+g3
+VJacksonville Beach
+p460
+sg5
+V967
+p461
+sg7
+VJacksonville Beach
+p462
+sg9
+V32250
+p463
+sg11
+VAvailable
+p464
+sg13
+V(904) 273-5581
+p465
+sg15
+VFL
+p466
+sg17
+I3
+sg18
+V490 Marsh Landing Pkwy
+p467
+sg20
+V30.2538
+p468
+sg22
+V-81.391
+p469
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p470
+sg26
+L7777L
+ssL7778L
+(dp471
+g3
+VMiami
+p472
+sg5
+V968
+p473
+sg7
+VBird Road
+p474
+sg9
+V33155
+p475
+sg11
+VAvailable
+p476
+sg13
+V(305) 262-5767
+p477
+sg15
+VFL
+p478
+sg17
+I3
+sg18
+V7795 SW 40th St
+p479
+sg20
+V25.7354
+p480
+sg22
+V-80.3209
+p481
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p482
+sg26
+L7778L
+ssL8292L
+(dp483
+g3
+VOrlando
+p484
+sg5
+V1518
+p485
+sg7
+VOrlando Millenia
+p486
+sg9
+V32839
+p487
+sg11
+VAvailable
+p488
+sg13
+V(407) 541-0019
+p489
+sg15
+VFL
+p490
+sg17
+I3
+sg18
+V4750 Millenia Plaza Way
+p491
+sg20
+V28.494
+p492
+sg22
+V-81.4287
+p493
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p494
+sg26
+L8292L
+ssL8293L
+(dp495
+g3
+VClermont
+p496
+sg5
+V1519
+p497
+sg7
+VClermont
+p498
+sg9
+V34711
+p499
+sg11
+VAvailable
+p500
+sg13
+V(352) 394-8510
+p501
+sg15
+VFL
+p502
+sg17
+I3
+sg18
+V2660 East Hwy 50
+p503
+sg20
+V28.5491
+p504
+sg22
+V-81.7053
+p505
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p506
+sg26
+L8293L
+ssL7527L
+(dp507
+g3
+VDelray Beach
+p508
+sg5
+V642
+p509
+sg7
+VDelray Beach
+p510
+sg9
+V33444
+p511
+sg11
+VAvailable
+p512
+sg13
+V(561) 265-3500
+p513
+sg15
+VFL
+p514
+sg17
+I3
+sg18
+V1200 Linton Blvd
+p515
+sg20
+V26.4366
+p516
+sg22
+V-80.0868
+p517
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p518
+sg26
+L7527L
+ssL8808L
+(dp519
+g3
+VPace
+p520
+sg5
+V2279
+p521
+sg7
+VPace
+p522
+sg9
+V32571
+p523
+sg11
+VAvailable
+p524
+sg13
+V(850) 995-7820
+p525
+sg15
+VFL
+p526
+sg17
+I3
+sg18
+V4727 Hwy 90
+p527
+sg20
+V30.6013
+p528
+sg22
+V-87.1265
+p529
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p530
+sg26
+L8808L
+ssL7529L
+(dp531
+g3
+VJacksonville
+p532
+sg5
+V645
+p533
+sg7
+VRegency
+p534
+sg9
+V32225
+p535
+sg11
+VAvailable
+p536
+sg13
+V(904) 721-4909
+p537
+sg15
+VFL
+p538
+sg17
+I3
+sg18
+V444 Monument Rd
+p539
+sg20
+V30.3287
+p540
+sg22
+V-81.5484
+p541
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p542
+sg26
+L7529L
+ssL7530L
+(dp543
+g3
+VAltamonte Springs
+p544
+sg5
+V647
+p545
+sg7
+VAltamonte Springs
+p546
+sg9
+V32714
+p547
+sg11
+VLimited Availability
+p548
+sg13
+V(407) 788-7377
+p549
+sg15
+VFL
+p550
+sg17
+I2
+sg18
+V886 W State Road 436
+p551
+sg20
+V28.6631
+p552
+sg22
+V-81.4177
+p553
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p554
+sg26
+L7530L
+ssL7531L
+(dp555
+g3
+VOrlando
+p556
+sg5
+V649
+p557
+sg7
+VEast Colonial
+p558
+sg9
+V32803
+p559
+sg11
+VAvailable
+p560
+sg13
+V(407) 896-0401
+p561
+sg15
+VFL
+p562
+sg17
+I3
+sg18
+V718 Maguire Blvd
+p563
+sg20
+V28.5551
+p564
+sg22
+V-81.3456
+p565
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p566
+sg26
+L7531L
+ssL7532L
+(dp567
+g3
+VOrlando
+p568
+sg5
+V650
+p569
+sg7
+VOrlando South
+p570
+sg9
+V32809
+p571
+sg11
+VAvailable
+p572
+sg13
+V(407) 856-5459
+p573
+sg15
+VFL
+p574
+sg17
+I3
+sg18
+V880 Sand Lake Rd
+p575
+sg20
+V28.4497
+p576
+sg22
+V-81.391
+p577
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p578
+sg26
+L7532L
+ssL7533L
+(dp579
+g3
+VPalm Harbor
+p580
+sg5
+V652
+p581
+sg7
+VBoot Ranch
+p582
+sg9
+V34685
+p583
+sg11
+VAvailable
+p584
+sg13
+V(727) 786-6969
+p585
+sg15
+VFL
+p586
+sg17
+I3
+sg18
+V900 E Lake Rd
+p587
+sg20
+V28.0635
+p588
+sg22
+V-82.7072
+p589
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p590
+sg26
+L7533L
+ssL7534L
+(dp591
+g3
+VLargo
+p592
+sg5
+V654
+p593
+sg7
+VLargo
+p594
+sg9
+V33771
+p595
+sg11
+VAvailable
+p596
+sg13
+V(727) 581-6000
+p597
+sg15
+VFL
+p598
+sg17
+I3
+sg18
+V10500 Ulmerton Rd
+p599
+sg20
+V27.8931
+p600
+sg22
+V-82.7846
+p601
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p602
+sg26
+L7534L
+ssL7535L
+(dp603
+g3
+VTampa
+p604
+sg5
+V655
+p605
+sg7
+VNorth Dale Mabry
+p606
+sg9
+V33618
+p607
+sg11
+VAvailable
+p608
+sg13
+V(813) 962-2281
+p609
+sg15
+VFL
+p610
+sg17
+I3
+sg18
+V15240 N Dale Mabry Hwy
+p611
+sg20
+V28.0885
+p612
+sg22
+V-82.5049
+p613
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p614
+sg26
+L7535L
+ssL7536L
+(dp615
+g3
+VTampa
+p616
+sg5
+V656
+p617
+sg7
+VUniversity Plaza
+p618
+sg9
+V33613
+p619
+sg11
+VAvailable
+p620
+sg13
+V(813) 972-3396
+p621
+sg15
+VFL
+p622
+sg17
+I3
+sg18
+V13658 University Plaza St
+p623
+sg20
+V28.0723
+p624
+sg22
+V-82.4279
+p625
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p626
+sg26
+L7536L
+ssL8567L
+(dp627
+g3
+VDavie
+p628
+sg5
+V2022
+p629
+sg7
+VDavie
+p630
+sg9
+V33328
+p631
+sg11
+VAvailable
+p632
+sg13
+V(954) 377-0041
+p633
+sg15
+VFL
+p634
+sg17
+I3
+sg18
+V5800 S University Dr
+p635
+sg20
+V26.0467
+p636
+sg22
+V-80.25
+p637
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p638
+sg26
+L8567L
+ssL7565L
+(dp639
+g3
+VDaytona Beach
+p640
+sg5
+V688
+p641
+sg7
+VDaytona Beach
+p642
+sg9
+V32114
+p643
+sg11
+VOut Of Stock
+p644
+sg13
+V(386) 257-4778
+p645
+sg15
+VFL
+p646
+sg17
+I0
+sg18
+V2380 W International Speedway Blvd
+p647
+sg20
+V29.1839
+p648
+sg22
+V-81.0801
+p649
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p650
+sg26
+L7565L
+ssL7545L
+(dp651
+g3
+VSarasota
+p652
+sg5
+V665
+p653
+sg7
+VSarasota
+p654
+sg9
+V34238
+p655
+sg11
+VAvailable
+p656
+sg13
+V(941) 925-3377
+p657
+sg15
+VFL
+p658
+sg17
+I3
+sg18
+V8401 S Tamiami Trl
+p659
+sg20
+V27.228
+p660
+sg22
+V-82.4924
+p661
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p662
+sg26
+L7545L
+ssL7548L
+(dp663
+g3
+VJacksonville
+p664
+sg5
+V669
+p665
+sg7
+VSouthside
+p666
+sg9
+V32256
+p667
+sg11
+VLimited Availability
+p668
+sg13
+V(904) 464-0043
+p669
+sg15
+VFL
+p670
+sg17
+I2
+sg18
+V9041 Southside Blvd
+p671
+sg20
+V30.1926
+p672
+sg22
+V-81.5509
+p673
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p674
+sg26
+L7548L
+ssL8577L
+(dp675
+g3
+VWinter Park
+p676
+sg5
+V2032
+p677
+sg7
+VOrlando East
+p678
+sg9
+V32792
+p679
+sg11
+VAvailable
+p680
+sg13
+V(407) 670-0388
+p681
+sg15
+VFL
+p682
+sg17
+I3
+sg18
+V3770 N Goldenrod Rd
+p683
+sg20
+V28.5961
+p684
+sg22
+V-81.288
+p685
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p686
+sg26
+L8577L
+ssL8579L
+(dp687
+g3
+VSarasota
+p688
+sg5
+V2034
+p689
+sg7
+VUniversity Parkway
+p690
+sg9
+V34243
+p691
+sg11
+VAvailable
+p692
+sg13
+V(941) 360-7520
+p693
+sg15
+VFL
+p694
+sg17
+I3
+sg18
+V101  N Cattlemen Rd
+p695
+sg20
+V27.3865
+p696
+sg22
+V-82.4568
+p697
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p698
+sg26
+L8579L
+ssL8838L
+(dp699
+g3
+VCape Coral
+p700
+sg5
+V2316
+p701
+sg7
+VCape Coral North
+p702
+sg9
+V33909
+p703
+sg11
+VAvailable
+p704
+sg13
+V(239) 829-2639
+p705
+sg15
+VFL
+p706
+sg17
+I3
+sg18
+V1890 NE Pine Island Road
+p707
+sg20
+V26.669449
+p708
+sg22
+V-81.93371
+p709
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p710
+sg26
+L8838L
+ssL8839L
+(dp711
+g3
+VEstero
+p712
+sg5
+V2317
+p713
+sg7
+VCoconut Point
+p714
+sg9
+V33928
+p715
+sg11
+VAvailable
+p716
+sg13
+V(239) 495-4920
+p717
+sg15
+VFL
+p718
+sg17
+I3
+sg18
+V8040 Mediterranean Dr
+p719
+sg20
+V26.403853
+p720
+sg22
+V-81.805629
+p721
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p722
+sg26
+L8839L
+ssL8584L
+(dp723
+g3
+VTampa
+p724
+sg5
+V2040
+p725
+sg7
+VTampa Central Walter's Crossing
+p726
+sg9
+V33607
+p727
+sg11
+VAvailable
+p728
+sg13
+V(813) 262-0244
+p729
+sg15
+VFL
+p730
+sg17
+I3
+sg18
+V1544 N Dale Mabry Hwy
+p731
+sg20
+V27.9572
+p732
+sg22
+V-82.508
+p733
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p734
+sg26
+L8584L
+ssL7817L
+(dp735
+g3
+VSaint Petersburg
+p736
+sg7
+VPark & Tyrone
+p737
+sg9
+V33709
+p738
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p739
+sg13
+V(727) 548-0400
+p740
+sg15
+VFL
+p741
+sg17
+Nsg18
+V4450 Park St N
+p742
+sg20
+V27.8121
+p743
+sg22
+V-82.7552
+p744
+sg26
+L7817L
+ssL7563L
+(dp745
+g3
+VPensacola
+p746
+sg5
+V686
+p747
+sg7
+VPensacola
+p748
+sg9
+V32503
+p749
+sg11
+VAvailable
+p750
+sg13
+V(850) 494-9070
+p751
+sg15
+VFL
+p752
+sg17
+I3
+sg18
+V4711 Bayou Blvd
+p753
+sg20
+V30.4689
+p754
+sg22
+V-87.209
+p755
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p756
+sg26
+L7563L
+ssL7564L
+(dp757
+g3
+VGainesville
+p758
+sg5
+V687
+p759
+sg7
+VGainesville
+p760
+sg9
+V32608
+p761
+sg11
+VAvailable
+p762
+sg13
+V(352) 376-5260
+p763
+sg15
+VFL
+p764
+sg17
+I3
+sg18
+V3970 SW Archer Rd
+p765
+sg20
+V29.6211
+p766
+sg22
+V-82.3836
+p767
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p768
+sg26
+L7564L
+ssL8077L
+(dp769
+g3
+VSaint Augustine
+p770
+sg5
+V1294
+p771
+sg7
+VSt Augustine
+p772
+sg9
+V32084
+p773
+sg11
+VAvailable
+p774
+sg13
+V(904) 810-2336
+p775
+sg15
+VFL
+p776
+sg17
+I3
+sg18
+V1440 US Hwy 1 S
+p777
+sg20
+V29.8758
+p778
+sg22
+V-81.3222
+p779
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p780
+sg26
+L8077L
+ssL7566L
+(dp781
+g3
+VMelbourne Village
+p782
+sg5
+V689
+p783
+sg7
+VMelbourne
+p784
+sg9
+V32904
+p785
+sg11
+VAvailable
+p786
+sg13
+V(321) 727-3238
+p787
+sg15
+VFL
+p788
+sg17
+I3
+sg18
+V2750 W New Haven Ave
+p789
+sg20
+V28.0809
+p790
+sg22
+V-80.6657
+p791
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p792
+sg26
+L7566L
+ssL7567L
+(dp793
+g3
+VPort Charlotte
+p794
+sg5
+V690
+p795
+sg7
+VPort Charlotte
+p796
+sg9
+V33948
+p797
+sg11
+VAvailable
+p798
+sg13
+V(941) 255-1181
+p799
+sg15
+VFL
+p800
+sg17
+I3
+sg18
+V1400A Tamiami Trl
+p801
+sg20
+V27.0128
+p802
+sg22
+V-82.1414
+p803
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p804
+sg26
+L7567L
+ssL7568L
+(dp805
+g3
+VLeesburg
+p806
+sg5
+V691
+p807
+sg7
+VLeesburg
+p808
+sg9
+V34788
+p809
+sg11
+VAvailable
+p810
+sg13
+V(352) 360-1100
+p811
+sg15
+VFL
+p812
+sg17
+I3
+sg18
+V10401 US Highway 441
+p813
+sg20
+V28.8266
+p814
+sg22
+V-81.7844
+p815
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p816
+sg26
+L7568L
+ssL8081L
+(dp817
+g3
+VLakeland
+p818
+sg5
+V1299
+p819
+sg7
+VLakeland South
+p820
+sg9
+V33803
+p821
+sg11
+VAvailable
+p822
+sg13
+V(863) 648-4412
+p823
+sg15
+VFL
+p824
+sg17
+I3
+sg18
+V3570 Harden Blvd
+p825
+sg20
+V27.9997
+p826
+sg22
+V-81.973
+p827
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p828
+sg26
+L8081L
+ssL8082L
+(dp829
+g3
+VJacksonville
+p830
+sg5
+V1300
+p831
+sg7
+VJacksonville Mandarin
+p832
+sg9
+V32257
+p833
+sg11
+VAvailable
+p834
+sg13
+V(904) 268-4334
+p835
+sg15
+VFL
+p836
+sg17
+I3
+sg18
+V10490 San Jose Blvd
+p837
+sg20
+V30.1878
+p838
+sg22
+V-81.6292
+p839
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p840
+sg26
+L8082L
+ssL8599L
+(dp841
+g3
+VThe Villages
+p842
+sg5
+V2058
+p843
+sg7
+VLady Lake
+p844
+sg9
+V32159
+p845
+sg11
+VAvailable
+p846
+sg13
+V(352) 205-8934
+p847
+sg15
+VFL
+p848
+sg17
+I3
+sg18
+V716 N US Highway 441/27
+p849
+sg20
+V28.9345
+p850
+sg22
+V-81.9398
+p851
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p852
+sg26
+L8599L
+ssL8600L
+(dp853
+g3
+VFort Myers
+p854
+sg5
+V2059
+p855
+sg7
+VLee County
+p856
+sg9
+V33913
+p857
+sg11
+VAvailable
+p858
+sg13
+V(239) 432-2641
+p859
+sg15
+VFL
+p860
+sg17
+I3
+sg18
+V10000 Gulf Center Dr
+p861
+sg20
+V26.49
+p862
+sg22
+V-81.788
+p863
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p864
+sg26
+L8600L
+ssL7833L
+(dp865
+g3
+VMiami
+p866
+sg5
+V1039
+p867
+sg7
+VDadeland
+p868
+sg9
+V33143
+p869
+sg11
+VAvailable
+p870
+sg13
+V(305) 668-0262
+p871
+sg15
+VFL
+p872
+sg17
+I3
+sg18
+V8350 S Dixie Hwy
+p873
+sg20
+V25.6926
+p874
+sg22
+V-80.3054
+p875
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p876
+sg26
+L7833L
+ssL8815L
+(dp877
+g3
+VTampa
+p878
+sg5
+V2289
+p879
+sg7
+VTampa West
+p880
+sg9
+V33635
+p881
+sg11
+VAvailable
+p882
+sg13
+V(813) 749-5961
+p883
+sg15
+VFL
+p884
+sg17
+I3
+sg18
+V11627 W Hillsborough Ave
+p885
+sg20
+V28.016912
+p886
+sg22
+V-82.612318
+p887
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p888
+sg26
+L8815L
+ssL8604L
+(dp889
+g3
+VNaples
+p890
+sg5
+V2063
+p891
+sg7
+VNaples North
+p892
+sg9
+V34119
+p893
+sg11
+VAvailable
+p894
+sg13
+V(239) 552-1100
+p895
+sg15
+VFL
+p896
+sg17
+I3
+sg18
+V2415 Tarpon Bay Blvd
+p897
+sg20
+V26.2708
+p898
+sg22
+V-81.7396
+p899
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p900
+sg26
+L8604L
+ssL8605L
+(dp901
+g3
+VPinellas Park
+p902
+sg5
+V2064
+p903
+sg7
+VPinellas Park
+p904
+sg9
+V33781
+p905
+sg11
+VAvailable
+p906
+sg13
+V(727) 803-0022
+p907
+sg15
+VFL
+p908
+sg17
+I3
+sg18
+V7150 US 19 N
+p909
+sg20
+V27.8378
+p910
+sg22
+V-82.6858
+p911
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p912
+sg26
+L8605L
+ssL8606L
+(dp913
+g3
+VLake Worth
+p914
+sg5
+V2065
+p915
+sg7
+VWellington South
+p916
+sg9
+V33449
+p917
+sg11
+VLimited Availability
+p918
+sg13
+V(561) 273-8259
+p919
+sg15
+VFL
+p920
+sg17
+I2
+sg18
+V5900 State Rd 7
+p921
+sg20
+V26.5932
+p922
+sg22
+V-80.2031
+p923
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p924
+sg26
+L8606L
+ssL8608L
+(dp925
+g3
+VBoynton Beach
+p926
+sg5
+V2067
+p927
+sg7
+VBoynton Beach West
+p928
+sg9
+V33437
+p929
+sg11
+VAvailable
+p930
+sg13
+V(561) 536-0261
+p931
+sg15
+VFL
+p932
+sg17
+I3
+sg18
+V10201 Hagen Ranch Rd
+p933
+sg20
+V26.5263
+p934
+sg22
+V-80.1658
+p935
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p936
+sg26
+L8608L
+ssL7585L
+(dp937
+g3
+VMary Esther
+p938
+sg5
+V740
+p939
+sg7
+VMary Esther
+p940
+sg9
+V32569
+p941
+sg11
+VAvailable
+p942
+sg13
+V(850) 243-4188
+p943
+sg15
+VFL
+p944
+sg17
+I3
+sg18
+V250 E Miracle Strip Pkwy
+p945
+sg20
+V30.4105
+p946
+sg22
+V-86.6589
+p947
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p948
+sg26
+L7585L
+ssL7586L
+(dp949
+g3
+VMiami
+p950
+sg5
+V746
+p951
+sg7
+VKendall
+p952
+sg9
+V33196
+p953
+sg11
+VAvailable
+p954
+sg13
+V(305) 386-1244
+p955
+sg15
+VFL
+p956
+sg17
+I3
+sg18
+V15005 SW 88th St
+p957
+sg20
+V25.6854
+p958
+sg22
+V-80.4372
+p959
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p960
+sg26
+L7586L
+ssL8603L
+(dp961
+g3
+VMount Dora
+p962
+sg5
+V2062
+p963
+sg7
+VMt Dora
+p964
+sg9
+V32757
+p965
+sg11
+VAvailable
+p966
+sg13
+V(352) 385-0516
+p967
+sg15
+VFL
+p968
+sg17
+I3
+sg18
+V17450 US Highway 441
+p969
+sg20
+V28.8198
+p970
+sg22
+V-81.671
+p971
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p972
+sg26
+L8603L
+ssL7844L
+(dp973
+g3
+VVero Beach
+p974
+sg5
+V1050
+p975
+sg7
+VVero Beach
+p976
+sg9
+V32966
+p977
+sg11
+VAvailable
+p978
+sg13
+V(772) 778-0376
+p979
+sg15
+VFL
+p980
+sg17
+I3
+sg18
+V5800 20th St
+p981
+sg20
+V27.6401
+p982
+sg22
+V-80.4479
+p983
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p984
+sg26
+L7844L
+ssL7845L
+(dp985
+g3
+VTampa
+p986
+sg5
+V1051
+p987
+sg7
+VGandy
+p988
+sg9
+V33611
+p989
+sg11
+VAvailable
+p990
+sg13
+V(813) 835-8333
+p991
+sg15
+VFL
+p992
+sg17
+I3
+sg18
+V3625 W Gandy Blvd
+p993
+sg20
+V27.8943
+p994
+sg22
+V-82.5042
+p995
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p996
+sg26
+L7845L
+ssL7847L
+(dp997
+g3
+VMerritt Island
+p998
+sg5
+V1053
+p999
+sg7
+VMerritt Island
+p1000
+sg9
+V32953
+p1001
+sg11
+VAvailable
+p1002
+sg13
+V(321) 452-1014
+p1003
+sg15
+VFL
+p1004
+sg17
+I3
+sg18
+V250 Crockett Blvd
+p1005
+sg20
+V28.3861
+p1006
+sg22
+V-80.7052
+p1007
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1008
+sg26
+L7847L
+ssL8361L
+(dp1009
+g3
+VOrlando
+p1010
+sg5
+V1790
+p1011
+sg7
+VHunters Creek
+p1012
+sg9
+V32837
+p1013
+sg11
+VAvailable
+p1014
+sg13
+V(407) 251-5133
+p1015
+sg15
+VFL
+p1016
+sg17
+I3
+sg18
+V2155 Town Center Blvd
+p1017
+sg20
+V28.3699
+p1018
+sg22
+V-81.4068
+p1019
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1020
+sg26
+L8361L
+ssL8366L
+(dp1021
+g3
+VPort Orange
+p1022
+sg5
+V1795
+p1023
+sg7
+VPort Orange
+p1024
+sg9
+V32127
+p1025
+sg11
+VLimited Availability
+p1026
+sg13
+V(386) 322-1348
+p1027
+sg15
+VFL
+p1028
+sg17
+I2
+sg18
+V1771 Dunlawton Ave
+p1029
+sg20
+V29.11
+p1030
+sg22
+V-81.028
+p1031
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1032
+sg26
+L8366L
+ssL8626L
+(dp1033
+g3
+VDestin
+p1034
+sg5
+V2085
+p1035
+sg7
+VDestin
+p1036
+sg9
+V32541
+p1037
+sg11
+VAvailable
+p1038
+sg13
+V(850) 650-7525
+p1039
+sg15
+VFL
+p1040
+sg17
+I3
+sg18
+V853 Harbor Blvd
+p1041
+sg20
+V30.3912
+p1042
+sg22
+V-86.4807
+p1043
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1044
+sg26
+L8626L
+ssL8883L
+(dp1045
+g3
+VPalm Coast
+p1046
+sg5
+V2364
+p1047
+sg7
+VPalm Coast
+p1048
+sg9
+V32164
+p1049
+sg11
+VOut Of Stock
+p1050
+sg13
+V(386) 313-3951
+p1051
+sg15
+VFL
+p1052
+sg17
+I0
+sg18
+V5100 E Hwy 100
+p1053
+sg20
+V29.477281
+p1054
+sg22
+V-81.219628
+p1055
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1056
+sg26
+L8883L
+ssL8116L
+(dp1057
+g3
+VDeerfield Beach
+p1058
+sg5
+V1337
+p1059
+sg7
+VDeerfield Beach
+p1060
+sg9
+V33441
+p1061
+sg11
+VAvailable
+p1062
+sg13
+V(954) 428-4970
+p1063
+sg15
+VFL
+p1064
+sg17
+I3
+sg18
+V1200 S Federal Hwy
+p1065
+sg20
+V26.3032
+p1066
+sg22
+V-80.0926
+p1067
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1068
+sg26
+L8116L
+ssL8885L
+(dp1069
+g3
+VDavenport
+p1070
+sg5
+V2366
+p1071
+sg7
+VNE Polk County
+p1072
+sg9
+V33837
+p1073
+sg11
+VAvailable
+p1074
+sg13
+V(863) 256-1051
+p1075
+sg15
+VFL
+p1076
+sg17
+I3
+sg18
+V5000 Grandview Pkwy
+p1077
+sg20
+V28.232329
+p1078
+sg22
+V-81.643094
+p1079
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1080
+sg26
+L8885L
+ssL8888L
+(dp1081
+g3
+VFt Myers
+p1082
+sg5
+V2369
+p1083
+sg7
+VFort Myers North
+p1084
+sg9
+V33905
+p1085
+sg11
+VAvailable
+p1086
+sg13
+V(239) 265-9022
+p1087
+sg15
+VFL
+p1088
+sg17
+I3
+sg18
+V9350 Dynasty Dr
+p1089
+sg20
+V26.615527
+p1090
+sg22
+V-81.801616
+p1091
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1092
+sg26
+L8888L
+ssL8633L
+(dp1093
+g3
+VDeerfield Beach
+p1094
+sg5
+V2092
+p1095
+sg7
+VDeerfield Beach W
+p1096
+sg9
+V33442
+p1097
+sg11
+VAvailable
+p1098
+sg13
+V(954) 333-5214
+p1099
+sg15
+VFL
+p1100
+sg17
+I3
+sg18
+V3599 W Hillsboro Blvd
+p1101
+sg20
+V26.318911
+p1102
+sg22
+V-80.15136
+p1103
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1104
+sg26
+L8633L
+ssL7867L
+(dp1105
+g3
+VAventura
+p1106
+sg5
+V1074
+p1107
+sg7
+VAventura
+p1108
+sg9
+V33180
+p1109
+sg11
+VAvailable
+p1110
+sg13
+V(305) 933-4616
+p1111
+sg15
+VFL
+p1112
+sg17
+I3
+sg18
+V21265 Biscayne Blvd
+p1113
+sg20
+V25.9715
+p1114
+sg22
+V-80.1412
+p1115
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1116
+sg26
+L7867L
+ssL7868L
+(dp1117
+g3
+VMiami
+p1118
+sg5
+V1075
+p1119
+sg7
+VCutler Ridge
+p1120
+sg9
+V33189
+p1121
+sg11
+VAvailable
+p1122
+sg13
+V(305) 235-0839
+p1123
+sg15
+VFL
+p1124
+sg17
+I3
+sg18
+V20500 SW 112th Ave
+p1125
+sg20
+V25.576
+p1126
+sg22
+V-80.3746
+p1127
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1128
+sg26
+L7868L
+ssL8895L
+(dp1129
+g3
+VOrlando
+p1130
+sg5
+V2376
+p1131
+sg7
+VOrlando - Sodo
+p1132
+sg9
+V32806
+p1133
+sg11
+VAvailable
+p1134
+sg13
+V(407) 608-1580
+p1135
+sg15
+VFL
+p1136
+sg17
+I3
+sg18
+V120 W Grant St
+p1137
+sg20
+V28.515487
+p1138
+sg22
+V-81.379909
+p1139
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1140
+sg26
+L8895L
+ssL8390L
+(dp1141
+g3
+VClearwater
+p1142
+sg5
+V1820
+p1143
+sg7
+VClearwater
+p1144
+sg9
+V33759
+p1145
+sg11
+VAvailable
+p1146
+sg13
+V(727) 431-0231
+p1147
+sg15
+VFL
+p1148
+sg17
+I3
+sg18
+V2747 Gulf To Bay Blvd
+p1149
+sg20
+V27.9589
+p1150
+sg22
+V-82.7268
+p1151
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1152
+sg26
+L8390L
+ssL8647L
+(dp1153
+g3
+VHialeah
+p1154
+sg5
+V2109
+p1155
+sg7
+VHialeah
+p1156
+sg9
+V33012
+p1157
+sg11
+VAvailable
+p1158
+sg13
+V(305) 507-0014
+p1159
+sg15
+VFL
+p1160
+sg17
+I3
+sg18
+V1750 W 37th St
+p1161
+sg20
+V25.853136
+p1162
+sg22
+V-80.317819
+p1163
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1164
+sg26
+L8647L
+ssL7624L
+(dp1165
+g3
+VTampa
+p1166
+sg7
+VTown & Country
+p1167
+sg9
+V33634
+p1168
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1169
+sg13
+V(813) 885-2311
+p1170
+sg15
+VFL
+p1171
+sg17
+Nsg18
+V6295 W Waters Ave
+p1172
+sg20
+V28.0272
+p1173
+sg22
+V-82.5489
+p1174
+sg26
+L7624L
+ssL7625L
+(dp1175
+g3
+VSarasota
+p1176
+sg5
+V799
+p1177
+sg7
+VNorth Sarasota
+p1178
+sg9
+V34232
+p1179
+sg11
+VAvailable
+p1180
+sg13
+V(941) 379-6660
+p1181
+sg15
+VFL
+p1182
+sg17
+I3
+sg18
+V5350 Fruitville Rd
+p1183
+sg20
+V27.3369
+p1184
+sg22
+V-82.4633
+p1185
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1186
+sg26
+L7625L
+ssL7832L
+(dp1187
+g3
+VNorth Miami Beach
+p1188
+sg5
+V1038
+p1189
+sg7
+VNorth Miami
+p1190
+sg9
+V33181
+p1191
+sg11
+VAvailable
+p1192
+sg13
+V(305) 944-5341
+p1193
+sg15
+VFL
+p1194
+sg17
+I3
+sg18
+V14075 Biscayne Blvd
+p1195
+sg20
+V25.907
+p1196
+sg22
+V-80.1565
+p1197
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1198
+sg26
+L7832L
+ssL8654L
+(dp1199
+g3
+VLutz
+p1200
+sg5
+V2118
+p1201
+sg7
+VTampa North
+p1202
+sg9
+V33548
+p1203
+sg11
+VAvailable
+p1204
+sg13
+V(813) 435-2933
+p1205
+sg15
+VFL
+p1206
+sg17
+I3
+sg18
+V1040 Dale Mabry Hwy
+p1207
+sg20
+V28.17384
+p1208
+sg22
+V-82.47047
+p1209
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1210
+sg26
+L8654L
+ssL8350L
+(dp1211
+g3
+VLauderhill
+p1212
+sg5
+V1778
+p1213
+sg7
+VLauderhill
+p1214
+sg9
+V33351
+p1215
+sg11
+VAvailable
+p1216
+sg13
+V(954) 572-6724
+p1217
+sg15
+VFL
+p1218
+sg17
+I3
+sg18
+V7730 W Commercial Blvd
+p1219
+sg20
+V26.1919
+p1220
+sg22
+V-80.2538
+p1221
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1222
+sg26
+L8350L
+ssL7637L
+(dp1223
+g3
+VPanama City
+p1224
+sg5
+V811
+p1225
+sg7
+VPanama City
+p1226
+sg9
+V32405
+p1227
+sg11
+VAvailable
+p1228
+sg13
+V(850) 785-8966
+p1229
+sg15
+VFL
+p1230
+sg17
+I3
+sg18
+V2340 Highway 77
+p1231
+sg20
+V30.1911
+p1232
+sg22
+V-85.6488
+p1233
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1234
+sg26
+L7637L
+ssL7638L
+(dp1235
+g3
+VBrandon
+p1236
+sg5
+V812
+p1237
+sg7
+VBrandon
+p1238
+sg9
+V33511
+p1239
+sg11
+VAvailable
+p1240
+sg13
+V(813) 654-4955
+p1241
+sg15
+VFL
+p1242
+sg17
+I3
+sg18
+V187 Brandon Town Center Dr
+p1243
+sg20
+V27.937
+p1244
+sg22
+V-82.3233
+p1245
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1246
+sg26
+L7638L
+ssL8057L
+(dp1247
+g3
+VPensacola
+p1248
+sg5
+V1273
+p1249
+sg7
+VPensacola NE
+p1250
+sg9
+V32514
+p1251
+sg11
+VAvailable
+p1252
+sg13
+V(850) 473-8647
+p1253
+sg15
+VFL
+p1254
+sg17
+I3
+sg18
+V1749 E Nine Mile Rd
+p1255
+sg20
+V30.5302
+p1256
+sg22
+V-87.224
+p1257
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1258
+sg26
+L8057L
+ssL7640L
+(dp1259
+g3
+VSunrise
+p1260
+sg5
+V815
+p1261
+sg7
+VSawgrass
+p1262
+sg9
+V33323
+p1263
+sg11
+VOut Of Stock
+p1264
+sg13
+V(954) 846-2600
+p1265
+sg15
+VFL
+p1266
+sg17
+I0
+sg18
+V12801 W Sunrise Blvd
+p1267
+sg20
+V26.1509
+p1268
+sg22
+V-80.3216
+p1269
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1270
+sg26
+L7640L
+ssL7641L
+(dp1271
+g3
+VStuart
+p1272
+sg5
+V816
+p1273
+sg7
+VStuart
+p1274
+sg9
+V34994
+p1275
+sg11
+VAvailable
+p1276
+sg13
+V(772) 692-3388
+p1277
+sg15
+VFL
+p1278
+sg17
+I3
+sg18
+V2650 NW Federal Hwy
+p1279
+sg20
+V27.2367
+p1280
+sg22
+V-80.2721
+p1281
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1282
+sg26
+L7641L
+ssL7642L
+(dp1283
+g3
+VBradenton
+p1284
+sg5
+V817
+p1285
+sg7
+VBradenton
+p1286
+sg9
+V34207
+p1287
+sg11
+VAvailable
+p1288
+sg13
+V(941) 756-2700
+p1289
+sg15
+VFL
+p1290
+sg17
+I3
+sg18
+V6150 14th St W
+p1291
+sg20
+V27.4323
+p1292
+sg22
+V-82.5784
+p1293
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1294
+sg26
+L7642L
+ssL7643L
+(dp1295
+g3
+VFort Myers
+p1296
+sg5
+V818
+p1297
+sg7
+VFt Myers
+p1298
+sg9
+V33912
+p1299
+sg11
+VAvailable
+p1300
+sg13
+V(239) 481-8860
+p1301
+sg15
+VFL
+p1302
+sg17
+I3
+sg18
+V13711 S Tamiami Trl
+p1303
+sg20
+V26.5423
+p1304
+sg22
+V-81.8691
+p1305
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1306
+sg26
+L7643L
+ssL7901L
+(dp1307
+g3
+VGreenacres
+p1308
+sg5
+V1110
+p1309
+sg7
+VGreenacres
+p1310
+sg9
+V33463
+p1311
+sg11
+VAvailable
+p1312
+sg13
+V(561) 963-3382
+p1313
+sg15
+VFL
+p1314
+sg17
+I3
+sg18
+V5900 Lake Worth Rd
+p1315
+sg20
+V26.6183
+p1316
+sg22
+V-80.1373
+p1317
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1318
+sg26
+L7901L
+ssL8741L
+(dp1319
+g3
+VOdessa
+p1320
+sg5
+V2209
+p1321
+sg7
+VSuncoast Pasco County
+p1322
+sg9
+V33556
+p1323
+sg11
+VAvailable
+p1324
+sg13
+V(813) 383-0010
+p1325
+sg15
+VFL
+p1326
+sg17
+I3
+sg18
+V16400 State Rd 54
+p1327
+sg20
+V28.1842
+p1328
+sg22
+V-82.5509
+p1329
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1330
+sg26
+L8741L
+ssL8160L
+(dp1331
+g3
+VWesley Chapel
+p1332
+sg5
+V1382
+p1333
+sg7
+VNew Tampa
+p1334
+sg9
+V33543
+p1335
+sg11
+VAvailable
+p1336
+sg13
+V(813) 907-6687
+p1337
+sg15
+VFL
+p1338
+sg17
+I3
+sg18
+V1201 County Road 581
+p1339
+sg20
+V28.1729
+p1340
+sg22
+V-82.3556
+p1341
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1342
+sg26
+L8160L
+ssL8742L
+(dp1343
+g3
+VBoynton Beach
+p1344
+sg5
+V2210
+p1345
+sg7
+VBoynton Beach SE
+p1346
+sg9
+V33426
+p1347
+sg11
+VAvailable
+p1348
+sg13
+V(561) 396-2202
+p1349
+sg15
+VFL
+p1350
+sg17
+I3
+sg18
+V650 N Congress Ave
+p1351
+sg20
+V26.5332
+p1352
+sg22
+V-80.0867
+p1353
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1354
+sg26
+L8742L
+ssL7654L
+(dp1355
+g3
+VKissimmee
+p1356
+sg5
+V829
+p1357
+sg7
+VKissimmee
+p1358
+sg9
+V34741
+p1359
+sg11
+VAvailable
+p1360
+sg13
+V(407) 846-6611
+p1361
+sg15
+VFL
+p1362
+sg17
+I3
+sg18
+V3003 W Vine St
+p1363
+sg20
+V28.3064
+p1364
+sg22
+V-81.4412
+p1365
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1366
+sg26
+L7654L
+ssL8423L
+(dp1367
+g3
+VJacksonville
+p1368
+sg5
+V1853
+p1369
+sg7
+VOrtega
+p1370
+sg9
+V32244
+p1371
+sg11
+VAvailable
+p1372
+sg13
+V(904) 596-1065
+p1373
+sg15
+VFL
+p1374
+sg17
+I3
+sg18
+V6331 Roosevelt Blvd
+p1375
+sg20
+V30.2352
+p1376
+sg22
+V-81.6953
+p1377
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1378
+sg26
+L8423L
+ssL8682L
+(dp1379
+g3
+VCoral Springs
+p1380
+sg5
+V2146
+p1381
+sg7
+VCoral Springs
+p1382
+sg9
+V33073
+p1383
+sg11
+VOut Of Stock
+p1384
+sg13
+V(954) 366-2134
+p1385
+sg15
+VFL
+p1386
+sg17
+I0
+sg18
+V4400 N State Rd 7
+p1387
+sg20
+V26.285442
+p1388
+sg22
+V-80.203609
+p1389
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1390
+sg26
+L8682L
+ssL8940L
+(dp1391
+g3
+VWest Palm Beach
+p1392
+sg5
+V2427
+p1393
+sg7
+VWest Palm Beach
+p1394
+sg9
+V33401
+p1395
+sg11
+VAvailable
+p1396
+sg13
+V(561) 847-7480
+p1397
+sg15
+VFL
+p1398
+sg17
+I3
+sg18
+V1760 Palm Beach Lakes Blvd
+p1399
+sg20
+V26.7223
+p1400
+sg22
+V-80.0849
+p1401
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1402
+sg26
+L8940L
+ssL8429L
+(dp1403
+g3
+VLakeland
+p1404
+sg5
+V1859
+p1405
+sg7
+VLakeland North
+p1406
+sg9
+V33809
+p1407
+sg11
+VAvailable
+p1408
+sg13
+V(863) 859-1622
+p1409
+sg15
+VFL
+p1410
+sg17
+I3
+sg18
+V4005 Highway 98 N
+p1411
+sg20
+V28.0923
+p1412
+sg22
+V-81.9712
+p1413
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1414
+sg26
+L8429L
+ssL7919L
+(dp1415
+g3
+VSaint Petersburg
+p1416
+sg5
+V1131
+p1417
+sg7
+VSt Petersburg Gateway
+p1418
+sg9
+V33702
+p1419
+sg11
+VAvailable
+p1420
+sg13
+V(727) 576-2735
+p1421
+sg15
+VFL
+p1422
+sg17
+I3
+sg18
+V8151 Dr Martin Luther King St N
+p1423
+sg20
+V27.8464
+p1424
+sg22
+V-82.6442
+p1425
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1426
+sg26
+L7919L
+ssL8690L
+(dp1427
+g3
+VYulee
+p1428
+sg5
+V2155
+p1429
+sg7
+VYulee
+p1430
+sg9
+V32097
+p1431
+sg11
+VLimited Availability
+p1432
+sg13
+V(904) 548-1240
+p1433
+sg15
+VFL
+p1434
+sg17
+I2
+sg18
+V463737 State Rd 200
+p1435
+sg20
+V30.6278
+p1436
+sg22
+V-81.5487
+p1437
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1438
+sg26
+L8690L
+ssL7697L
+(dp1439
+g3
+VOrange City
+p1440
+sg5
+V874
+p1441
+sg7
+VOrange City
+p1442
+sg9
+V32763
+p1443
+sg11
+VOut Of Stock
+p1444
+sg13
+V(386) 774-5574
+p1445
+sg15
+VFL
+p1446
+sg17
+I0
+sg18
+V2575 Enterprise Rd
+p1447
+sg20
+V28.9161
+p1448
+sg22
+V-81.2929
+p1449
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1450
+sg26
+L7697L
+ssL7669L
+(dp1451
+g3
+VTallahassee
+p1452
+sg5
+V844
+p1453
+sg7
+VTallahassee
+p1454
+sg9
+V32301
+p1455
+sg11
+VAvailable
+p1456
+sg13
+V(850) 671-2041
+p1457
+sg15
+VFL
+p1458
+sg17
+I3
+sg18
+V2120 Apalachee Pkwy
+p1459
+sg20
+V30.4326
+p1460
+sg22
+V-84.245
+p1461
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1462
+sg26
+L7669L
+ssL7670L
+(dp1463
+g3
+VLake Mary
+p1464
+sg5
+V845
+p1465
+sg7
+VLake Mary
+p1466
+sg9
+V32746
+p1467
+sg11
+VAvailable
+p1468
+sg13
+V(407) 330-9330
+p1469
+sg15
+VFL
+p1470
+sg17
+I3
+sg18
+V4155 W Lake Mary Blvd
+p1471
+sg20
+V28.7538
+p1472
+sg22
+V-81.3484
+p1473
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1474
+sg26
+L7670L
+ssL7721L
+(dp1475
+g3
+VNaples
+p1476
+sg5
+V899
+p1477
+sg7
+VNaples
+p1478
+sg9
+V34109
+p1479
+sg11
+VAvailable
+p1480
+sg13
+V(239) 435-0051
+p1481
+sg15
+VFL
+p1482
+sg17
+I3
+sg18
+V2324 Pine Ridge Rd
+p1483
+sg20
+V26.2091
+p1484
+sg22
+V-81.7704
+p1485
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1486
+sg26
+L7721L
+ssL8956L
+(dp1487
+g3
+VPensacola
+p1488
+sg5
+V2445
+p1489
+sg7
+VPensacola West
+p1490
+sg9
+V32506
+p1491
+sg11
+VAvailable
+p1492
+sg13
+V(850) 454-3000
+p1493
+sg15
+VFL
+p1494
+sg17
+I3
+sg18
+V2950 S Blue Angel Pkwy
+p1495
+sg20
+V30.363559
+p1496
+sg22
+V-87.35716
+p1497
+sg24
+S'Friday, 11. May 2012 12:14AM'
+p1498
+sg26
+L8956L
+ss.

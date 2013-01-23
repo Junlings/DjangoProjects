@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load url from future %}
+
+{% block scripts %}
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="{{ROOT_URL}}media/js/demos.css">
+{% endblock %}
+
+
+{% block content %}
+  <p> Total Number of Journal  is: {{alljournal.count}}  </p>
+	<p> Total Number of Journal paper is: {{alljournalpaper.count}}  </p>
+	<p> Total Number of Journal paper with full text is: {{alljournalpaperfulltext.count}}  </p>	
+  	
+{% endblock %}
+		  

@@ -1,0 +1,15 @@
+
+
+
+<h4> {{obj|ModelName}}--{{obj.id}} </h4>
+<table class='subdetail' border="1">
+			
+			    {% for item in obj|DetailUp %}
+			     <tr>
+			       <td>{{item }}</td>
+			        <td>{{ obj|lookup:item}}</td>
+			    <tr>
+			    {% endfor %}
+			
+			
+</table>

@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+
+    {% block scripts %}
+	<link rel="stylesheet" href="{{MEDIA_URL}}js/themes/redmond/jquery-ui-1.8.21.custom.css">
+	<script src="{{MEDIA_URL}}js/jquery-1.7.2.js"></script>
+	<script src="{{MEDIA_URL}}js/ui/jquery.ui.core.js"></script>
+	<script src="{{MEDIA_URL}}js/ui/jquery.ui.widget.js"></script>
+	<script src="{{MEDIA_URL}}js/ui/jquery.ui.tabs.js"></script>
+
+	<script>
+	$(function() {
+		$( "#tabs" ).tabs();
+	});
+	</script>
+	
+
+	
+    {% endblock %}
+  
+ {% block leftfloat %}
+
+
+    
+ {% endblock %}
+       
+ {% block content %}
+
+ {% if revprj %}
+   <h1> Related review projects </h1>
+   {% for prj in revprj %} 
+      <a href="{{ROOT_URL}}lreviews/project/{{prj.id}}/"> {{prj.shortname}} </a>
+   {% endfor %}
+ {% endif %}
+ 
+     {% if UserRefLib %}
+	<h1>Reference List </h1>
+	
+	<table class='list_table' border="1">   
+	  <tr>
+	  <td>Type</td>
+	  <td>Label</td>
+	  <td>Note</td>
+	  <td>Add on</td>
+	  <td>link</td>
+	  </tr>
+	
+	{% for ref in refs %}
+	
+	  <tr>
+	  <td>{{ref.object_type}}</td>
+	  <td>{{ref.object_LB}}</td>
+	  <td>{{ref.note}}</td>
+	  <td>{{ref.addon}}</td>
+	  <td><a href="{{ROOT_URL}}publications/lb/{{ref.object_LB}}/"> Link to Details </a></td>
+	  </tr>
+	{% endfor %}
+	</table>
+	{% endif %}
+	
+	
+	
+	
+	
+ {% endblock %}
+

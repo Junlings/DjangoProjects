@@ -1,0 +1,77 @@
+{% extends "sell_base.html" %}
+{% block scripts %}
+     <script src="{{MEDIA_URL}}js/jquery-1.6.2.js"></script>
+		 <script>	 	
+		 $(document).ready(function () {
+		  $('#id_spin').hide();
+		 	function ajax_call() {
+      $.ajax({
+                url: 'search/',
+                dataType: 'json',
+                data: {'sell':$("#id_sell").val(),
+                       },
+                success: function(data1, textStatus, jqXHR){
+                  alert('Found Total ' + data1.length + ' purchase record');
+                	$("#id_assets").empty();
+                	$("#id_assets").last().append(
+                	      "<tr><td>" + "Product" + "</td>" + "<td>" + data1[0].shortname + "</td></tr>" +
+                	      "<tr><td>" + "Image" + "</td>" + "<td>" + '<IMG SRC='+ data1[0].imagepath + ' height="100">'  + "</td></tr>" + 
+                	      "<tr><td>" + "quantity" + "</td>" + "<td>" + data1[0].quantity + "</td></tr>"
+                          );
+                	$("#id_cost").empty();
+                	$('#id_spin').hide();
+                	$("#id_cost").last().append(
+                	      "<tr><td> Item </td>" + "<td> Credit Amount </td>" + "<td> Debit Amount </td>" + "<td> Account name </td></tr>"  +
+                	      "<tr><td>" + "Product sell charge" + "</td>" + "<td>" + data1[0].sellprice + "</td>"+ "<td>--</td>" + "<td>" + data1[0].account_product_tax + "</td></tr>" + 
+                	      "<tr><td>" + "Product tax charge" + "</td>"  + "<td>" + data1[0].tax_charged + "</td>"+ "<td>--</td>" + "<td>" + data1[0].account_product_tax + "</td></tr>" +
+                	      "<tr><td>" + "Product shipping charge" + "</td>"  + "<td>" + data1[0].shipping_handling + "</td>"+ "<td>--</td>" + "<td>" + data1[0].account_product_tax + "</td></tr>" +
+                	      "<tr><td>" + "shipping" + "</td>" + "<td>--</td>" + "<td>" + data1[0].shipping + "</td>" + "<td>" + data1[0].account_shipping + "</td></tr>" +
+                        "<tr><td>" + "financial charge" + "</td>" + "<td>--</td>" + "<td>" + data1[0].financialcharge + "</td>" + "<td>" + data1[0].account_financial + "</td></tr>"+
+                        "<tr><td>" + "platform commission" + "</td>" + "<td>--</td>" + "<td>" + data1[0].commission + "</td>" + "<td>" + data1[0].account_commission + "</td></tr>"
+                                                  );},                          
+                          
+
+                error:function(xhr, status, error) {
+                         //alert(data1);
+                         $('#id_spin').hide();
+
+                         alert("An AJAX error occured: " + status + "\nError: " + error);
+                         
+                          },
+
+                });};
+        
+        $('#id_submit').click(function(){
+             $('#id_spin').show();
+             ajax_call();}	);
+    });
+		 		</script>
+		 		
+		 		
+{% endblock %}
+
+
+{% block content %}
+
+
+                <p>{{ forms.sell.label_tag }}</p>
+                  {{ forms.sell }}
+
+
+        <button type="button" id='id_submit'>Search</button>
+         <p> </p>
+         
+         <div id="id_spin">
+            <IMG SRC={{MEDIA_URL}}images/spinner.gif + ' height="50">
+        </div>
+         
+         <div>
+             <h2> Sell Information <h2>
+                 <table border=1 id='id_assets'>       
+                 </table>
+             <h2> Cost information <h2>
+                 <table border=1 id='id_cost'>       
+                 </table>          
+         </div>     
+         
+{% endblock %}

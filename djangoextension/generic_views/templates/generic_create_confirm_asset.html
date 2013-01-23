@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+{% if create_success %}
+
+        <h3> {{name}} create successful </h3>
+	      {% if identification_id %}
+	          <h4>Transaction id:  {{identification_id}}</h4>
+        {% endif %}
+        <p><a href="../../select/">Modify Another One</a></p>
+        <p><a href="../../list/">View defined item list</a></p>
+{% else %}
+        <h3> {{name}} create failed </h3>
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "publication_base.html" %}
+
+{% block content %}
+{% if create_success %}
+
+        <h3> {{notice_title}}</h3>
+	      {% for notices in notice_list %} 
+	          <h4>{{notices.identification_name}}:  {{notices.identification_id}}</h4>
+        {% endfor %}
+
+{% else %}
+        <h3> {{name}} create failed </h3>
+{% endif %}
+
+{% endblock %}

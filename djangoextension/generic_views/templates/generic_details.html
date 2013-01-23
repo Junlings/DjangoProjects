@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+ 
+   {% block scripts %}
+  	<meta charset="utf-8">
+	<link rel="stylesheet" href="{{MEDIA_URL}}js/themes/base/jquery.ui.all.css">
+	<script src="{{MEDIA_URL}}js/jquery-1.6.2.js"></script>
+	<script src="{{MEDIA_URL}}js/ui/jquery.ui.core.js"></script>
+	<script src="{{MEDIA_URL}}js/ui/jquery.ui.widget.js"></script>
+	<script src="{{MEDIA_URL}}js/ui/jquery.ui.accordion.js"></script>
+	<link rel="stylesheet" href="{{MEDIA_URL}}js/demos.css">
+
+	<script>
+	$(function() {
+		$( "#accordion" ).accordion();
+	});
+	</script>
+  {% endblock %}
+ 
+{% block content %}
+<div class="demo">
+    <div id="accordion">
+    <h3><a href="#">Details of {{primary_obj|ModelName}}</a></h3>
+    <div>
+    {% include "generic_details_subinstance.html" with obj=primary_obj %}
+    </div>
+    
+    {% if secondary_obj %}
+    <h3><a href="#">Details of {{primary_obj|ModelName}}</a></h3>
+    <div>
+    {% include "generic_details_subinstance.html" with obj=secondary_obj %}
+    </div>
+    {% endif %}    
+    
+	  {% for obj in obj_list %}
+	  <h3><a href="#">Details of {{obj|first|ModelName}}</a></h3>	
+	  <div>
+	      {% if obj %}
+	          {% for single_obj in obj %}
+	              {% include "generic_details_subinstance.html" with obj=single_obj %}
+            {% endfor %}
+        {% endif %}
+    </div>
+    {% endfor %}
+    </div>
+</div>
+{% endblock %}

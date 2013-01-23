@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load account_summary %}
+
+ {% block leftfloat %}
+ <hr color=#b9d2e3>
+  <ul> 
+       <li><a href="{{ROOT_URL}}financial/index/">Year to Date Summary</a> </li>
+       <li><a href="{{ROOT_URL}}financial/ftrans/comission/">Year to Date Comission</a> </li>
+       <li><a href="{{ROOT_URL}}financial/ftrans/transfer/">Year to Date Transfer</a> </li>
+       <li><a href="{{ROOT_URL}}financial/faccount/list/">Monthly Details</a> </li>
+       <li><a href="{{ROOT_URL}}financial/ftrans/list/">Transaction Search</a> </li>
+
+       <li><a href="{{ROOT_URL}}financial/index">Search by Date Range (TBI)</a> </li>
+       <li><a href="{{ROOT_URL}}financial/index">Search by Submiter (TBI)</a> </li>
+  </ul>
+    
+ {% endblock %}
+

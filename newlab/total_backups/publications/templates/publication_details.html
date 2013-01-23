@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load url from future %}
+
+{% block scripts %}
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="{{ROOT_URL}}media/js/demos.css">
+{% endblock %}
+
+
+{% block content %}
+   
+   {{pub|safe}}
+
+   {% if libinvolve %}
+   <h2> The User lib refer this publication </h2>
+   <table class='list_table' border="1">   
+      {% for lib in libinvolve %}
+         <tr> <td>{{lib.id}}</td><td><a href="{{ROOT_URL}}user/reflib/{{lib.Lib.id}}/"> {{lib.Lib}}</a></td></tr>  
+      {% endfor %}
+    </table>
+   {% endif %}
+{% endblock %}

@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load url from future %}
+
+{% block scripts %}
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="{{ROOT_URL}}media/js/demos.css">
+	<link rel="stylesheet" href="{{MEDIA_URL}}js/themes/base/jquery.ui.all.css">
+	<script src="{{MEDIA_URL}}js/jquery-1.6.2.js"></script>
+	<script src="{{MEDIA_URL}}js/ui/jquery.ui.core.js"></script>
+{% endblock %}
+
+
+{% block content %}
+    <h1> Project Summary  </h1>
+	    <div id="project">
+	    <table class='list_table' border="1">    
+            <tr> <td>Name</td><td>{{project.shortname}}</td></tr> 
+            <tr> <td>Topics</td><td>{{project.topics}}</td></tr> 
+            <tr> <td>Managers</td><td>{{project.managers.all}}</td></tr> 
+            <tr> <td>Contributors</td><td>{{project.contributors.all}}</td></tr>
+      </table>
+    </div>
+    
+    
+    <h1> Literature  </h1>
+	    <div id="paper">
+   
+         {{label|safe}}
+
+    </div>
+       
+
+    {% if items %}
+    <h1> Questions  </h1>
+        <div id=1>
+	      {% for key,item in items.items %}
+	         <h2>
+           {{item.question.order}}-{{item.question.question}}
+	        </h2>
+	        
+	        <div id=choices>
+	          {% if item.choices %}
+	             {{ item.choices|safe }}
+
+	          {% endif %}
+	        
+	        </div>
+
+	      {% endfor %}    
+       </div>
+      <div id=submit>
+      </br>
+      <input name="Submit" type="submit" value="Submit" />
+    </div>
+    {% endif %}
+
+{% endblock %}
+		  

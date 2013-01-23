@@ -1,0 +1,74 @@
+{% extends "purchase_base.html" %}
+{% block scripts %}
+     <script src="{{MEDIA_URL}}js/jquery-1.6.2.js"></script>
+		 <script type="text/javascript" src="{{MEDIA_URL}}js/jquery/countdown/jquery.countdown.js"></script>
+		<style type="text/css">@import "{{MEDIA_URL}}js/jquery/countdown/jquery.countdown.css";
+			#Countdown { width: 240px; height: 45px; }</style>
+				  
+		 <script>	 	
+		 $(document).ready(function () {
+		 	function ajax_call() {
+      $.ajax({
+                url: 'search/',
+                dataType: 'json',
+                data: {'purchase':$("#id_purchase").val(),
+                       },
+                success: function(data1, textStatus, jqXHR){
+                  alert('Found Total ' + data1.length + ' purchase record');
+                	$("#id_assets").empty();
+                	$("#id_assets").last().append(
+                	      "<tr><td>" + "Product" + "</td>" + "<td>" + data1[0].shortname + "</td></tr>" +
+                	      "<tr><td>" + "Image" + "</td>" + "<td>" + '<IMG SRC='+ data1[0].imagepath + ' height="100">'  + "</td></tr>" + 
+                	      "<tr><td>" + "quantity" + "</td>" + "<td>" + data1[0].quantity + "</td></tr>"+
+                	      "<tr><td>" + "ship to" + "</td>" + "<td>" + data1[0].storage + "</td></tr>"+
+                	      "<tr><td>" + "Person" + "</td>" + "<td>" + data1[0].person + "</td></tr>"
+	
+                          );
+                	$("#id_cost").empty();
+                	$("#id_cost").last().append(
+                	      "<tr><td> Item </td>" + "<td> Credit Amount </td>" + "<td> Debit Amount </td>" + "<td> Account name </td></tr>"  +
+                	      "<tr><td>" + "Product cost" + "</td>"+ "<td>--</td>" + "<td>" + data1[0].productcost + "</td>" + "<td>" + data1[0].account_product_tax + "</td></tr>" + 
+                	      "<tr><td>" + "Product tax" + "</td>" + "<td>--</td>" + "<td>" + data1[0].tax + "</td>" + "<td>" + data1[0].account_product_tax + "</td></tr>" +
+                	      "<tr><td>" + "shipping" + "</td>" + "<td>--</td>" + "<td>" + data1[0].shipping + "</td>" + "<td>" + data1[0].account_shipping + "</td></tr>" +
+                        "<tr><td>" + "commission" + "</td>" + "<td>--</td>" + "<td>" + data1[0].commission + "</td>" + "<td>" + data1[0].account_commission + "</td></tr>"
+                                                  );},                          
+                          
+
+                error:function(xhr, status, error) {
+                         //alert(data1);
+
+                         alert("An AJAX error occured: " + status + "\nError: " + error);
+                         
+                          },
+
+                });};
+        
+        $('#id_submit').click(function(){
+             ajax_call();}	);
+    });
+		 		</script>
+		 		
+		 		
+{% endblock %}
+
+
+{% block content %}
+
+
+                <p>{{ forms.purchase.label_tag }}</p>
+                  {{ forms.purchase }}
+
+
+        <button type="button" id='id_submit'>Search</button>
+         <p> </p>
+         
+         <div>
+             <h2> Purchase Information <h2>
+                 <table border=1 id='id_assets'>       
+                 </table>
+             <h2> Cost information <h2>
+                 <table border=1 id='id_cost'>       
+                 </table>          
+         </div>     
+         
+{% endblock %}

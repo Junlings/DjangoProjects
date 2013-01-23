@@ -1,0 +1,122 @@
+[
+    {
+        "pk": 1,
+        "model": "vending.purchaserequest",
+        "fields": {
+            "person": 2,
+            "fullfilled": true,
+            "quantity": 20,
+            "item": 10
+        }
+    },
+    {
+        "pk": 2,
+        "model": "vending.purchaserequest",
+        "fields": {
+            "person": 2,
+            "fullfilled": false,
+            "quantity": 20,
+            "item": 12
+        }
+    },
+    {
+        "pk": 3,
+        "model": "vending.purchaserequest",
+        "fields": {
+            "person": 2,
+            "fullfilled": false,
+            "quantity": 20,
+            "item": 10
+        }
+    },
+    {
+        "pk": 4,
+        "model": "vending.purchaserequest",
+        "fields": {
+            "person": 2,
+            "fullfilled": false,
+            "quantity": 20,
+            "item": 12
+        }
+    },
+    {
+        "pk": 1,
+        "model": "vending.purchasedoc",
+        "fields": {
+            "date": "2012-06-11 09:43:11",
+            "doc": "doc/purchase/2012/06/11/20120117_Walmart.com_2677268-395158.pdf",
+            "type": "ItemReceipt",
+            "request": 1
+        }
+    },
+    {
+        "pk": 2,
+        "model": "vending.purchasedoc",
+        "fields": {
+            "date": "2012-06-11 09:45:04",
+            "doc": "doc/purchase/2012/06/11/20120117_Walmart.com__2677208-827766.pdf",
+            "type": "ItemReceipt",
+            "request": 3
+        }
+    },
+    {
+        "pk": 1,
+        "model": "vending.purchase_cost",
+        "fields": {
+            "account_shipping": null,
+            "total_cost": null,
+            "productcost": 780.00,
+            "tax": 46.80,
+            "request": 1,
+            "shipping": 0.00,
+            "commission": 0.00,
+            "account_commission": null,
+            "account_product_tax": 3
+        }
+    },
+    {
+        "pk": 2,
+        "model": "vending.purchase_cost",
+        "fields": {
+            "account_shipping": null,
+            "total_cost": null,
+            "productcost": 0.00,
+            "tax": 0.00,
+            "request": 2,
+            "shipping": 0.00,
+            "commission": 0.00,
+            "account_commission": null,
+            "account_product_tax": 3
+        }
+    },
+    {
+        "pk": 3,
+        "model": "vending.purchase_cost",
+        "fields": {
+            "account_shipping": null,
+            "total_cost": null,
+            "productcost": 780.00,
+            "tax": 50.70,
+            "request": 3,
+            "shipping": 0.00,
+            "commission": 0.00,
+            "account_commission": null,
+            "account_product_tax": 3
+        }
+    },
+    {
+        "pk": 4,
+        "model": "vending.purchase_cost",
+        "fields": {
+            "account_shipping": null,
+            "total_cost": null,
+            "productcost": 0.00,
+            "tax": 0.00,
+            "request": 4,
+            "shipping": 0.00,
+            "commission": 0.00,
+            "account_commission": null,
+            "account_product_tax": 3
+        }
+    }
+]

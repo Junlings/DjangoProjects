@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+    {% block scripts %}
+	<link rel="stylesheet" href="{{ROOT_URL}}media/js/themes/base/jquery.ui.all.css">
+	<script src="{{ROOT_URL}}media/js/jquery-1.6.2.js"></script>
+	<script src="{{ROOT_URL}}media/js/ui/jquery.ui.core.js"></script>
+	<script src="{{ROOT_URL}}media/js/ui/jquery.ui.widget.js"></script>
+	<script src="{{ROOT_URL}}media/js/ui/jquery.ui.tabs.js"></script>
+	<link rel="stylesheet" href="{{ROOT_URL}}media/js/demos.css">
+	
+	<script>
+	$(function() {
+		$( "#tabs" ).tabs();
+	});
+	</script>
+    {% endblock %}
+    
+    
+{% block content %}
+    <div class="content">
+        <div class="tc"><h1>Fprime Solution Inventory Management System</h1></div>
+    </div>
+    
+    <p><a href="{{LOGIN_URL}}">Please login first</a></p>
+    <p><a href="{{REGISTER_URL}}register/">Or register for new user</a></p>   
+{% endblock %}
+

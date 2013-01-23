@@ -1,0 +1,37 @@
+{% extends "financial_base.html" %}
+
+{% block content %}
+
+          <div>
+            <table>
+            {% for account,value in comission.items %}
+
+               {% if value.amount.amountminus > 0 %}
+            <h3>{{account}}</h3>
+            <p>Internal Transfer YTD: </p>
+            <ul>
+              <li>Outbound:{{value.amount.amountminus}}</li>
+              <li>Inbound:{{value.amount.amountplus}}</li>
+            </ul>
+            
+                   <tr><td>Transaction ID</td><td>Date</td><td>From</td><td>To</td><td>Amount</td></tr>
+                    
+                    {% for tran in value.transactions %}
+                         <tr><td>{{tran.transaction.id}}</td><td>{{tran.transaction.lastmodified.date}}</td>
+                          
+                          {% if tran.transaction.modeA == 'debit' %}
+                              <td>{{tran.transaction.accountA}}</td><td>{{tran.transaction.accountB}}</td>
+                          {% else %}
+                               <td>{{tran.transaction.accountB}}</td><td>{{tran.transaction.accountA}}</td>
+                          {% endif %}
+                          <td>{{tran.transaction.amount}}</td><tr>
+                            
+                    {% endfor %}
+                    
+               {% endif %}
+            {% endfor %}
+          </table>
+
+         </div>     
+         
+{% endblock %}

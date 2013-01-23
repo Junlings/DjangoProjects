@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load url from future %}
+
+{% block scripts %}
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="{{ROOT_URL}}media/css/mystyle.css">
+{% endblock %}
+
+ {% block leftfloat %}
+
+    <div id='journal'>
+        <h3> <a href="{{ROOT_URL}}publications/journal/">Journal</a> </h3>
+        <table class='table_noborder' border="0">
+	    <tr><td><a href="{{ROOT_URL}}journal/list/">Journal Period List</a></td></tr>
+	    <tr><td><a href="{{ROOT_URL}}journal/list/">Search</a></td></tr> 
+	    <tr><td><a href="{{ROOT_URL}}publications/journal/add/">Add New</a></td></tr> 
+       </table>	
+    </div>
+
+    <div id='conf'>
+        <h3> <a href="{{ROOT_URL}}publications/conference/">Conference</a> </h3>
+        <table class='table_Conference' border="0">    
+
+
+       </table>	
+    </div>    
+
+    <div id='book'>
+        <h3><a href="{{ROOT_URL}}publications/books/"> Books </h3>
+        <table class='table_Conference' border="1">    
+
+
+       </table>	
+    </div>    
+
+    <div id='stand'>
+        <h3> <a href="{{ROOT_URL}}publications/standards/">Standard </h3>
+        <table class='table_stand' border="1">    
+
+
+       </table>	
+    </div>     
+
+    <div id='thes'>
+        <h3> <a href="{{ROOT_URL}}publications/thesis/">Thesis </h3>
+        <table class='table_thes' border="1">    
+
+
+       </table>	
+    </div>
+
+    <div id='rprt'>
+        <h3> <a href="{{ROOT_URL}}publications/report/">Reports</a> </h3>
+        <table class='table_rprt' border="1">    
+
+ 
+       </table>	
+    </div>
+    
+{% endblock %}
+		  
+ {% block content %}
+     
+ {% endblock %}    

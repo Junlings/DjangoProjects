@@ -1,0 +1,1844 @@
+(dp1
+L1024L
+(dp2
+S'store_name'
+p3
+V\u000A\u000A11806 Bruce B. Downs Blvd.\u000ATampa \u000AFL\u000A33612\u000A
+p4
+sS'availcode'
+p5
+I3
+sS'last_update'
+p6
+S'Thursday, 10. May 2012 09:18PM'
+p7
+sS'id'
+p8
+L1024L
+sS'availbility'
+p9
+VIn Stock
+p10
+sS'zipcode'
+p11
+V33612
+p12
+ssL1L
+(dp13
+g3
+V\u000A\u000A4016 South Third Street\u000AJacksonville Beach \u000AFL\u000A32250\u000A
+p14
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p15
+sg8
+L1L
+sg9
+VIn Stock
+p16
+sg11
+V32250
+p17
+ssL1027L
+(dp18
+g3
+V\u000ACasselberry Exchange\u000A5779 S. Hwy. 17-92\u000ACasselberry \u000AFL\u000A32707\u000A
+p19
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p20
+sg8
+L1027L
+sg9
+VIn Stock
+p21
+sg11
+V32707
+p22
+ssL772L
+(dp23
+g3
+V\u000A\u000A1825 Tamiami Trail\u000APort Charlotte \u000AFL\u000A33948\u000A
+p24
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p25
+sg8
+L772L
+sg9
+VIn Stock
+p26
+sg11
+V33948
+p27
+ssL5L
+(dp28
+g3
+V\u000ARegency Square\u000A2424 W. Brandon Blvd.\u000ABrandon \u000AFL\u000A33511\u000A
+p29
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p30
+sg8
+L5L
+sg9
+VIn Stock
+p31
+sg11
+V33511
+p32
+ssL1286L
+(dp33
+g3
+V\u000AColonial Drive and I75\u000A3236 Forum Blvd\u000AFort Myers \u000AFL\u000A33905\u000A
+p34
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p35
+sg8
+L1286L
+sg9
+VIn Stock
+p36
+sg11
+V33905
+p37
+ssL263L
+(dp38
+g3
+V\u000A\u000A3500 Posner Blvd.\u000ADavenport \u000AFL\u000A33837\u000A
+p39
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p40
+sg8
+L263L
+sg9
+VIn Stock
+p41
+sg11
+V33837
+p42
+ssL1035L
+(dp43
+g3
+V\u000A\u000A2500 W. International Speedway Blvd.\u000ADaytona Beach \u000AFL\u000A32114\u000A
+p44
+sg5
+I2
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p45
+sg8
+L1035L
+sg9
+VLow Stock
+p46
+sg11
+V32114
+p47
+ssL12L
+(dp48
+g3
+V\u000ASunset Point Center\u000A23660 U.S. Hwy 19 N.\u000AClearwater \u000AFL\u000A33765\u000A
+p49
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p50
+sg8
+L12L
+sg9
+VIn Stock
+p51
+sg11
+V33765
+p52
+ssL786L
+(dp53
+g3
+V\u000AApopka Commons\u000A1626 West Orange Blossom Trail\u000AApopka \u000AFL\u000A32712\u000A
+p54
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p55
+sg8
+L786L
+sg9
+VIn Stock
+p56
+sg11
+V32712
+p57
+ssL1044L
+(dp58
+g3
+V\u000ACarter Square\u000A13640 North Kendall Drive\u000AMiami \u000AFL\u000A33186\u000A
+p59
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p60
+sg8
+L1044L
+sg9
+VIn Stock
+p61
+sg11
+V33186
+p62
+ssL24L
+(dp63
+g3
+V\u000A\u000A1901 East Silversprings Blvd\u000AOcala \u000AFL\u000A34470\u000A
+p64
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p65
+sg8
+L24L
+sg9
+VIn Stock
+p66
+sg11
+V34470
+p67
+ssL26L
+(dp68
+g3
+V\u000A\u000A15860 W SR 84\u000ASunrise \u000AFL\u000A33326\u000A
+p69
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p70
+sg8
+L26L
+sg9
+VIn Stock
+p71
+sg11
+V33326
+p72
+ssL27L
+(dp73
+g3
+V\u000A(Located at A1-75 and Alico Rd.)\u000A10016 Gulf Center Drive\u000AFort Myers \u000AFL\u000A33913\u000A
+p74
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p75
+sg8
+L27L
+sg9
+VIn Stock
+p76
+sg11
+V33913
+p77
+ssL645L
+(dp78
+g3
+V\u000A\u000A735 NE 167th St.\u000ANorth Miami Beach \u000AFL\u000A33162\u000A
+p79
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p80
+sg8
+L645L
+sg9
+VIn Stock
+p81
+sg11
+V33162
+p82
+ssL289L
+(dp83
+g3
+V\u000A\u000A1123 Airport Blvd.\u000APensacola \u000AFL\u000A32504\u000A
+p84
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p85
+sg8
+L289L
+sg9
+VIn Stock
+p86
+sg11
+V32504
+p87
+ssL546L
+(dp88
+g3
+V\u000A\u000A2120 SW 32nd Avenue\u000ACoral Gables \u000AFL\u000A33145\u000A
+p89
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p90
+sg8
+L546L
+sg9
+VIn Stock
+p91
+sg11
+V33145
+p92
+ssL1331L
+(dp93
+g3
+V\u000A\u000A2004 34th Street North\u000ASt. Petersburg \u000AFL\u000A33713\u000A
+p94
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p95
+sg8
+L1331L
+sg9
+VIn Stock
+p96
+sg11
+V33713
+p97
+ssL349L
+(dp98
+g3
+V\u000A\u000A5429 University Pkwy\u000AUniversity Park \u000AFL\u000A34201\u000A
+p99
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p100
+sg8
+L349L
+sg9
+VIn Stock
+p101
+sg11
+V34201
+p102
+ssL48L
+(dp103
+g3
+V\u000A\u000A4215 Lake Mary Blvd.\u000ALake Mary \u000AFL\u000A32746\u000A
+p104
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p105
+sg8
+L48L
+sg9
+VIn Stock
+p106
+sg11
+V32746
+p107
+ssL1073L
+(dp108
+g3
+V\u000A\u000A4210 Commercial Way\u000ASpring Hill \u000AFL\u000A34606\u000A
+p109
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p110
+sg8
+L1073L
+sg9
+VIn Stock
+p111
+sg11
+V34606
+p112
+ssL562L
+(dp113
+g3
+V\u000A\u000A9 Old Kings Road\u000APalm Coast \u000AFL\u000A32137\u000A
+p114
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p115
+sg8
+L562L
+sg9
+VIn Stock
+p116
+sg11
+V32137
+p117
+ssL51L
+(dp118
+g3
+V\u000A\u000A1540 S. W. 8th Street\u000ABoynton Beach \u000AFL\u000A33426\u000A
+p119
+sg5
+I2
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p120
+sg8
+L51L
+sg9
+VLow Stock
+p121
+sg11
+V33426
+p122
+ssL1078L
+(dp123
+g3
+V\u000A\u000A867 Good Homes Rd\u000AOrlando \u000AFL\u000A32818\u000A
+p124
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p125
+sg8
+L1078L
+sg9
+VIn Stock
+p126
+sg11
+V32818
+p127
+ssL1081L
+(dp128
+g3
+V\u000A\u000A1139 5th Street\u000AMiami Beach \u000AFL\u000A33139\u000A
+p129
+sg5
+I0
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p130
+sg8
+L1081L
+sg9
+VNot sold at this location
+p131
+sg11
+V33139
+p132
+ssL827L
+(dp133
+g3
+V\u000A\u000A1700 West 49th Street\u000AHialeah \u000AFL\u000A33012\u000A
+p134
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p135
+sg8
+L827L
+sg9
+VIn Stock
+p136
+sg11
+V33012
+p137
+ssL60L
+(dp138
+g3
+V\u000A\u000A2631 NE 10th Ct\u000AHomestead \u000AFL\u000A33033\u000A
+p139
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p140
+sg8
+L60L
+sg9
+VIn Stock
+p141
+sg11
+V33033
+p142
+ssL320L
+(dp143
+g3
+V\u000A\u000A4291 S. Tamiami Trail\u000AVenice \u000AFL\u000A34293\u000A
+p144
+sg5
+I2
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p145
+sg8
+L320L
+sg9
+VLow Stock
+p146
+sg11
+V34293
+p147
+ssL834L
+(dp148
+g3
+V\u000A\u000A10139 SE US Hwy 1\u000APort St. Lucie \u000AFL\u000A34952\u000A
+p149
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p150
+sg8
+L834L
+sg9
+VIn Stock
+p151
+sg11
+V34952
+p152
+ssL1347L
+(dp153
+g3
+V\u000A\u000A2345 Apalachee Parkway\u000ATallahassee \u000AFL\u000A32301\u000A
+p154
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p155
+sg8
+L1347L
+sg9
+VIn Stock
+p156
+sg11
+V32301
+p157
+ssL69L
+(dp158
+g3
+V\u000A\u000A327 Highway 19 North\u000APalatka \u000AFL\u000A32177\u000A
+p159
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p160
+sg8
+L69L
+sg9
+VIn Stock
+p161
+sg11
+V32177
+p162
+ssL582L
+(dp163
+g3
+V\u000A\u000A5800 Beach Blvd.\u000AJacksonville \u000AFL\u000A32207\u000A
+p164
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p165
+sg8
+L582L
+sg9
+VIn Stock
+p166
+sg11
+V32207
+p167
+ssL1207L
+(dp168
+g3
+V\u000AShoppes at Lakeland\u000A4011 US Highway 98 North\u000ALakeland \u000AFL\u000A33809\u000A
+p169
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p170
+sg8
+L1207L
+sg9
+VIn Stock
+p171
+sg11
+V33809
+p172
+ssL333L
+(dp173
+g3
+V\u000A\u000A1600 South Grand Highway\u000AClermont \u000AFL\u000A34711\u000A
+p174
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p175
+sg8
+L333L
+sg9
+VIn Stock
+p176
+sg11
+V34711
+p177
+ssL336L
+(dp178
+g3
+V\u000A(67th and 8th)\u000A1044 SW 67th Ave\u000AMIAMI \u000AFL\u000A33144\u000A
+p179
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p180
+sg8
+L336L
+sg9
+VIn Stock
+p181
+sg11
+V33144
+p182
+ssL338L
+(dp183
+g3
+V\u000AKendall Mall\u000A8811 SW 107th Avenue\u000AMiami \u000AFL\u000A33176\u000A
+p184
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p185
+sg8
+L338L
+sg9
+VIn Stock
+p186
+sg11
+V33176
+p187
+ssL595L
+(dp188
+g3
+V\u000A\u000A7910 Gall Blvd\u000AZephyrhills \u000AFL\u000A33542\u000A
+p189
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p190
+sg8
+L595L
+sg9
+VIn Stock
+p191
+sg11
+V33542
+p192
+ssL598L
+(dp193
+g3
+V\u000AWest Miramar at Flamingo Road\u000A12216 Miramar Parkway\u000AMiramar \u000AFL\u000A33025\u000A
+p194
+sg5
+I2
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p195
+sg8
+L598L
+sg9
+VLow Stock
+p196
+sg11
+V33025
+p197
+ssL228L
+(dp198
+g3
+V\u000A\u000A720 US Hwy. 441\u000ALady Lake (The Villages) \u000AFL\u000A32159\u000A
+p199
+sg5
+I0
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p200
+sg8
+L228L
+sg9
+VNot sold at this location
+p201
+sg11
+V32159
+p202
+ssL93L
+(dp203
+g3
+V\u000A\u000A30190 US Highway 19N\u000AClearwater \u000AFL\u000A33761\u000A
+p204
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p205
+sg8
+L93L
+sg9
+VIn Stock
+p206
+sg11
+V33761
+p207
+ssL352L
+(dp208
+g3
+V\u000A\u000A1900 Fruitville Road\u000ASarasota \u000AFL\u000A34236\u000A
+p209
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p210
+sg8
+L352L
+sg9
+VIn Stock
+p211
+sg11
+V34236
+p212
+ssL616L
+(dp213
+g3
+V\u000A\u000A7210 Manatee Ave.\u000ABradenton \u000AFL\u000A34209\u000A
+p214
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p215
+sg8
+L616L
+sg9
+VIn Stock
+p216
+sg11
+V34209
+p217
+ssL1385L
+(dp218
+g3
+V\u000ASuite #13\u000A1270-13 North Wickham Road\u000AMelbourne \u000AFL\u000A32935\u000A
+p219
+sg5
+I2
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p220
+sg8
+L1385L
+sg9
+VLow Stock
+p221
+sg11
+V32935
+p222
+ssL1132L
+(dp223
+g3
+V\u000A\u000A3742 North Federal Highway\u000ALighthouse Point \u000AFL\u000A33064\u000A
+p224
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p225
+sg8
+L1132L
+sg9
+VIn Stock
+p226
+sg11
+V33064
+p227
+ssL631L
+(dp228
+g3
+V\u000A\u000A10261 River Marsh Drive\u000AJacksonville \u000AFL\u000A32246\u000A
+p229
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p230
+sg8
+L631L
+sg9
+VIn Stock
+p231
+sg11
+V32246
+p232
+ssL632L
+(dp233
+g3
+V\u000A\u000A3155 Columbia Blvd.\u000ATitusville \u000AFL\u000A32780\u000A
+p234
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p235
+sg8
+L632L
+sg9
+VIn Stock
+p236
+sg11
+V32780
+p237
+ssL1401L
+(dp238
+g3
+V\u000A\u000A638 N Alafaya Trail\u000AOrlando \u000AFL\u000A32828\u000A
+p239
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p240
+sg8
+L1401L
+sg9
+VIn Stock
+p241
+sg11
+V32828
+p242
+ssL635L
+(dp243
+g3
+V\u000A\u000A8859 S.W. 24th St.\u000AMiami \u000AFL\u000A33165\u000A
+p244
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p245
+sg8
+L635L
+sg9
+VIn Stock
+p246
+sg11
+V33165
+p247
+ssL636L
+(dp248
+g3
+V\u000A\u000A6305 Naples Blvd.\u000ANaples \u000AFL\u000A34109\u000A
+p249
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p250
+sg8
+L636L
+sg9
+VIn Stock
+p251
+sg11
+V34109
+p252
+ssL896L
+(dp253
+g3
+V\u000A\u000A1937 N Pine Island Rd\u000APlantation \u000AFL\u000A33322\u000A
+p254
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p255
+sg8
+L896L
+sg9
+VIn Stock
+p256
+sg11
+V33322
+p257
+ssL1344L
+(dp258
+g3
+V\u000ALargo Mall\u000A13013 Seminole Blvd\u000ALargo \u000AFL\u000A33778\u000A
+p259
+sg5
+I0
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p260
+sg8
+L1344L
+sg9
+VNot sold at this location
+p261
+sg11
+V33778
+p262
+ssL900L
+(dp263
+g3
+V\u000ACiti Centre\u000A700 3rd St SW 470 Citi Centre\u000AWinter Haven \u000AFL\u000A33880\u000A
+p264
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p265
+sg8
+L900L
+sg9
+VIn Stock
+p266
+sg11
+V33880
+p267
+ssL133L
+(dp268
+g3
+V\u000A\u000A13585 N Tamiami Trail Ste 12\u000ANaples \u000AFL\u000A34110\u000A
+p269
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p270
+sg8
+L133L
+sg9
+VIn Stock
+p271
+sg11
+V34110
+p272
+ssL395L
+(dp273
+g3
+V\u000ASable Palm Plaza\u000A2609 South Federal Highway\u000AFort Pierce \u000AFL\u000A34982\u000A
+p274
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p275
+sg8
+L395L
+sg9
+VIn Stock
+p276
+sg11
+V34982
+p277
+ssL142L
+(dp278
+g3
+V\u000A\u000A6260 Commerce Palms\u000ANew Tampa \u000AFL\u000A33647\u000A
+p279
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p280
+sg8
+L142L
+sg9
+VIn Stock
+p281
+sg11
+V33647
+p282
+ssL655L
+(dp283
+g3
+V\u000ACypress Lake Shopping Center\u000A7191-3 Cypress Lake Drive\u000AFt. Myers \u000AFL\u000A33907\u000A
+p284
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p285
+sg8
+L655L
+sg9
+VIn Stock
+p286
+sg11
+V33907
+p287
+ssL144L
+(dp288
+g3
+V\u000A\u000A4301 W. Hillsboro Boulevard\u000ACoconut Creek \u000AFL\u000A33073\u000A
+p289
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p290
+sg8
+L144L
+sg9
+VIn Stock
+p291
+sg11
+V33073
+p292
+ssL147L
+(dp293
+g3
+V\u000A\u000A1940 US Highway 1 South\u000ASt. Augustine \u000AFL\u000A32086\u000A
+p294
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p295
+sg8
+L147L
+sg9
+VIn Stock
+p296
+sg11
+V32086
+p297
+ssL560L
+(dp298
+g3
+V\u000A\u000A3065 Daniels Road\u000AWinter Garden \u000AFL\u000A34787\u000A
+p299
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p300
+sg8
+L560L
+sg9
+VIn Stock
+p301
+sg11
+V34787
+p302
+ssL238L
+(dp303
+g3
+V\u000A\u000A1707 E Commercial Blvd\u000AFt Lauderdale \u000AFL\u000A33334\u000A
+p304
+sg5
+I-1
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p305
+sg8
+L238L
+sg9
+VOut of Stock
+p306
+sg11
+V33334
+p307
+ssL150L
+(dp308
+g3
+V\u000A\u000A11111 San Jose Blvd.  Suite 56\u000AJacksonville \u000AFL\u000A32223\u000A
+p309
+sg5
+I2
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p310
+sg8
+L150L
+sg9
+VLow Stock
+p311
+sg11
+V32223
+p312
+ssL665L
+(dp313
+g3
+V\u000A\u000A18591 South Dixie Highway\u000ACutler Bay \u000AFL\u000A33157\u000A
+p314
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p315
+sg8
+L665L
+sg9
+VIn Stock
+p316
+sg11
+V33157
+p317
+ssL154L
+(dp318
+g3
+V\u000A\u000A12632 East Tamiami Trail\u000ANaples \u000AFL\u000A34113\u000A
+p319
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p320
+sg8
+L154L
+sg9
+VIn Stock
+p321
+sg11
+V34113
+p322
+ssL667L
+(dp323
+g3
+V\u000A\u000A101 West Vine St.\u000AKissimmee \u000AFL\u000A34741\u000A
+p324
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p325
+sg8
+L667L
+sg9
+VIn Stock
+p326
+sg11
+V34741
+p327
+ssL930L
+(dp328
+g3
+V\u000A\u000A5307 West Atlantic Boulevard\u000AMargate \u000AFL\u000A33063\u000A
+p329
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p330
+sg8
+L930L
+sg9
+VIn Stock
+p331
+sg11
+V33063
+p332
+ssL164L
+(dp333
+g3
+V\u000A\u000A1595 Palm Bay Rd.\u000APalm Bay \u000AFL\u000A32905\u000A
+p334
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p335
+sg8
+L164L
+sg9
+VIn Stock
+p336
+sg11
+V32905
+p337
+ssL838L
+(dp338
+g3
+V\u000AThe Piers Shop Ctr\u000A6239 Tacoma Drive\u000APort Richey \u000AFL\u000A34668\u000A
+p339
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p340
+sg8
+L838L
+sg9
+VIn Stock
+p341
+sg11
+V34668
+p342
+ssL934L
+(dp343
+g3
+V\u000A\u000A1191 US Highway 1\u000AVero Beach \u000AFL\u000A32960\u000A
+p344
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p345
+sg8
+L934L
+sg9
+VIn Stock
+p346
+sg11
+V32960
+p347
+ssL172L
+(dp348
+g3
+V\u000A(Wellington)\u000A10465 Southern Blvd\u000ARoyal Palm Beach \u000AFL\u000A33411\u000A
+p349
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p350
+sg8
+L172L
+sg9
+VIn Stock
+p351
+sg11
+V33411
+p352
+ssL941L
+(dp353
+g3
+V\u000A\u000A12845 Citrus Plaza Drive\u000ATampa \u000AFL\u000A33625\u000A
+p354
+sg5
+I2
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p355
+sg8
+L941L
+sg9
+VLow Stock
+p356
+sg11
+V33625
+p357
+ssL287L
+(dp358
+g3
+V\u000AThe Shoppes At Jupiter\u000A201 North US 1\u000AJupiter \u000AFL\u000A33477\u000A
+p359
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p360
+sg8
+L287L
+sg9
+VIn Stock
+p361
+sg11
+V33477
+p362
+ssL949L
+(dp363
+g3
+V\u000A\u000A4313 South Florida Ave.\u000ALakeland \u000AFL\u000A33813\u000A
+p364
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p365
+sg8
+L949L
+sg9
+VIn Stock
+p366
+sg11
+V33813
+p367
+ssL950L
+(dp368
+g3
+V\u000AOviedo Crossroads\u000A1950 W. State Road 426\u000AOviedo \u000AFL\u000A32765\u000A
+p369
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p370
+sg8
+L950L
+sg9
+VIn Stock
+p371
+sg11
+V32765
+p372
+ssL951L
+(dp373
+g3
+V\u000APine Island Shopping Center\u000A8864 State Road 84\u000ADavie \u000AFL\u000A33324\u000A
+p374
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p375
+sg8
+L951L
+sg9
+VIn Stock
+p376
+sg11
+V33324
+p377
+ssL31L
+(dp378
+g3
+V\u000A\u000A1836 South 8th Street\u000AFernandina Beach \u000AFL\u000A32034\u000A
+p379
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p380
+sg8
+L31L
+sg9
+VIn Stock
+p381
+sg11
+V32034
+p382
+ssL449L
+(dp383
+g3
+V\u000A\u000A7500 W. Commercial Blvd.\u000ALauderhill \u000AFL\u000A33319\u000A
+p384
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p385
+sg8
+L449L
+sg9
+VIn Stock
+p386
+sg11
+V33319
+p387
+ssL1355L
+(dp388
+g3
+V\u000ASand Lake\u000A8421 S John Young Pkwy\u000AOrlando \u000AFL\u000A32819\u000A
+p389
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p390
+sg8
+L1355L
+sg9
+VIn Stock
+p391
+sg11
+V32819
+p392
+ssL964L
+(dp393
+g3
+V\u000A\u000A3150 SE Federal Highway\u000AStuart \u000AFL\u000A34994\u000A
+p394
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p395
+sg8
+L964L
+sg9
+VIn Stock
+p396
+sg11
+V34994
+p397
+ssL965L
+(dp398
+g3
+V\u000A\u000A2821 Ferdon Blvd South\u000ACrestview \u000AFL\u000A32536\u000A
+p399
+sg5
+I0
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p400
+sg8
+L965L
+sg9
+VNot sold at this location
+p401
+sg11
+V32536
+p402
+ssL971L
+(dp403
+g3
+V\u000ALake Park Shopping Ctr.\u000A1260 Northlake Blvd.\u000ALake Park \u000AFL\u000A33403\u000A
+p404
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p405
+sg8
+L971L
+sg9
+VIn Stock
+p406
+sg11
+V33403
+p407
+ssL465L
+(dp408
+g3
+V\u000A\u000A1866 Jim Redman Pkwy\u000APlant City \u000AFL\u000A33563\u000A
+p409
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p410
+sg8
+L465L
+sg9
+VIn Stock
+p411
+sg11
+V33563
+p412
+ssL210L
+(dp413
+g3
+V\u000A\u000A10900 U.S. Hwy 19N\u000AClearwater \u000AFL\u000A33764\u000A
+p414
+sg5
+I0
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p415
+sg8
+L210L
+sg9
+VNot sold at this location
+p416
+sg11
+V33764
+p417
+ssL467L
+(dp418
+g3
+V\u000A\u000A2774 East Colonial Drive\u000AOrlando \u000AFL\u000A32803\u000A
+p419
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p420
+sg8
+L467L
+sg9
+VIn Stock
+p421
+sg11
+V32803
+p422
+ssL468L
+(dp423
+g3
+V\u000A\u000A1729 NW St. Lucie West Blvd\u000APort St. Lucie \u000AFL\u000A34986\u000A
+p424
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p425
+sg8
+L468L
+sg9
+VIn Stock
+p426
+sg11
+V34986
+p427
+ssL740L
+(dp428
+g3
+V\u000A\u000A5627 14th Street West\u000ABradenton \u000AFL\u000A34207\u000A
+p429
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p430
+sg8
+L740L
+sg9
+VIn Stock
+p431
+sg11
+V34207
+p432
+ssL471L
+(dp433
+g3
+V\u000A\u000A1800 Pine Island Road NE\u000ACape Coral \u000AFL\u000A33909\u000A
+p434
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p435
+sg8
+L471L
+sg9
+VIn Stock
+p436
+sg11
+V33909
+p437
+ssL728L
+(dp438
+g3
+V\u000AVista Palms\u000A7157 Narcoossee Road\u000AOrlando \u000AFL\u000A32822\u000A
+p439
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p440
+sg8
+L728L
+sg9
+VIn Stock
+p441
+sg11
+V32822
+p442
+ssL217L
+(dp443
+g3
+V\u000AHorizon Park Plaza\u000A3702 West  Spruce St.\u000ATampa \u000AFL\u000A33607\u000A
+p444
+sg5
+I2
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p445
+sg8
+L217L
+sg9
+VLow Stock
+p446
+sg11
+V33607
+p447
+ssL1243L
+(dp448
+g3
+V\u000A\u000A2415 Tarpon Bay Blvd No. 4\u000ANaples \u000AFL\u000A34119\u000A
+p449
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p450
+sg8
+L1243L
+sg9
+VIn Stock
+p451
+sg11
+V34119
+p452
+ssL1244L
+(dp453
+g3
+V\u000A\u000A700-16 South Blanding Blvd.\u000AOrange Park \u000AFL\u000A32065\u000A
+p454
+sg5
+I2
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p455
+sg8
+L1244L
+sg9
+VLow Stock
+p456
+sg11
+V32065
+p457
+ssL736L
+(dp458
+g3
+V\u000A\u000A1631 Del Prado Blvd.\u000ACape Coral \u000AFL\u000A33990\u000A
+p459
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p460
+sg8
+L736L
+sg9
+VIn Stock
+p461
+sg11
+V33990
+p462
+ssL993L
+(dp463
+g3
+V\u000A\u000A2121 Biscayne Blvd\u000AMiami \u000AFL\u000A33137\u000A
+p464
+sg5
+I2
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p465
+sg8
+L993L
+sg9
+VLow Stock
+p466
+sg11
+V33137
+p467
+ssL484L
+(dp468
+g3
+V\u000ABeneva Plaza\u000A8199 Tamiami Trail South\u000ASarasota \u000AFL\u000A34231\u000A
+p469
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p470
+sg8
+L484L
+sg9
+VIn Stock
+p471
+sg11
+V34231
+p472
+ssL229L
+(dp473
+g3
+V\u000A\u000A9801 South Dixie Hwy (US 1)\u000APinecrest \u000AFL\u000A33156\u000A
+p474
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p475
+sg8
+L229L
+sg9
+VIn Stock
+p476
+sg11
+V33156
+p477
+ssL1255L
+(dp478
+g3
+V\u000A\u000A2241 North Monroe Street\u000ATallahassee \u000AFL\u000A32303\u000A
+p479
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p480
+sg8
+L1255L
+sg9
+VIn Stock
+p481
+sg11
+V32303
+p482
+ssL236L
+(dp483
+g3
+V\u000AThe Marketplace at Pompano\u000AS. 1245 Federal Highway\u000APompano \u000AFL\u000A33062\u000A
+p484
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p485
+sg8
+L236L
+sg9
+VIn Stock
+p486
+sg11
+V33062
+p487
+ssL750L
+(dp488
+g3
+V\u000AThe Plaza at Delray\u000A1626 S. Federal Highway\u000ADelray Beach \u000AFL\u000A33483\u000A
+p489
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p490
+sg8
+L750L
+sg9
+VIn Stock
+p491
+sg11
+V33483
+p492
+ssL752L
+(dp493
+g3
+V\u000A\u000A2497 South West 27th Avenue\u000AOcala \u000AFL\u000A34471\u000A
+p494
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p495
+sg8
+L752L
+sg9
+VIn Stock
+p496
+sg11
+V34471
+p497
+ssL241L
+(dp498
+g3
+V\u000A\u000A2029 Okeechobee Blvd.\u000AWest Palm Beach \u000AFL\u000A33409\u000A
+p499
+sg5
+I2
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p500
+sg8
+L241L
+sg9
+VLow Stock
+p501
+sg11
+V33409
+p502
+ssL244L
+(dp503
+g3
+V\u000A\u000A15110 N. Dale Mabry\u000ATampa \u000AFL\u000A33618\u000A
+p504
+sg5
+I2
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p505
+sg8
+L244L
+sg9
+VLow Stock
+p506
+sg11
+V33618
+p507
+ssL1274L
+(dp508
+g3
+V\u000AThe Oaks Shopping Center\u000A4058 13th Street\u000ASt. Cloud \u000AFL\u000A34769\u000A
+p509
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p510
+sg8
+L1274L
+sg9
+VIn Stock
+p511
+sg11
+V34769
+p512
+ssL1019L
+(dp513
+g3
+V\u000A\u000A41334 North Hwy 19\u000ATarpon Springs \u000AFL\u000A34689\u000A
+p514
+sg5
+I3
+sg6
+S'Thursday, 10. May 2012 09:18PM'
+p515
+sg8
+L1019L
+sg9
+VIn Stock
+p516
+sg11
+V34689
+p517
+ss.

@@ -1,0 +1,26 @@
+[ 
+    {
+        "pk": 1,
+        "model": "recruiter.recruitercompanys",
+        "fields": {
+            "abbrname": "Liberty Personnel Services",
+            "notes": "",
+            "contact": null,
+            "address": null,
+            "fullname": "Liberty Personnel Services, Inc.",
+            "type": "Staffing and Recruiting"
+        }
+    },
+    {
+        "pk": 1,
+        "model": "recruiter.recruiter",
+        "fields": {
+            "firstname": "Joseph",
+            "title": "Senior Recruiter",
+            "lastname": "Durkin",
+            "company": 1,
+            "contact": 1,
+            "notes": "* Degree in civil or structural engineering\r\n* E.I.T. highly preferred\r\n* 3-5 years experience with structural calculations, shop drawings, and design drawings\r\n* Experience with working on commercial/government/industrial projects\r\n* Experience with design softwares\r\n* Excellent problem solving skills\r\n* Good communication skills and a team player\r\n\r\nIf you have your EIT and are looking to work under a P.E., this is the perfect opportunity. We are looking to mentor and teach someone who is a quick learner and wants to work."
+        }
+    }
+]

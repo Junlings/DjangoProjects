@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+ {% block content %}   
+   {% if author %} 
+	<h1>Author Details</h1>
+	<table class='list_table' border="1">
+	    <tr>
+	        <td>ID</td>
+	        <td>{{author.id}}</td>
+	    </tr>
+	    <tr>
+	        <td>First Name</td>
+	        <td>{{author.firstname}}</td>
+	    </tr>
+	    <tr>
+	        <td>Last Name</td>
+	        <td>{{author.lastname}}</td>
+	    </tr>
+	    <tr>
+	        <td>Middle Name</td>
+	        <td>{{author.middlename}}</td>
+	    </tr>
+    	    	    
+	</table>
+   {% endif %}
+ 
+   {% if journalpaps %} 
+   <h1>Journal Papers</h1>
+   {% for jou in journalpaps %}
+       {{jou|safe}}
+     {% endfor %}   
+
+   {% endif %}
+   
+
+   
+ {% endblock %}

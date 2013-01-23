@@ -1,0 +1,2260 @@
+(dp1
+L8081L
+(dp2
+S'num'
+p3
+V1299
+p4
+sS'name'
+p5
+VLakeland South
+p6
+sS'availbility'
+p7
+VLimited Availability
+p8
+sS'last_update'
+p9
+S'Thursday, 10. May 2012 12:50PM'
+p10
+sS'availcode'
+p11
+I2
+sS'id'
+p12
+L8081L
+ssL515L
+(dp13
+S'availcode'
+p14
+NsS'id'
+p15
+L515L
+sS'last_update'
+p16
+S'Thursday, 10. May 2012 08:37PM'
+p17
+ssL7696L
+(dp18
+g11
+Nsg12
+L7696L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p19
+ssL7697L
+(dp20
+g11
+Nsg12
+L7697L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p21
+ssL7700L
+(dp22
+g11
+Nsg12
+L7700L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p23
+ssL1710L
+(dp24
+S'availcode'
+p25
+NsS'id'
+p26
+L1710L
+sS'last_update'
+p27
+S'Thursday, 10. May 2012 08:46PM'
+p28
+ssL8729L
+(dp29
+g3
+V2196
+p30
+sg5
+VMiami Lakes
+p31
+sg7
+VLimited Availability
+p32
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p33
+sg11
+I2
+sg12
+L8729L
+ssL30L
+(dp34
+g14
+Nsg15
+L30L
+sg16
+S'Thursday, 10. May 2012 08:37PM'
+p35
+ssL8740L
+(dp36
+g3
+V2208
+p37
+sg5
+VPier Park
+p38
+sg7
+VAvailable
+p39
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p40
+sg11
+I3
+sg12
+L8740L
+ssL8741L
+(dp41
+g3
+V2209
+p42
+sg5
+VSuncoast Pasco County
+p43
+sg7
+VLimited Availability
+p44
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p45
+sg11
+I2
+sg12
+L8741L
+ssL8742L
+(dp46
+g3
+V2210
+p47
+sg5
+VBoynton Beach SE
+p48
+sg7
+VNot Available
+p49
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p50
+sg11
+I0
+sg12
+L8742L
+ssL7719L
+(dp51
+g11
+Nsg12
+L7719L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p52
+ssL7720L
+(dp53
+g11
+Nsg12
+L7720L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p54
+ssL7721L
+(dp55
+g11
+Nsg12
+L7721L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p56
+ssL1073L
+(dp57
+g25
+Nsg26
+L1073L
+sg27
+S'Thursday, 10. May 2012 08:46PM'
+p58
+ssL8286L
+(dp59
+g3
+V1512
+p60
+sg5
+VMiramar
+p61
+sg7
+VLimited Availability
+p62
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p63
+sg11
+I2
+sg12
+L8286L
+ssL3639L
+(dp64
+g14
+Nsg15
+L3639L
+sg16
+S'Thursday, 10. May 2012 08:37PM'
+p65
+ssL8116L
+(dp66
+g3
+V1337
+p67
+sg5
+VDeerfield Beach
+p68
+sg7
+VNot Available
+p69
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p70
+sg11
+I0
+sg12
+L8116L
+ssL7738L
+(dp71
+g11
+Nsg12
+L7738L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p72
+ssL7739L
+(dp73
+g11
+Nsg12
+L7739L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p74
+ssL8764L
+(dp75
+g3
+V2233
+p76
+sg5
+VJacksonville West
+p77
+sg7
+VLimited Availability
+p78
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p79
+sg11
+I2
+sg12
+L8764L
+ssL8766L
+(dp80
+g3
+V2235
+p81
+sg5
+VBrandon South
+p82
+sg7
+VLimited Availability
+p83
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p84
+sg11
+I2
+sg12
+L8766L
+ssL8255L
+(dp85
+g3
+V1480
+p86
+sg5
+VPlantation
+p87
+sg7
+VOut Of Stock
+p88
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p89
+sg11
+I0
+sg12
+L8255L
+ssL8778L
+(dp90
+g3
+V2248
+p91
+sg5
+VPort St Lucie
+p92
+sg7
+VOut Of Stock
+p93
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p94
+sg11
+I0
+sg12
+L8778L
+ssL8271L
+(dp95
+g3
+V1497
+p96
+sg5
+VFleming Island
+p97
+sg7
+VLimited Availability
+p98
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p99
+sg11
+I2
+sg12
+L8271L
+ssL3664L
+(dp100
+S'availcode'
+p101
+NsS'id'
+p102
+L3664L
+sS'last_update'
+p103
+S'Thursday, 10. May 2012 08:51PM'
+p104
+ssL3665L
+(dp105
+g101
+Nsg102
+L3665L
+sg103
+S'Thursday, 10. May 2012 08:51PM'
+p106
+ssL3667L
+(dp107
+g101
+Nsg102
+L3667L
+sg103
+S'Thursday, 10. May 2012 08:51PM'
+p108
+ssL8277L
+(dp109
+g3
+V1503
+p110
+sg5
+VOrange Park
+p111
+sg7
+VAvailable
+p112
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p113
+sg11
+I3
+sg12
+L8277L
+ssL8793L
+(dp114
+g3
+V2264
+p115
+sg5
+VWinter Garden
+p116
+sg7
+VLimited Availability
+p117
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p118
+sg11
+I2
+sg12
+L8793L
+ssL8794L
+(dp119
+g3
+V2265
+p120
+sg5
+VCoral Springs NW
+p121
+sg7
+VLimited Availability
+p122
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p123
+sg11
+I2
+sg12
+L8794L
+ssL3675L
+(dp124
+S'availcode'
+p125
+NsS'id'
+p126
+L3675L
+sS'last_update'
+p127
+S'Thursday, 10. May 2012 08:18PM'
+p128
+ssL3676L
+(dp129
+g125
+Nsg126
+L3676L
+sg127
+S'Thursday, 10. May 2012 08:18PM'
+p130
+ssL8798L
+(dp131
+g3
+V2269
+p132
+sg5
+VTitusville
+p133
+sg7
+VLimited Availability
+p134
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p135
+sg11
+I2
+sg12
+L8798L
+ssL101L
+(dp136
+g125
+Nsg126
+L101L
+sg127
+S'Thursday, 10. May 2012 08:18PM'
+p137
+ssL7777L
+(dp138
+g11
+Nsg12
+L7777L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p139
+ssL7778L
+(dp140
+g11
+Nsg12
+L7778L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p141
+ssL8891L
+(dp142
+S'num'
+p143
+V2372
+p144
+sS'name'
+p145
+VAnchorage South
+p146
+sS'availbility'
+p147
+VAvailable
+p148
+sS'last_update'
+p149
+S'Thursday, 10. May 2012 12:48PM'
+p150
+sS'availcode'
+p151
+I3
+sS'id'
+p152
+L8891L
+ssL8292L
+(dp153
+g3
+V1518
+p154
+sg5
+VOrlando Millenia
+p155
+sg7
+VLimited Availability
+p156
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p157
+sg11
+I2
+sg12
+L8292L
+ssL8293L
+(dp158
+g3
+V1519
+p159
+sg5
+VClermont
+p160
+sg7
+VOut Of Stock
+p161
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p162
+sg11
+I0
+sg12
+L8293L
+ssL8721L
+(dp163
+g3
+V2188
+p164
+sg5
+VMiami Central
+p165
+sg7
+VLimited Availability
+p166
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p167
+sg11
+I2
+sg12
+L8721L
+ssL8808L
+(dp168
+g3
+V2279
+p169
+sg5
+VPace
+p170
+sg7
+VLimited Availability
+p171
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p172
+sg11
+I2
+sg12
+L8808L
+ssL2236L
+(dp173
+g25
+Nsg26
+L2236L
+sg27
+S'Thursday, 10. May 2012 08:46PM'
+p174
+ssL8815L
+(dp175
+g3
+V2289
+p176
+sg5
+VTampa West
+p177
+sg7
+VLimited Availability
+p178
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p179
+sg11
+I2
+sg12
+L8815L
+ssL112L
+(dp180
+g101
+Nsg102
+L112L
+sg103
+S'Thursday, 10. May 2012 08:51PM'
+p181
+ssL1156L
+(dp182
+g125
+Nsg126
+L1156L
+sg127
+S'Thursday, 10. May 2012 08:18PM'
+p183
+ssL8838L
+(dp184
+g3
+V2316
+p185
+sg5
+VCape Coral North
+p186
+sg7
+VLimited Availability
+p187
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p188
+sg11
+I2
+sg12
+L8838L
+ssL8839L
+(dp189
+g3
+V2317
+p190
+sg5
+VCoconut Point
+p191
+sg7
+VLimited Availability
+p192
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p193
+sg11
+I2
+sg12
+L8839L
+ssL7817L
+(dp194
+g3
+V1023
+p195
+sg5
+VPark &amp; Tyrone
+p196
+sg7
+VLimited Availability
+p197
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p198
+sg11
+I2
+sg12
+L7817L
+ssL8332L
+(dp199
+g3
+V1760
+p200
+sg5
+VWaterford Lakes
+p201
+sg7
+VOut Of Stock
+p202
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p203
+sg11
+I0
+sg12
+L8332L
+ssL7832L
+(dp204
+g3
+V1038
+p205
+sg5
+VNorth Miami
+p206
+sg7
+VLimited Availability
+p207
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p208
+sg11
+I2
+sg12
+L7832L
+ssL7833L
+(dp209
+g3
+V1039
+p210
+sg5
+VDadeland
+p211
+sg7
+VAvailable
+p212
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p213
+sg11
+I3
+sg12
+L7833L
+ssL8859L
+(dp214
+g143
+V2339
+p215
+sg145
+VWasilla
+p216
+sg147
+VAvailable
+p217
+sg149
+S'Thursday, 10. May 2012 12:48PM'
+p218
+sg151
+I3
+sg152
+L8859L
+ssL156L
+(dp219
+g101
+Nsg102
+L156L
+sg103
+S'Thursday, 10. May 2012 08:51PM'
+p220
+ssL8350L
+(dp221
+g3
+V1778
+p222
+sg5
+VLauderhill
+p223
+sg7
+VAvailable
+p224
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p225
+sg11
+I3
+sg12
+L8350L
+ssL3235L
+(dp226
+g101
+Nsg102
+L3235L
+sg103
+S'Thursday, 10. May 2012 08:51PM'
+p227
+ssL7844L
+(dp228
+g3
+V1050
+p229
+sg5
+VVero Beach
+p230
+sg7
+VOut Of Stock
+p231
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p232
+sg11
+I0
+sg12
+L7844L
+ssL7845L
+(dp233
+g3
+V1051
+p234
+sg5
+VGandy
+p235
+sg7
+VAvailable
+p236
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p237
+sg11
+I3
+sg12
+L7845L
+ssL7847L
+(dp238
+g3
+V1053
+p239
+sg5
+VMerritt Island
+p240
+sg7
+VLimited Availability
+p241
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p242
+sg11
+I2
+sg12
+L7847L
+ssL8361L
+(dp243
+g3
+V1790
+p244
+sg5
+VHunters Creek
+p245
+sg7
+VAvailable
+p246
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p247
+sg11
+I3
+sg12
+L8361L
+ssL8366L
+(dp248
+g3
+V1795
+p249
+sg5
+VPort Orange
+p250
+sg7
+VLimited Availability
+p251
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p252
+sg11
+I2
+sg12
+L8366L
+ssL8882L
+(dp253
+g3
+V2363
+p254
+sg5
+VFort Myers SW
+p255
+sg7
+VLimited Availability
+p256
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p257
+sg11
+I2
+sg12
+L8882L
+ssL8883L
+(dp258
+g3
+V2364
+p259
+sg5
+VPalm Coast
+p260
+sg7
+VLimited Availability
+p261
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p262
+sg11
+I2
+sg12
+L8883L
+ssL8885L
+(dp263
+g3
+V2366
+p264
+sg5
+VNE Polk County
+p265
+sg7
+VOut Of Stock
+p266
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p267
+sg11
+I0
+sg12
+L8885L
+ssL8888L
+(dp268
+g3
+V2369
+p269
+sg5
+VFort Myers North
+p270
+sg7
+VAvailable
+p271
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p272
+sg11
+I3
+sg12
+L8888L
+ssL8889L
+(dp273
+g3
+V2370
+p274
+sg5
+VOrlando SW
+p275
+sg7
+VLimited Availability
+p276
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p277
+sg11
+I2
+sg12
+L8889L
+ssL8890L
+(dp278
+g143
+V2371
+p279
+sg145
+VAnchorage NE
+p280
+sg147
+VAvailable
+p281
+sg149
+S'Thursday, 10. May 2012 12:48PM'
+p282
+sg151
+I3
+sg152
+L8890L
+ssL7867L
+(dp283
+g3
+V1074
+p284
+sg5
+VAventura
+p285
+sg7
+VNot Available
+p286
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p287
+sg11
+I0
+sg12
+L7867L
+ssL7868L
+(dp288
+g3
+V1075
+p289
+sg5
+VCutler Ridge
+p290
+sg7
+VAvailable
+p291
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p292
+sg11
+I3
+sg12
+L7868L
+ssL8895L
+(dp293
+g3
+V2376
+p294
+sg5
+VOrlando - Sodo
+p295
+sg7
+VLimited Availability
+p296
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p297
+sg11
+I2
+sg12
+L8895L
+ssL3776L
+(dp298
+g25
+Nsg26
+L3776L
+sg27
+S'Thursday, 10. May 2012 08:46PM'
+p299
+ssL8390L
+(dp300
+g3
+V1820
+p301
+sg5
+VClearwater
+p302
+sg7
+VAvailable
+p303
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p304
+sg11
+I3
+sg12
+L8390L
+ssL2256L
+(dp305
+g101
+Nsg102
+L2256L
+sg103
+S'Thursday, 10. May 2012 08:51PM'
+p306
+ssL3794L
+(dp307
+g101
+Nsg102
+L3794L
+sg103
+S'Thursday, 10. May 2012 08:51PM'
+p308
+ssL7545L
+(dp309
+g11
+Nsg12
+L7545L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p310
+ssL7901L
+(dp311
+g3
+V1110
+p312
+sg5
+VGreenacres
+p313
+sg7
+VLimited Availability
+p314
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p315
+sg11
+I2
+sg12
+L7901L
+ssL8229L
+(dp316
+g3
+V1454
+p317
+sg5
+VCape Coral
+p318
+sg7
+VLimited Availability
+p319
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p320
+sg11
+I2
+sg12
+L8229L
+ssL8423L
+(dp321
+g3
+V1853
+p322
+sg5
+VOrtega
+p323
+sg7
+VLimited Availability
+p324
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p325
+sg11
+I2
+sg12
+L8423L
+ssL8940L
+(dp326
+g3
+V2427
+p327
+sg5
+VWest Palm Beach
+p328
+sg7
+VLimited Availability
+p329
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p330
+sg11
+I2
+sg12
+L8940L
+ssL8429L
+(dp331
+g3
+V1859
+p332
+sg5
+VLakeland North
+p333
+sg7
+VLimited Availability
+p334
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p335
+sg11
+I2
+sg12
+L8429L
+ssL7919L
+(dp336
+g3
+V1131
+p337
+sg5
+VSt Petersburg Gateway
+p338
+sg7
+VLimited Availability
+p339
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p340
+sg11
+I2
+sg12
+L7919L
+ssL8956L
+(dp341
+g3
+V2445
+p342
+sg5
+VPensacola West
+p343
+sg7
+VLimited Availability
+p344
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p345
+sg11
+I2
+sg12
+L8956L
+ssL3841L
+(dp346
+g101
+Nsg102
+L3841L
+sg103
+S'Thursday, 10. May 2012 08:51PM'
+p347
+ssL2820L
+(dp348
+g101
+Nsg102
+L2820L
+sg103
+S'Thursday, 10. May 2012 08:51PM'
+p349
+ssL3335L
+(dp350
+g101
+Nsg102
+L3335L
+sg103
+S'Thursday, 10. May 2012 08:51PM'
+p351
+ssL7949L
+(dp352
+g3
+V1163
+p353
+sg5
+VFt Lauderdale
+p354
+sg7
+VNot Available
+p355
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p356
+sg11
+I0
+sg12
+L7949L
+ssL1808L
+(dp357
+g25
+Nsg26
+L1808L
+sg27
+S'Thursday, 10. May 2012 08:46PM'
+p358
+ssL1303L
+(dp359
+g25
+Nsg26
+L1303L
+sg27
+S'Thursday, 10. May 2012 08:46PM'
+p360
+ssL3355L
+(dp361
+g101
+Nsg102
+L3355L
+sg103
+S'Thursday, 10. May 2012 08:51PM'
+p362
+ssL8990L
+(dp363
+g3
+V2489
+p364
+sg5
+VSpring Hill East
+p365
+sg7
+VLimited Availability
+p366
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p367
+sg11
+I2
+sg12
+L8990L
+ssL8486L
+(dp368
+g3
+V1918
+p369
+sg5
+VKissimmee West
+p370
+sg7
+VLimited Availability
+p371
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p372
+sg11
+I2
+sg12
+L8486L
+ssL8489L
+(dp373
+g3
+V1921
+p374
+sg5
+VJacksonville East
+p375
+sg7
+VLimited Availability
+p376
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p377
+sg11
+I2
+sg12
+L8489L
+ssL812L
+(dp378
+g101
+Nsg102
+L812L
+sg103
+S'Thursday, 10. May 2012 08:51PM'
+p379
+ssL8502L
+(dp380
+g3
+V1934
+p381
+sg5
+VViera
+p382
+sg7
+VLimited Availability
+p383
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p384
+sg11
+I2
+sg12
+L8502L
+ssL8503L
+(dp385
+g3
+V1935
+p386
+sg5
+VRoyal Palm Beach
+p387
+sg7
+VAvailable
+p388
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p389
+sg11
+I3
+sg12
+L8503L
+ssL3295L
+(dp390
+g14
+Nsg15
+L3295L
+sg16
+S'Thursday, 10. May 2012 08:37PM'
+p391
+ssL8509L
+(dp392
+g3
+V1941
+p393
+sg5
+VLake Park/Palm Beach Gardens
+p394
+sg7
+VOut Of Stock
+p395
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p396
+sg11
+I0
+sg12
+L8509L
+ssL9025L
+(dp397
+g3
+V2547
+p398
+sg5
+VWest Melbourne
+p399
+sg7
+VLimited Availability
+p400
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p401
+sg11
+I2
+sg12
+L9025L
+ssL836L
+(dp402
+g125
+Nsg126
+L836L
+sg127
+S'Thursday, 10. May 2012 08:18PM'
+p403
+ssL8077L
+(dp404
+g3
+V1294
+p405
+sg5
+VSt Augustine
+p406
+sg7
+VLimited Availability
+p407
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p408
+sg11
+I2
+sg12
+L8077L
+ssL851L
+(dp409
+g101
+Nsg102
+L851L
+sg103
+S'Thursday, 10. May 2012 08:51PM'
+p410
+ssL8534L
+(dp411
+g3
+V1966
+p412
+sg5
+VSanford
+p413
+sg7
+VLimited Availability
+p414
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p415
+sg11
+I2
+sg12
+L8534L
+ssL8535L
+(dp416
+g3
+V1967
+p417
+sg5
+VSeven Springs
+p418
+sg7
+VLimited Availability
+p419
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p420
+sg11
+I2
+sg12
+L8535L
+ssL2447L
+(dp421
+g25
+Nsg26
+L2447L
+sg27
+S'Thursday, 10. May 2012 08:46PM'
+p422
+ssL8541L
+(dp423
+g3
+V1973
+p424
+sg5
+VTallahassee North
+p425
+sg7
+VOut Of Stock
+p426
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p427
+sg11
+I0
+sg12
+L8541L
+ssL8542L
+(dp428
+g3
+V1974
+p429
+sg5
+VJacksonville St Johns
+p430
+sg7
+VAvailable
+p431
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p432
+sg11
+I3
+sg12
+L8542L
+ssL7524L
+(dp433
+g11
+Nsg12
+L7524L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p434
+ssL7527L
+(dp435
+g11
+Nsg12
+L7527L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p436
+ssL7529L
+(dp437
+g11
+Nsg12
+L7529L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p438
+ssL7530L
+(dp439
+g11
+Nsg12
+L7530L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p440
+ssL7531L
+(dp441
+g11
+Nsg12
+L7531L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p442
+ssL7532L
+(dp443
+g11
+Nsg12
+L7532L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p444
+ssL7533L
+(dp445
+g11
+Nsg12
+L7533L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p446
+ssL7534L
+(dp447
+g11
+Nsg12
+L7534L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p448
+ssL7535L
+(dp449
+g11
+Nsg12
+L7535L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p450
+ssL7536L
+(dp451
+g11
+Nsg12
+L7536L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p452
+ssL1397L
+(dp453
+g101
+Nsg102
+L1397L
+sg103
+S'Thursday, 10. May 2012 08:51PM'
+p454
+ssL8567L
+(dp455
+g3
+V2022
+p456
+sg5
+VDavie
+p457
+sg7
+VNot Available
+p458
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p459
+sg11
+I0
+sg12
+L8567L
+ssL8057L
+(dp460
+g3
+V1273
+p461
+sg5
+VPensacola NE
+p462
+sg7
+VAvailable
+p463
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p464
+sg11
+I3
+sg12
+L8057L
+ssL7548L
+(dp465
+g11
+Nsg12
+L7548L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p466
+ssL2026L
+(dp467
+g101
+Nsg102
+L2026L
+sg103
+S'Thursday, 10. May 2012 08:51PM'
+p468
+ssL8577L
+(dp469
+g3
+V2032
+p470
+sg5
+VOrlando East
+p471
+sg7
+VLimited Availability
+p472
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p473
+sg11
+I2
+sg12
+L8577L
+ssL8579L
+(dp474
+g3
+V2034
+p475
+sg5
+VUniversity Parkway
+p476
+sg7
+VOut Of Stock
+p477
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p478
+sg11
+I0
+sg12
+L8579L
+ssL900L
+(dp479
+g101
+Nsg102
+L900L
+sg103
+S'Thursday, 10. May 2012 08:51PM'
+p480
+ssL8584L
+(dp481
+g3
+V2040
+p482
+sg5
+VTampa Central Walter's Crossing
+p483
+sg7
+VAvailable
+p484
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p485
+sg11
+I3
+sg12
+L8584L
+ssL748L
+(dp486
+g14
+Nsg15
+L748L
+sg16
+S'Thursday, 10. May 2012 08:37PM'
+p487
+ssL7563L
+(dp488
+g11
+Nsg12
+L7563L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p489
+ssL7564L
+(dp490
+g11
+Nsg12
+L7564L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p491
+ssL7565L
+(dp492
+g11
+Nsg12
+L7565L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p493
+ssL7566L
+(dp494
+g11
+Nsg12
+L7566L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p495
+ssL2797L
+(dp496
+g125
+Nsg126
+L2797L
+sg127
+S'Thursday, 10. May 2012 08:18PM'
+p497
+ssL7568L
+(dp498
+g11
+Nsg12
+L7568L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p499
+ssL913L
+(dp500
+g125
+Nsg126
+L913L
+sg127
+S'Thursday, 10. May 2012 08:18PM'
+p501
+ssL8082L
+(dp502
+g3
+V1300
+p503
+sg5
+VJacksonville Mandarin
+p504
+sg7
+VAvailable
+p505
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p506
+sg11
+I3
+sg12
+L8082L
+ssL8599L
+(dp507
+g3
+V2058
+p508
+sg5
+VLady Lake
+p509
+sg7
+VLimited Availability
+p510
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p511
+sg11
+I2
+sg12
+L8599L
+ssL8600L
+(dp512
+g3
+V2059
+p513
+sg5
+VLee County
+p514
+sg7
+VLimited Availability
+p515
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p516
+sg11
+I2
+sg12
+L8600L
+ssL8603L
+(dp517
+g3
+V2062
+p518
+sg5
+VMt Dora
+p519
+sg7
+VLimited Availability
+p520
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p521
+sg11
+I2
+sg12
+L8603L
+ssL8604L
+(dp522
+g3
+V2063
+p523
+sg5
+VNaples North
+p524
+sg7
+VLimited Availability
+p525
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p526
+sg11
+I2
+sg12
+L8604L
+ssL8605L
+(dp527
+g3
+V2064
+p528
+sg5
+VPinellas Park
+p529
+sg7
+VAvailable
+p530
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p531
+sg11
+I3
+sg12
+L8605L
+ssL8606L
+(dp532
+g3
+V2065
+p533
+sg5
+VWellington South
+p534
+sg7
+VLimited Availability
+p535
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p536
+sg11
+I2
+sg12
+L8606L
+ssL8608L
+(dp537
+g3
+V2067
+p538
+sg5
+VBoynton Beach West
+p539
+sg7
+VLimited Availability
+p540
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p541
+sg11
+I2
+sg12
+L8608L
+ssL7585L
+(dp542
+g11
+Nsg12
+L7585L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p543
+ssL7586L
+(dp544
+g11
+Nsg12
+L7586L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p545
+ssL155L
+(dp546
+g101
+Nsg102
+L155L
+sg103
+S'Thursday, 10. May 2012 08:51PM'
+p547
+ssL3493L
+(dp548
+g25
+Nsg26
+L3493L
+sg27
+S'Thursday, 10. May 2012 08:46PM'
+p549
+ssL8626L
+(dp550
+g3
+V2085
+p551
+sg5
+VDestin
+p552
+sg7
+VAvailable
+p553
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p554
+sg11
+I3
+sg12
+L8626L
+ssL7567L
+(dp555
+g11
+Nsg12
+L7567L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p556
+ssL8633L
+(dp557
+g3
+V2092
+p558
+sg5
+VDeerfield Beach W
+p559
+sg7
+VLimited Availability
+p560
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p561
+sg11
+I2
+sg12
+L8633L
+ssL1979L
+(dp562
+g14
+Nsg15
+L1979L
+sg16
+S'Thursday, 10. May 2012 08:37PM'
+p563
+ssL1525L
+(dp564
+g101
+Nsg102
+L1525L
+sg103
+S'Thursday, 10. May 2012 08:51PM'
+p565
+ssL1477L
+(dp566
+g25
+Nsg26
+L1477L
+sg27
+S'Thursday, 10. May 2012 08:46PM'
+p567
+ssL8647L
+(dp568
+g3
+V2109
+p569
+sg5
+VHialeah
+p570
+sg7
+VLimited Availability
+p571
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p572
+sg11
+I2
+sg12
+L8647L
+ssL7624L
+(dp573
+g11
+Nsg12
+L7624L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p574
+ssL7625L
+(dp575
+g11
+Nsg12
+L7625L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p576
+ssL8654L
+(dp577
+g3
+V2118
+p578
+sg5
+VTampa North
+p579
+sg7
+VNot Available
+p580
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p581
+sg11
+I0
+sg12
+L8654L
+ssL7637L
+(dp582
+g11
+Nsg12
+L7637L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p583
+ssL7638L
+(dp584
+g11
+Nsg12
+L7638L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p585
+ssL7639L
+(dp586
+g11
+Nsg12
+L7639L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p587
+ssL7640L
+(dp588
+g11
+Nsg12
+L7640L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p589
+ssL7641L
+(dp590
+g11
+Nsg12
+L7641L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p591
+ssL7642L
+(dp592
+g11
+Nsg12
+L7642L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p593
+ssL7643L
+(dp594
+g11
+Nsg12
+L7643L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p595
+ssL8160L
+(dp596
+g3
+V1382
+p597
+sg5
+VNew Tampa
+p598
+sg7
+VAvailable
+p599
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p600
+sg11
+I3
+sg12
+L8160L
+ssL3041L
+(dp601
+g101
+Nsg102
+L3041L
+sg103
+S'Thursday, 10. May 2012 08:51PM'
+p602
+ssL7654L
+(dp603
+g11
+Nsg12
+L7654L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p604
+ssL3049L
+(dp605
+g101
+Nsg102
+L3049L
+sg103
+S'Thursday, 10. May 2012 08:51PM'
+p606
+ssL8682L
+(dp607
+g3
+V2146
+p608
+sg5
+VCoral Springs
+p609
+sg7
+VAvailable
+p610
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p611
+sg11
+I3
+sg12
+L8682L
+ssL1516L
+(dp612
+g14
+Nsg15
+L1516L
+sg16
+S'Thursday, 10. May 2012 08:37PM'
+p613
+ssL8690L
+(dp614
+g3
+V2155
+p615
+sg5
+VYulee
+p616
+sg7
+VLimited Availability
+p617
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p618
+sg11
+I2
+sg12
+L8690L
+ssL7669L
+(dp619
+g11
+Nsg12
+L7669L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p620
+ssL7670L
+(dp621
+g11
+Nsg12
+L7670L
+sg9
+S'Thursday, 10. May 2012 12:50PM'
+p622
+ssL3576L
+(dp623
+g14
+Nsg15
+L3576L
+sg16
+S'Thursday, 10. May 2012 08:37PM'
+p624
+ssL1892L
+(dp625
+g14
+Nsg15
+L1892L
+sg16
+S'Thursday, 10. May 2012 08:37PM'
+p626
+ss.

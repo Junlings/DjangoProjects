@@ -1,0 +1,22 @@
+  
+   <h2> Thesis </h2>
+   <table class='list_table' border="1">
+      <tr> <td>Label</td><td>{{paper.LB}}</td></tr>
+      <tr> <td>Degree</td><td>{{paper.VL}}</td></tr>
+      <tr> <td>Year</td><td>{{paper.PY}}</td></tr>
+      <tr> <td>Title</td><td>{{paper.TI}}</td></tr>
+      <tr> <td>University</td><td>{{paper.PB}}</td></tr>
+
+      <tr> <td>Author</td><td>
+
+        <a href="{{ROOT_URL}}author/{{paper.get_AU.id}}/">{{paper.get_AU.lastname}},{{paper.get_AU.firstname}}</a><br>
+
+        </td></tr>
+      <tr>
+	 {% if fulltext %}
+	 <td>Fulltext</td><td><a href="{{MEDIA_URL}}{{fulltext.doc}}"> Link to full text </a></td>
+         {% else %}
+	  <td>Fulltext</td><td> No full text found </td>
+	 {% endif %}
+      </tr>
+  </table>

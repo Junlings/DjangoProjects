@@ -1,0 +1,639 @@
+(dp1
+L560L
+(dp2
+S'city'
+p3
+VWinter Garden
+p4
+sS'name'
+p5
+VStaples
+p6
+sS'phone'
+p7
+V407-656-3210
+p8
+sS'availbility'
+p9
+VLow Stock
+p10
+sS'zipcode'
+p11
+V34787
+p12
+sS'store_name'
+p13
+V\u000A\u000A3065 Daniels Road\u000AWinter Garden \u000AFL\u000A34787\u000A
+p14
+sS'state'
+p15
+VFL
+p16
+sS'availcode'
+p17
+I2
+sS'address'
+p18
+V3065 Daniels Road
+p19
+sS'lat'
+p20
+V28.522030
+p21
+sS'lng'
+p22
+V-81.589540
+p23
+sS'last_update'
+p24
+S'Friday, 11. May 2012 03:25PM'
+p25
+sS'id'
+p26
+L560L
+ssL1027L
+(dp27
+g3
+VCasselberry
+p28
+sg5
+VStaples
+p29
+sg7
+V407-260-9888
+p30
+sg9
+VIn Stock
+p31
+sg11
+V32707
+p32
+sg13
+V\u000ACasselberry Exchange\u000A5779 S. Hwy. 17-92\u000ACasselberry \u000AFL\u000A32707\u000A
+p33
+sg15
+VFL
+p34
+sg17
+I3
+sg18
+V5779 S. Hwy. 17-92
+p35
+sg20
+V28.661600
+p36
+sg22
+V-81.341380
+p37
+sg24
+S'Friday, 11. May 2012 03:25PM'
+p38
+sg26
+L1027L
+ssL950L
+(dp39
+g3
+VOviedo
+p40
+sg5
+VStaples
+p41
+sg7
+V407-977-0586
+p42
+sg9
+VIn Stock
+p43
+sg11
+V32765
+p44
+sg13
+V\u000AOviedo Crossroads\u000A1950 W. State Road 426\u000AOviedo \u000AFL\u000A32765\u000A
+p45
+sg15
+VFL
+p46
+sg17
+I3
+sg18
+V1950 W. State Road 426
+p47
+sg20
+V28.647350
+p48
+sg22
+V-81.231440
+p49
+sg24
+S'Friday, 11. May 2012 03:25PM'
+p50
+sg26
+L950L
+ssL263L
+(dp51
+g3
+VDavenport
+p52
+sg5
+VStaples
+p53
+sg7
+V863-420-7064
+p54
+sg9
+VLow Stock
+p55
+sg11
+V33837
+p56
+sg13
+V\u000A\u000A3500 Posner Blvd.\u000ADavenport \u000AFL\u000A33837\u000A
+p57
+sg15
+VFL
+p58
+sg17
+I2
+sg18
+V3500 Posner Blvd.
+p59
+sg20
+V28.232090
+p60
+sg22
+V-81.649360
+p61
+sg24
+S'Friday, 11. May 2012 03:25PM'
+p62
+sg26
+L263L
+ssL1035L
+(dp63
+g3
+VDaytona Beach
+p64
+sg5
+VStaples
+p65
+sg7
+V386-257-0303
+p66
+sg9
+VIn Stock
+p67
+sg11
+V32114
+p68
+sg13
+V\u000A\u000A2500 W. International Speedway Blvd.\u000ADaytona Beach \u000AFL\u000A32114\u000A
+p69
+sg15
+VFL
+p70
+sg17
+I3
+sg18
+V2500 W. International Speedway Blvd.
+p71
+sg20
+V29.179630
+p72
+sg22
+V-81.083020
+p73
+sg24
+S'Friday, 11. May 2012 03:25PM'
+p74
+sg26
+L1035L
+ssL333L
+(dp75
+g3
+VClermont
+p76
+sg5
+VStaples
+p77
+sg7
+V352-242-6296
+p78
+sg9
+VLow Stock
+p79
+sg11
+V34711
+p80
+sg13
+V\u000A\u000A1600 South Grand Highway\u000AClermont \u000AFL\u000A34711\u000A
+p81
+sg15
+VFL
+p82
+sg17
+I2
+sg18
+V1600 South Grand Highway
+p83
+sg20
+V28.546510
+p84
+sg22
+V-81.741270
+p85
+sg24
+S'Friday, 11. May 2012 03:25PM'
+p86
+sg26
+L333L
+ssL48L
+(dp87
+g3
+VLake Mary
+p88
+sg5
+VStaples
+p89
+sg7
+V407-323-3206
+p90
+sg9
+VIn Stock
+p91
+sg11
+V32746
+p92
+sg13
+V\u000A\u000A4215 Lake Mary Blvd.\u000ALake Mary \u000AFL\u000A32746\u000A
+p93
+sg15
+VFL
+p94
+sg17
+I3
+sg18
+V4215 Lake Mary Blvd.
+p95
+sg20
+V28.755200
+p96
+sg22
+V-81.347700
+p97
+sg24
+S'Friday, 11. May 2012 03:25PM'
+p98
+sg26
+L48L
+ssL728L
+(dp99
+g3
+VOrlando
+p100
+sg5
+VStaples
+p101
+sg7
+V407-482-0133
+p102
+sg9
+VIn Stock
+p103
+sg11
+V32822
+p104
+sg13
+V\u000AVista Palms\u000A7157 Narcoossee Road\u000AOrlando \u000AFL\u000A32822\u000A
+p105
+sg15
+VFL
+p106
+sg17
+I3
+sg18
+V7157 Narcoossee Road
+p107
+sg20
+V28.464870
+p108
+sg22
+V-81.273630
+p109
+sg24
+S'Friday, 11. May 2012 03:25PM'
+p110
+sg26
+L728L
+ssL786L
+(dp111
+g3
+VApopka
+p112
+sg5
+VStaples
+p113
+sg7
+V407-880-1136
+p114
+sg9
+VLow Stock
+p115
+sg11
+V32712
+p116
+sg13
+V\u000AApopka Commons\u000A1626 West Orange Blossom Trail\u000AApopka \u000AFL\u000A32712\u000A
+p117
+sg15
+VFL
+p118
+sg17
+I2
+sg18
+V1626 West Orange Blossom Trail
+p119
+sg20
+V28.686850
+p120
+sg22
+V-81.540820
+p121
+sg24
+S'Friday, 11. May 2012 03:25PM'
+p122
+sg26
+L786L
+ssL467L
+(dp123
+g3
+VOrlando
+p124
+sg5
+VStaples
+p125
+sg7
+V407-894-7226
+p126
+sg9
+VIn Stock
+p127
+sg11
+V32803
+p128
+sg13
+V\u000A\u000A2774 East Colonial Drive\u000AOrlando \u000AFL\u000A32803\u000A
+p129
+sg15
+VFL
+p130
+sg17
+I3
+sg18
+V2774 East Colonial Drive
+p131
+sg20
+V28.551910
+p132
+sg22
+V-81.350120
+p133
+sg24
+S'Friday, 11. May 2012 03:25PM'
+p134
+sg26
+L467L
+ssL1078L
+(dp135
+g3
+VOrlando
+p136
+sg5
+VStaples
+p137
+sg7
+V407-295-4684
+p138
+sg9
+VIn Stock
+p139
+sg11
+V32818
+p140
+sg13
+V\u000A\u000A867 Good Homes Rd\u000AOrlando \u000AFL\u000A32818\u000A
+p141
+sg15
+VFL
+p142
+sg17
+I3
+sg18
+V867 Good Homes Rd
+p143
+sg20
+V28.552300
+p144
+sg22
+V-81.504510
+p145
+sg24
+S'Friday, 11. May 2012 03:25PM'
+p146
+sg26
+L1078L
+ssL632L
+(dp147
+g3
+VTitusville
+p148
+sg5
+VStaples
+p149
+sg7
+V321-383-1545
+p150
+sg9
+VLow Stock
+p151
+sg11
+V32780
+p152
+sg13
+V\u000A\u000A3155 Columbia Blvd.\u000ATitusville \u000AFL\u000A32780\u000A
+p153
+sg15
+VFL
+p154
+sg17
+I2
+sg18
+V3155 Columbia Blvd.
+p155
+sg20
+V28.553000
+p156
+sg22
+V-80.845800
+p157
+sg24
+S'Friday, 11. May 2012 03:25PM'
+p158
+sg26
+L632L
+ssL1401L
+(dp159
+g3
+VOrlando
+p160
+sg5
+VStaples
+p161
+sg7
+V407-381-3056
+p162
+sg9
+VIn Stock
+p163
+sg11
+V32828
+p164
+sg13
+V\u000A\u000A638 N Alafaya Trail\u000AOrlando \u000AFL\u000A32828\u000A
+p165
+sg15
+VFL
+p166
+sg17
+I3
+sg18
+V638 N Alafaya Trail
+p167
+sg20
+V28.562960
+p168
+sg22
+V-81.210050
+p169
+sg24
+S'Friday, 11. May 2012 03:25PM'
+p170
+sg26
+L1401L
+ssL1355L
+(dp171
+g3
+VOrlando
+p172
+sg5
+VStaples
+p173
+sg7
+V407-345-1006
+p174
+sg9
+VIn Stock
+p175
+sg11
+V32819
+p176
+sg13
+V\u000ASand Lake\u000A8421 S John Young Pkwy\u000AOrlando \u000AFL\u000A32819\u000A
+p177
+sg15
+VFL
+p178
+sg17
+I3
+sg18
+V8421 S John Young Pkwy
+p179
+sg20
+V28.449400
+p180
+sg22
+V-81.424400
+p181
+sg24
+S'Friday, 11. May 2012 03:25PM'
+p182
+sg26
+L1355L
+ssL667L
+(dp183
+g3
+VKissimmee
+p184
+sg5
+VStaples
+p185
+sg7
+V407-944-4405
+p186
+sg9
+VIn Stock
+p187
+sg11
+V34741
+p188
+sg13
+V\u000A\u000A101 West Vine St.\u000AKissimmee \u000AFL\u000A34741\u000A
+p189
+sg15
+VFL
+p190
+sg17
+I3
+sg18
+V101 West Vine St.
+p191
+sg20
+V28.305000
+p192
+sg22
+V-81.404710
+p193
+sg24
+S'Friday, 11. May 2012 03:25PM'
+p194
+sg26
+L667L
+ssL1274L
+(dp195
+g3
+VSt. Cloud
+p196
+sg5
+VStaples
+p197
+sg7
+V407-892-2793
+p198
+sg9
+VIn Stock
+p199
+sg11
+V34769
+p200
+sg13
+V\u000AThe Oaks Shopping Center\u000A4058 13th Street\u000ASt. Cloud \u000AFL\u000A34769\u000A
+p201
+sg15
+VFL
+p202
+sg17
+I3
+sg18
+V4058 13th Street
+p203
+sg20
+V28.251380
+p204
+sg22
+V-81.313180
+p205
+sg24
+S'Friday, 11. May 2012 03:25PM'
+p206
+sg26
+L1274L
+ss.

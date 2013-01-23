@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load url from future %}
+
+{% block scripts %}
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="{{ROOT_URL}}media/js/demos.css">
+{% endblock %}
+
+
+{% block content %}
+  <p> Total Number of record is {{item_list.count}}  </p>
+	{%if item_list %}
+		{% autopaginate item_list %}
+		{% paginate %}
+		<table class='list_table' border="1">
+   	<tr>
+   		 <td>Name</td>
+   		 <td>State</td>
+   		 <td>Last Update</td>
+   		 <td>Update Interval</td>
+   		 <td>Link to Map</td>
+		</tr>
+		{% for item in item_list %}
+			<tr>
+			       <td>{{item.name}}</td>
+			       <td>{{item.state}}</td>
+			       <td>{{item.last_commit}}</td>
+			       <td>{{item.search_interval}}</td>
+			 <td><a href="{% url detail_view item.id %}">Details</a> </td>
+			</tr>
+		{% endfor %}
+		
+      </table> 
+	{% else %}
+		<p>No Model instance record are available.</p>
+	{% endif %}
+		
+{% endblock %}
+		  
+{% block footer %}
+	<div id="footer">
+	    <div class="block">
+		<p>Copyright &copy; 2012 Fprime Solution LLC.</p>
+	    </div>
+	</div>
+{% endblock %}

@@ -1,0 +1,1414 @@
+(dp1
+L2816L
+(dp2
+S'availcode'
+p3
+NsS'id'
+p4
+L2816L
+sS'last_update'
+p5
+S'Thursday, 10. May 2012 08:57PM'
+p6
+ssL3712L
+(dp7
+S'num'
+p8
+V5330
+p9
+sS'store_address'
+p10
+V6145 N 35Th Ave
+p11
+sS'availbility'
+p12
+VOut of stock
+p13
+sS'zipcode'
+p14
+V85017
+p15
+sS'store_name'
+p16
+VPhoenix
+p17
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p18
+sg4
+L3712L
+ssL2307L
+(dp19
+g8
+V2113
+p20
+sg10
+V1607 W Bethany Home Rd
+p21
+sg12
+VOut of stock
+p22
+sg14
+V85015
+p23
+sg16
+VPhoenix
+p24
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p25
+sg4
+L2307L
+ssL3076L
+(dp26
+g8
+V2671
+p27
+sg10
+V1175 S Arizona Ave
+p28
+sg12
+VOut of stock
+p29
+sg14
+V85286
+p30
+sg16
+VChandler
+p31
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p32
+sg4
+L3076L
+ssL2711L
+(dp33
+g3
+Nsg4
+L2711L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p34
+ssL1709L
+(dp35
+g8
+V2554
+p36
+sg10
+V13055 W Rancho Santa Fe Blvd
+p37
+sg12
+VOut of stock
+p38
+sg14
+V85392
+p39
+sg16
+VAvondale
+p40
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p41
+sg4
+L1709L
+ssL3346L
+(dp42
+g3
+Nsg4
+L3346L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p43
+ssL277L
+(dp44
+g8
+V3833
+p45
+sg10
+V1606 S Signal Butte Rd
+p46
+sg12
+VOut of stock
+p47
+sg14
+V85209
+p48
+sg16
+VMesa
+p49
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p50
+sg4
+L277L
+ssL1047L
+(dp51
+g8
+V1230
+p52
+sg10
+V5401 S White Mountain Rd
+p53
+sg12
+VOut of stock
+p54
+sg14
+V85901
+p55
+sg16
+VShow Low
+p56
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p57
+sg4
+L1047L
+ssL3356L
+(dp58
+g8
+V2482
+p59
+sg10
+V857 N Dobson Rd
+p60
+sg12
+VOut of stock
+p61
+sg14
+V85201
+p62
+sg16
+VMesa
+p63
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p64
+sg4
+L3356L
+ssL3613L
+(dp65
+g8
+V1291
+p66
+sg10
+V7150 E Speedway Blvd
+p67
+sg12
+VOut of stock
+p68
+sg14
+V85710
+p69
+sg16
+VTucson
+p70
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p71
+sg4
+L3613L
+ssL2846L
+(dp72
+g3
+Nsg4
+L2846L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p73
+ssL1567L
+(dp74
+g3
+Nsg4
+L1567L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p75
+ssL3363L
+(dp76
+g3
+Nsg4
+L3363L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p77
+ssL3462L
+(dp78
+g3
+Nsg4
+L3462L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p79
+ssL1070L
+(dp80
+g3
+Nsg4
+L1070L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p81
+ssL50L
+(dp82
+g3
+Nsg4
+L50L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p83
+ssL1082L
+(dp84
+g3
+Nsg4
+L1082L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p85
+ssL1598L
+(dp86
+g3
+Nsg4
+L1598L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p87
+ssL1089L
+(dp88
+g3
+Nsg4
+L1089L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p89
+ssL395L
+(dp90
+g3
+Nsg4
+L395L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p91
+ssL3397L
+(dp92
+g3
+Nsg4
+L3397L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p93
+ssL2444L
+(dp94
+g8
+V4232
+p95
+sg10
+V4747 E Cactus Rd
+p96
+sg12
+VOut of stock
+p97
+sg14
+V85032
+p98
+sg16
+VPhoenix
+p99
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p100
+sg4
+L2444L
+ssL2122L
+(dp101
+g3
+Nsg4
+L2122L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p102
+ssL695L
+(dp103
+g3
+Nsg4
+L695L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p104
+ssL845L
+(dp105
+g3
+Nsg4
+L845L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p106
+ssL3151L
+(dp107
+g8
+V2922
+p108
+sg10
+V7635 No. La Cholla B
+p109
+sg12
+VOut of stock
+p110
+sg14
+V85741
+p111
+sg16
+VTucson
+p112
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p113
+sg4
+L3151L
+ssL3152L
+(dp114
+g3
+Nsg4
+L3152L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p115
+ssL849L
+(dp116
+g8
+V1324
+p117
+sg10
+V100 W White Park Dr
+p118
+sg12
+VOut of stock
+p119
+sg14
+V85621
+p120
+sg16
+VNogales
+p121
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p122
+sg4
+L849L
+ssL2643L
+(dp123
+g8
+V1299
+p124
+sg10
+V2003 E Rodeo Dr
+p125
+sg12
+VOut of stock
+p126
+sg14
+V86326
+p127
+sg16
+VCottonwood
+p128
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p129
+sg4
+L2643L
+ssL1364L
+(dp130
+g3
+Nsg4
+L1364L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p131
+ssL1374L
+(dp132
+g3
+Nsg4
+L1374L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p133
+ssL1633L
+(dp134
+g8
+V3861
+p135
+sg10
+V5290 S Power Rd
+p136
+sg12
+VOut of stock
+p137
+sg14
+V85295
+p138
+sg16
+VGilbert
+p139
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p140
+sg4
+L1633L
+ssL365L
+(dp141
+g8
+V2051
+p142
+sg10
+V3396 Stockton Hill Rd
+p143
+sg12
+VOut of stock
+p144
+sg14
+V86409
+p145
+sg16
+VKingman
+p146
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p147
+sg4
+L365L
+ssL445L
+(dp148
+g3
+Nsg4
+L445L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p149
+ssL3048L
+(dp150
+g8
+V3896
+p151
+sg10
+V21655 N Lake Pleasant Pkwy
+p152
+sg12
+VOut of stock
+p153
+sg14
+V85382
+p154
+sg16
+VPeoria
+p155
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p156
+sg4
+L3048L
+ssL1656L
+(dp157
+g3
+Nsg4
+L1656L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p158
+ssL3711L
+(dp159
+g3
+Nsg4
+L3711L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p160
+ssL3456L
+(dp161
+g8
+V3799
+p162
+sg10
+V240 W Baseline Rd
+p163
+sg12
+VOut of stock
+p164
+sg14
+V85210
+p165
+sg16
+VMesa
+p166
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p167
+sg4
+L3456L
+ssL3713L
+(dp168
+g3
+Nsg4
+L3713L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p169
+ssL3458L
+(dp170
+g3
+Nsg4
+L3458L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p171
+ssL2180L
+(dp172
+g3
+Nsg4
+L2180L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p173
+ssL2181L
+(dp174
+g3
+Nsg4
+L2181L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p175
+ssL2950L
+(dp176
+g8
+V4325
+p177
+sg10
+V8151 E 32Nd St
+p178
+sg12
+VOut of stock
+p179
+sg14
+V85365
+p180
+sg16
+VYuma
+p181
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p182
+sg4
+L2950L
+ssL65L
+(dp183
+g8
+V1612
+p184
+sg10
+V1650 W Valencia Rd
+p185
+sg12
+VOut of stock
+p186
+sg14
+V85746
+p187
+sg16
+VTucson
+p188
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p189
+sg4
+L65L
+ssL2185L
+(dp190
+g8
+V4430
+p191
+sg10
+V41650 W Maricopa Casa Grande H
+p192
+sg12
+VOut of stock
+p193
+sg14
+V85138
+p194
+sg16
+VMaricopa
+p195
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p196
+sg4
+L2185L
+ssL2186L
+(dp197
+g3
+Nsg4
+L2186L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p198
+ssL2443L
+(dp199
+g3
+Nsg4
+L2443L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p200
+ssL2188L
+(dp201
+g3
+Nsg4
+L2188L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p202
+ssL653L
+(dp203
+g8
+V2515
+p204
+sg10
+V3721 E Thomas Rd
+p205
+sg12
+VOut of stock
+p206
+sg14
+V85018
+p207
+sg16
+VPhoenix
+p208
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p209
+sg4
+L653L
+ssL577L
+(dp210
+g3
+Nsg4
+L577L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p211
+ssL658L
+(dp212
+g3
+Nsg4
+L658L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p213
+ssL1684L
+(dp214
+g8
+V5186
+p215
+sg10
+V2501 S Market St
+p216
+sg12
+VOut of stock
+p217
+sg14
+V85295
+p218
+sg16
+VGilbert
+p219
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p220
+sg4
+L1684L
+ssL1687L
+(dp221
+g8
+V4337
+p222
+sg10
+V1613 North Main Street
+p223
+sg12
+VOut of stock
+p224
+sg14
+V85349
+p225
+sg16
+VSan Luis
+p226
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p227
+sg4
+L1687L
+ssL8859L
+(dp228
+S'num'
+p229
+V2339
+p230
+sS'name'
+p231
+VWasilla
+p232
+sS'availbility'
+p233
+VAvailable
+p234
+sS'last_update'
+p235
+S'Thursday, 10. May 2012 01:03PM'
+p236
+sS'availcode'
+p237
+I3
+sS'id'
+p238
+L8859L
+ssL2717L
+(dp239
+g3
+Nsg4
+L2717L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p240
+ssL197L
+(dp241
+g8
+V1175
+p242
+sg10
+V2750 S Woodlands Village Blvd
+p243
+sg12
+VOut of stock
+p244
+sg14
+V86001
+p245
+sg16
+VFlagstaff
+p246
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p247
+sg4
+L197L
+ssL672L
+(dp248
+g3
+Nsg4
+L672L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p249
+ssL1442L
+(dp250
+g3
+Nsg4
+L1442L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p251
+ssL2725L
+(dp252
+g3
+Nsg4
+L2725L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p253
+ssL2726L
+(dp254
+g8
+V1328
+p255
+sg10
+V700 Mikes Pike St
+p256
+sg12
+VOut of stock
+p257
+sg14
+V86047
+p258
+sg16
+VWinslow
+p259
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p260
+sg4
+L2726L
+ssL3751L
+(dp261
+g8
+V5429
+p262
+sg10
+V14111 N Prasada Gateway Ave
+p263
+sg12
+VOut of stock
+p264
+sg14
+V85388
+p265
+sg16
+VSurprise
+p266
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p267
+sg4
+L3751L
+ssL2472L
+(dp268
+g3
+Nsg4
+L2472L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p269
+ssL540L
+(dp270
+g3
+Nsg4
+L540L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p271
+ssL2731L
+(dp272
+g8
+V5768
+p273
+sg10
+V800 E Southern Ave
+p274
+sg12
+VOut of stock
+p275
+sg14
+V85282
+p276
+sg16
+VTempe
+p277
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p278
+sg4
+L2731L
+ssL3501L
+(dp279
+g8
+V3360
+p280
+sg10
+V2750 E Germann Rd
+p281
+sg12
+VOut of stock
+p282
+sg14
+V85286
+p283
+sg16
+VChandler
+p284
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p285
+sg4
+L3501L
+ssL2481L
+(dp286
+g3
+Nsg4
+L2481L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p287
+ssL1974L
+(dp288
+g3
+Nsg4
+L1974L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p289
+ssL1975L
+(dp290
+g3
+Nsg4
+L1975L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p291
+ssL3828L
+(dp292
+g3
+Nsg4
+L3828L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p293
+ssL8890L
+(dp294
+g229
+V2371
+p295
+sg231
+VAnchorage NE
+p296
+sg233
+VAvailable
+p297
+sg235
+S'Thursday, 10. May 2012 01:03PM'
+p298
+sg237
+I3
+sg238
+L8890L
+ssL8891L
+(dp299
+g229
+V2372
+p300
+sg231
+VAnchorage South
+p301
+sg233
+VAvailable
+p302
+sg235
+S'Thursday, 10. May 2012 01:03PM'
+p303
+sg237
+I3
+sg238
+L8891L
+ssL3773L
+(dp304
+g3
+Nsg4
+L3773L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p305
+ssL1728L
+(dp306
+g3
+Nsg4
+L1728L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p307
+ssL3403L
+(dp308
+g3
+Nsg4
+L3403L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p309
+ssL2244L
+(dp310
+g3
+Nsg4
+L2244L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p311
+ssL2487L
+(dp312
+g3
+Nsg4
+L2487L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p313
+ssL2581L
+(dp314
+g3
+Nsg4
+L2581L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p315
+ssL205L
+(dp316
+g3
+Nsg4
+L205L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p317
+ssL589L
+(dp318
+g3
+Nsg4
+L589L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p319
+ssL2768L
+(dp320
+g3
+Nsg4
+L2768L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p321
+ssL1234L
+(dp322
+g8
+V3241
+p323
+sg10
+V18551 N 83Rd Ave
+p324
+sg12
+VOut of stock
+p325
+sg14
+V85308
+p326
+sg16
+VGlendale
+p327
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p328
+sg4
+L1234L
+ssL3545L
+(dp329
+g8
+V1512
+p330
+sg10
+V800 W Warner Rd
+p331
+sg12
+VOut of stock
+p332
+sg14
+V85225
+p333
+sg16
+VChandler
+p334
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p335
+sg4
+L3545L
+ssL3255L
+(dp336
+g3
+Nsg4
+L3255L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p337
+ssL478L
+(dp338
+g3
+Nsg4
+L478L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p339
+ssL2213L
+(dp340
+g3
+Nsg4
+L2213L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p341
+ssL3040L
+(dp342
+g8
+V5124
+p343
+sg10
+V5605 W Northern Ave
+p344
+sg12
+VOut of stock
+p345
+sg14
+V85301
+p346
+sg16
+VGlendale
+p347
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p348
+sg4
+L3040L
+ssL3560L
+(dp349
+g8
+V2112
+p350
+sg10
+V4915 N Pima Rd
+p351
+sg12
+VOut of stock
+p352
+sg14
+V85251
+p353
+sg16
+VScottsdale
+p354
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p355
+sg4
+L3560L
+ssL2812L
+(dp356
+g3
+Nsg4
+L2812L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p357
+ssL3051L
+(dp358
+g8
+V1533
+p359
+sg10
+V7975 W Peoria Ave
+p360
+sg12
+VOut of stock
+p361
+sg14
+V85345
+p362
+sg16
+VPeoria
+p363
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p364
+sg4
+L3051L
+ssL3052L
+(dp365
+g8
+V3465
+p366
+sg10
+V5010 N 95Th Ave
+p367
+sg12
+VOut of stock
+p368
+sg14
+V85305
+p369
+sg16
+VGlendale
+p370
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p371
+sg4
+L3052L
+ssL494L
+(dp372
+g3
+Nsg4
+L494L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p373
+ssL2557L
+(dp374
+g8
+V5190
+p375
+sg10
+V2501 W Happy Valley Rd Ste 34
+p376
+sg12
+VOut of stock
+p377
+sg14
+V85085
+p378
+sg16
+VPhoenix
+p379
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p380
+sg4
+L2557L
+ssL3752L
+(dp381
+g3
+Nsg4
+L3752L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p382
+ssL243L
+(dp383
+g8
+V1240
+p384
+sg10
+V500 N Highway 90 Byp
+p385
+sg12
+VOut of stock
+p386
+sg14
+V85635
+p387
+sg16
+VSierra Vista
+p388
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p389
+sg4
+L243L
+ssL1012L
+(dp390
+g3
+Nsg4
+L1012L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p391
+ssL1531L
+(dp392
+g3
+Nsg4
+L1531L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p393
+ssL1788L
+(dp394
+g8
+V3379
+p395
+sg10
+V2150 E Tangerine Rd
+p396
+sg12
+VOut of stock
+p397
+sg14
+V85755
+p398
+sg16
+VOro Valley
+p399
+sg3
+I0
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p400
+sg4
+L1788L
+ssL3581L
+(dp401
+g3
+Nsg4
+L3581L
+sg5
+S'Thursday, 10. May 2012 08:57PM'
+p402
+ss.

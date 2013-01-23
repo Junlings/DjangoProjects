@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load url from future %}
+{% load generic_views_helpers %}
+{% block scripts %}
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="{{ROOT_URL}}media/js/demos.css">
+{% endblock %}
+
+
+{% block content %}
+  <p> Total Number of record is {{item_list.count}}  </p>
+	{%if item_list %}
+       {{item_list}}
+	{% else %}
+		<p>No Model instance record are available.</p>
+	{% endif %}
+		
+{% endblock %}

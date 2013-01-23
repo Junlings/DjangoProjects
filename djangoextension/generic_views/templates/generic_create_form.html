@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+
+
+
+$('button').click(function() {
+    $('form').each(function() {
+        $.post(this.action, $form.serialize());
+    });
+});
+
+
+
+
+{% block content %}
+
+    {% if form_is_multipart %}
+        <form enctype="multipart/form-data" method="{{ submit_method|default:'post' }}" action="" class="form">
+    {% else %}
+        <form method="{{ submit_method|default:'post' }}" action="" class="form">
+    {% endif %}
+    
+    {% if submit_method != 'GET' and submit_method != 'get' %}
+        {% csrf_token %}
+    {% endif %}
+            
+{# Deal with multiple forms #}
+{% for form in form_list%}
+    <h2> Inputs for {{form}} </h2>
+
+
+    {% for hidden in form.hidden_fields %}
+    {{ hidden }}
+    {% endfor %}
+    {# Include the visible fields #}
+    
+    {% if form_display_mode_table %}
+        <table class='form_table' border="1">
+        
+        {% for field in form.visible_fields %}
+                <tr>
+                <td>{{ field.label_tag }}</td>
+                <td>
+                {% if field.errors %}<div class="flash"><div class="error">{% endif %}
+                  {{ field }}
+                {% if field.errors %}{{ field.errors }}</div></div>{% endif %}
+                </td>
+                </tr>
+        {% endfor %}
+        </table>
+        
+    {% else %}
+        {% for field in form.visible_fields %}
+            <div class="fieldWrapper">
+                {{ field.errors }}
+                {{ field.label_tag }}: {{ field }}
+            </div>
+        {% endfor %}
+        </form>
+    {% endif %}
+{% endfor %}
+    
+ <p><input type="submit" value="Submit" /></p>
+
+{% endblock %}

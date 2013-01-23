@@ -1,0 +1,99 @@
+
+{% load i18n %}
+{% load url from future %}
+{% load generic_views_helpers %}
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    {% block website-meta %}   
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=utf-8" />
+    {% endblock %}
+
+    {% block google-analytics %}
+        {% include 'google_analytics_script_snippet.html' %}
+    {% endblock %}
+    
+    {% block scripts %}
+      
+    {% endblock %}
+
+    {% block stylesheets %}
+        <link href="{{MEDIA_URL}}css/mystyle.css" rel="stylesheet" type="text/css" />
+    {% endblock %}
+    
+    <title>{{site.name}}</title>
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            
+        <div id="logo">
+            <img src="{{MEDIA_URL}}images/card.png" alt="Fprime Solution Online Management System"></img>
+            </a>
+            <div id="strapline"></div>        
+        </div> <!--logo-->       
+    
+        {% include 'menu_snippet.html' %}
+            
+        </div> <!-- header -->
+        
+        <div id="main">
+            <div id="sidebar2" align=right>
+                {% block sidebar-1 %}
+                     {% if user %}
+                        Welcome Back: {{user}}  --|--  
+                          <a href="{{REGISTER_URL}}password/change/">Change Password</a>
+                         --|--  <a href="{{REGISTER_URL}}logout/">Logout</a>
+                     {% else %}
+                        Please login
+                     {% endif %}
+                     
+                {% endblock %}
+            </div> <!-- sidebar2 -->
+
+            <div id="sidebarright" align=right>
+                    {% block leftfloat_login %}
+                    Basic Info:
+                      <ul>
+                        <li>User:{{user.username}}</li>
+                        <li>Join:{{user.date_joined}}</li>
+                        <li>Last visit:{{user.last_login}}</li>
+                      </ul>
+
+                    {% endblock %}
+                    
+
+                    {% block leftfloat %}
+
+                    {% endblock %}                    
+                    
+                    
+             </div> <!-- sidebarright -->
+                          
+
+            
+            <div id="content">
+
+              
+              
+                   {% block content %}{% endblock %}
+            </div> <!-- content -->
+
+        
+
+            <div id="footer">
+                {% block footer %}
+                    {% include 'footer_snippet.html' %}
+                {% endblock %}
+            </div> <!-- footer -->
+        </div> <!-- main -->
+    </div> <!-- wrapper -->
+
+</body>
+</html>

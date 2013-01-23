@@ -1,0 +1,15 @@
+
+		<table class='list_table' border="1">
+   	<tr>
+   		 <td>Name</td>
+   		 <td>State</td>
+
+		</tr>
+		{% for item in item_list %}
+			<tr>
+			       <td>{{item.name}}</td>
+			       <td>{{item.state}}</td>
+			</tr>
+		{% endfor %}
+		
+      </table> 

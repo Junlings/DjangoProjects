@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load url from future %}
+
+    
+    {% block website-meta %}  
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    {% endblock %}
+    
+    
+    {% block scripts %}
+        <style type="text/css">
+          html { height: 100% }
+          body { height: 100%; margin: 0; padding: 0 }
+          #map_canvas { height: 500px }
+        </style>
+        <script type="text/javascript"
+            src="http://maps.googleapis.com/maps/api/js?sensor=true">
+        </script>
+        <script type="text/javascript">
+          function initialize() {
+            var latlng = new google.maps.LatLng({{Lat}},{{Lng}});
+            var myOptions = {
+              zoom: 7,
+              center: latlng,
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById("map_canvas"),
+                myOptions);
+            
+            
+            
+            {% for zipcode,app in app_list.items %}
+                var contentString_{{app.id}} = "<div id='map_title'>{{app.name}}</div>" +
+                "<div id='map_intro'>{{app.address|escape|truncatewords:30}}"+
+                '<p>{{app.city}},{{app.state}}</p>'+
+                '<p>Phone Number: {{app.phone}}</p>'+
+                '<p>Zip Code: {{app.zipcode}}</p>'+
+                '<p>Availbility: {{app.avail}}</p>'+
+                '<a href="http://127.0.0.1:8000/uhpcapp/{{app.id}}">Details</a></div>';
+                
+                var iimage = '{{MEDIA_URL}}images/{{app.icon}}';
+                var mylatlng_{{app.id}} = new google.maps.LatLng({{app.lat}},{{app.lng}});
+                var marker_{{app.id}} = new google.maps.Marker({
+                 position: mylatlng_{{app.id}},
+                 map:map,
+                 icon: iimage,
+
+                });
+                
+                var infowindow_{{app.id}} = new google.maps.InfoWindow({
+                content: contentString_{{app.id}}
+                });
+                 
+                google.maps.event.addListener(marker_{{app.id}}, 'click', function() {
+                  infowindow_{{app.id}}.open(map,marker_{{app.id}});
+                });
+            {% endfor %}
+          }
+
+        </script>
+    {% endblock %}
+    
+    
+    {% block title %}
+    <title>Staple Local checker</title>
+    {% endblock %}
+    
+    
+{% block content %}
+<body onload="initialize()">
+            <div id="main">
+
+            <div id=map>
+
+                <h1> Local {{search_obj.item.suppliers.name}} Stores for state: {{search_obj.state}} </h1>
+                <h2> For item {{search_obj.item.description}}-------- product id: {{search_obj.item.suppliers_PID}} </h2>
+                <h2> Click on the marker to get local store information </h2>
+                <h2> Last update: {{search_obj.last_commit}} </h2>
+                <table border=2>
+                	<tr>
+                	<td>|- In Stock -| </td>
+                	<td>|-Low Stock -|</td>
+                	<td>|-Out of Stock -|</td> 
+                	<td>|-Clearance -|</td>
+                	<td>|-No Data -|</td>
+                	</tr>
+                	<tr>
+                	 <td><img src={{MEDIA_URL}}images/in_stock.png alt="In Stock" height="24" width="24" /> </td>
+                	 <td><img src={{MEDIA_URL}}images/low_stock.png alt="Low Stock" height="24" width="24" /> </td>
+                	 <td><img src={{MEDIA_URL}}images/not_sold.png alt="Out Of Stock" height="24" width="24" /> </td>
+                	 <td><img src={{MEDIA_URL}}images/clearance.png alt="Clearance" height="24" width="24" /> </td>
+                	 <td><img src={{MEDIA_URL}}images/no_info.png alt="no info" height="24" width="24" /> </td>
+                 </tr> 
+                	<tr>
+                	 <td>{{total_quantity.in_stock}}</td>
+                	 <td>{{total_quantity.low_stock}}</td>
+                	 <td>{{total_quantity.not_sold}}</td>
+                	 <td>{{total_quantity.clearance}}</td>
+                	 <td>{{total_quantity.no_info}}</td>
+                </tr>                  
+                 
+                      	
+                </table>
+                
+                
+                
+            <div id="sidebar2">
+                {% block sidebar-1 %}
+        
+                {% endblock %}
+            </div> <!-- sidebar2 -->
+            <div id="map_canvas" style="width:1000px; height:600px"></div>
+            </div>
+            </div> <!-- main -->
+</body>
+{% endblock %}

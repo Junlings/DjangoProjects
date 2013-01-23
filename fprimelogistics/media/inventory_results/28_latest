@@ -1,0 +1,1757 @@
+(dp1
+L256L
+(dp2
+S'city'
+p3
+VLaGrange
+p4
+sS'name'
+p5
+VStaples
+p6
+sS'phone'
+p7
+V706-885-0919
+p8
+sS'zipcode'
+p9
+V30240
+p10
+sS'availbility'
+p11
+VNot sold at this location
+p12
+sS'store_name'
+p13
+V\u000A\u000A240 New Franklin Road\u000ALaGrange \u000AGA\u000A30240\u000A
+p14
+sS'state'
+p15
+VGA
+p16
+sS'availcode'
+p17
+I0
+sS'address'
+p18
+V240 New Franklin Road
+p19
+sS'lat'
+p20
+V33.049100
+p21
+sS'lng'
+p22
+V-85.024400
+p23
+sS'last_update'
+p24
+S'Friday, 11. May 2012 04:04PM'
+p25
+sS'id'
+p26
+L256L
+ssL128L
+(dp27
+S'city'
+p28
+VMadison
+p29
+sS'name'
+p30
+VStaples
+p31
+sS'phone'
+p32
+V256-722-0686
+p33
+sS'availbility'
+p34
+VLow Stock
+p35
+sS'zipcode'
+p36
+V35758
+p37
+sS'store_name'
+p38
+V\u000A\u000A7830 Highway 72\u000AMadison \u000AAL\u000A35758\u000A
+p39
+sS'state'
+p40
+VAL
+p41
+sS'availcode'
+p42
+I2
+sS'address'
+p43
+V7830 Highway 72
+p44
+sS'lat'
+p45
+V34.754900
+p46
+sS'lng'
+p47
+V-86.735930
+p48
+sS'last_update'
+p49
+S'Friday, 11. May 2012 04:06PM'
+p50
+sS'id'
+p51
+L128L
+ssL386L
+(dp52
+g3
+VAtlanta
+p53
+sg5
+VStaples
+p54
+sg7
+V404-256-4602
+p55
+sg9
+V30342
+p56
+sg11
+VIn Stock
+p57
+sg13
+V\u000AThe Prado - Sandy Springs\u000A5560 Roswell Rd\u000AAtlanta \u000AGA\u000A30342\u000A
+p58
+sg15
+VGA
+p59
+sg17
+I3
+sg18
+V5560 Roswell Rd
+p60
+sg20
+V33.908100
+p61
+sg22
+V-84.379670
+p62
+sg24
+S'Friday, 11. May 2012 04:04PM'
+p63
+sg26
+L386L
+ssL1027L
+(dp64
+S'city'
+p65
+VCasselberry
+p66
+sS'name'
+p67
+VStaples
+p68
+sS'phone'
+p69
+V407-260-9888
+p70
+sS'zipcode'
+p71
+V32707
+p72
+sS'availbility'
+p73
+VIn Stock
+p74
+sS'store_name'
+p75
+V\u000ACasselberry Exchange\u000A5779 S. Hwy. 17-92\u000ACasselberry \u000AFL\u000A32707\u000A
+p76
+sS'state'
+p77
+VFL
+p78
+sS'availcode'
+p79
+I3
+sS'address'
+p80
+V5779 S. Hwy. 17-92
+p81
+sS'lat'
+p82
+V28.661600
+p83
+sS'lng'
+p84
+V-81.341380
+p85
+sS'last_update'
+p86
+S'Friday, 11. May 2012 03:51PM'
+p87
+sS'id'
+p88
+L1027L
+ssL646L
+(dp89
+g28
+VHuntsville
+p90
+sg30
+VStaples
+p91
+sg32
+V256-883-3366
+p92
+sg34
+VIn Stock
+p93
+sg36
+V35802
+p94
+sg38
+V\u000AHaysland Square Shopping Ctr.\u000A9032A S. Memorial Parkway\u000AHuntsville \u000AAL\u000A35802\u000A
+p95
+sg40
+VAL
+p96
+sg42
+I3
+sg43
+V9032A S. Memorial Parkway
+p97
+sg45
+V34.648940
+p98
+sg47
+V-86.567140
+p99
+sg49
+S'Friday, 11. May 2012 04:06PM'
+p100
+sg51
+L646L
+ssL263L
+(dp101
+g65
+VDavenport
+p102
+sg67
+VStaples
+p103
+sg69
+V863-420-7064
+p104
+sg71
+V33837
+p105
+sg73
+VLow Stock
+p106
+sg75
+V\u000A\u000A3500 Posner Blvd.\u000ADavenport \u000AFL\u000A33837\u000A
+p107
+sg77
+VFL
+p108
+sg79
+I2
+sg80
+V3500 Posner Blvd.
+p109
+sg82
+V28.232090
+p110
+sg84
+V-81.649360
+p111
+sg86
+S'Friday, 11. May 2012 03:51PM'
+p112
+sg88
+L263L
+ssL1035L
+(dp113
+g65
+VDaytona Beach
+p114
+sg67
+VStaples
+p115
+sg69
+V386-257-0303
+p116
+sg71
+V32114
+p117
+sg73
+VIn Stock
+p118
+sg75
+V\u000A\u000A2500 W. International Speedway Blvd.\u000ADaytona Beach \u000AFL\u000A32114\u000A
+p119
+sg77
+VFL
+p120
+sg79
+I3
+sg80
+V2500 W. International Speedway Blvd.
+p121
+sg82
+V29.179630
+p122
+sg84
+V-81.083020
+p123
+sg86
+S'Friday, 11. May 2012 03:51PM'
+p124
+sg88
+L1035L
+ssL268L
+(dp125
+g28
+VWest Nashville
+p126
+sg30
+VStaples
+p127
+sg32
+V615-673-7019
+p128
+sg34
+VIn Stock
+p129
+sg36
+V37221
+p130
+sg38
+V\u000ABellvue\u000A7615 US Hwy 70 South\u000AWest Nashville \u000ATN\u000A37221\u000A
+p131
+sg40
+VTN
+p132
+sg42
+I3
+sg43
+V7615 US Hwy 70 South
+p133
+sg45
+V36.081100
+p134
+sg47
+V-86.956890
+p135
+sg49
+S'Friday, 11. May 2012 04:06PM'
+p136
+sg51
+L268L
+ssL15L
+(dp137
+g3
+VAcworth
+p138
+sg5
+VStaples
+p139
+sg7
+V678-574-6829
+p140
+sg9
+V30101
+p141
+sg11
+VIn Stock
+p142
+sg13
+V\u000A\u000A3344 Cobb Parkway\u000AAcworth \u000AGA\u000A30101\u000A
+p143
+sg15
+VGA
+p144
+sg17
+I3
+sg18
+V3344 Cobb Parkway
+p145
+sg20
+V34.029190
+p146
+sg22
+V-84.653850
+p147
+sg24
+S'Friday, 11. May 2012 04:04PM'
+p148
+sg26
+L15L
+ssL786L
+(dp149
+g65
+VApopka
+p150
+sg67
+VStaples
+p151
+sg69
+V407-880-1136
+p152
+sg71
+V32712
+p153
+sg73
+VLow Stock
+p154
+sg75
+V\u000AApopka Commons\u000A1626 West Orange Blossom Trail\u000AApopka \u000AFL\u000A32712\u000A
+p155
+sg77
+VFL
+p156
+sg79
+I2
+sg80
+V1626 West Orange Blossom Trail
+p157
+sg82
+V28.686850
+p158
+sg84
+V-81.540820
+p159
+sg86
+S'Friday, 11. May 2012 03:51PM'
+p160
+sg88
+L786L
+ssL259L
+(dp161
+g3
+VW. Marietta
+p162
+sg5
+VStaples
+p163
+sg7
+V678-354-1415
+p164
+sg9
+V30064
+p165
+sg11
+VIn Stock
+p166
+sg13
+V\u000A\u000A2535B Dallas Highway\u000AW. Marietta \u000AGA\u000A30064\u000A
+p167
+sg15
+VGA
+p168
+sg17
+I3
+sg18
+V2535B Dallas Highway
+p169
+sg20
+V33.946100
+p170
+sg22
+V-84.623000
+p171
+sg24
+S'Friday, 11. May 2012 04:04PM'
+p172
+sg26
+L259L
+ssL1045L
+(dp173
+g28
+VSaltillo
+p174
+sg30
+VStaples
+p175
+sg32
+V662-844-1450
+p176
+sg34
+VIn Stock
+p177
+sg36
+V38866
+p178
+sg38
+V\u000A\u000A1046 Cross Creek Drive\u000ASaltillo \u000AMS\u000A38866\u000A
+p179
+sg40
+VMS
+p180
+sg42
+I3
+sg43
+V1046 Cross Creek Drive
+p181
+sg45
+V34.316400
+p182
+sg47
+V-88.697100
+p183
+sg49
+S'Friday, 11. May 2012 04:06PM'
+p184
+sg51
+L1045L
+ssL22L
+(dp185
+g28
+VHoover (Birmingham)
+p186
+sg30
+VStaples
+p187
+sg32
+V205-822-1193
+p188
+sg34
+VIn Stock
+p189
+sg36
+V35226
+p190
+sg38
+V\u000ACenter at River Chase\u000A1694 Montgomery Highway\u000AHoover (Birmingham) \u000AAL\u000A35226\u000A
+p191
+sg40
+VAL
+p192
+sg42
+I3
+sg43
+V1694 Montgomery Highway
+p193
+sg45
+V33.385284
+p194
+sg47
+V-86.807556
+p195
+sg49
+S'Friday, 11. May 2012 04:06PM'
+p196
+sg51
+L22L
+ssL279L
+(dp197
+g3
+VMorrow
+p198
+sg5
+VStaples
+p199
+sg7
+V770-961-0518
+p200
+sg9
+V30260
+p201
+sg11
+VIn Stock
+p202
+sg13
+V\u000A\u000A1865 Mount  Zion Road\u000AMorrow \u000AGA\u000A30260\u000A
+p203
+sg15
+VGA
+p204
+sg17
+I3
+sg18
+V1865 Mount  Zion Road
+p205
+sg20
+V33.564800
+p206
+sg22
+V-84.323700
+p207
+sg24
+S'Friday, 11. May 2012 04:04PM'
+p208
+sg26
+L279L
+ssL409L
+(dp209
+g3
+VEast Point
+p210
+sg5
+VStaples
+p211
+sg7
+V404-344-0117
+p212
+sg9
+V30344
+p213
+sg11
+VIn Stock
+p214
+sg13
+V\u000A\u000A3675 Marketplace Blvd.\u000AEast Point \u000AGA\u000A30344\u000A
+p215
+sg15
+VGA
+p216
+sg17
+I3
+sg18
+V3675 Marketplace Blvd.
+p217
+sg20
+V33.656980
+p218
+sg22
+V-84.502490
+p219
+sg24
+S'Friday, 11. May 2012 04:04PM'
+p220
+sg26
+L409L
+ssL667L
+(dp221
+g65
+VKissimmee
+p222
+sg67
+VStaples
+p223
+sg69
+V407-944-4405
+p224
+sg71
+V34741
+p225
+sg73
+VIn Stock
+p226
+sg75
+V\u000A\u000A101 West Vine St.\u000AKissimmee \u000AFL\u000A34741\u000A
+p227
+sg77
+VFL
+p228
+sg79
+I3
+sg80
+V101 West Vine St.
+p229
+sg82
+V28.305000
+p230
+sg84
+V-81.404710
+p231
+sg86
+S'Friday, 11. May 2012 03:51PM'
+p232
+sg88
+L667L
+ssL28L
+(dp233
+g3
+VFayetteville
+p234
+sg5
+VStaples
+p235
+sg7
+V678-817-1811
+p236
+sg9
+V30214
+p237
+sg11
+VIn Stock
+p238
+sg13
+V\u000A\u000A105 Banks Station\u000AFayetteville \u000AGA\u000A30214\u000A
+p239
+sg15
+VGA
+p240
+sg17
+I3
+sg18
+V105 Banks Station
+p241
+sg20
+V33.468420
+p242
+sg22
+V-84.447080
+p243
+sg24
+S'Friday, 11. May 2012 04:04PM'
+p244
+sg26
+L28L
+ssL541L
+(dp245
+g28
+VBirmingham
+p246
+sg30
+VStaples
+p247
+sg32
+V205-661-3214
+p248
+sg34
+VLow Stock
+p249
+sg36
+V35235
+p250
+sg38
+V\u000A\u000A1905 Edwards Lake Road\u000ABirmingham \u000AAL\u000A35235\u000A
+p251
+sg40
+VAL
+p252
+sg42
+I2
+sg43
+V1905 Edwards Lake Road
+p253
+sg45
+V33.596893
+p254
+sg47
+V-86.647156
+p255
+sg49
+S'Friday, 11. May 2012 04:06PM'
+p256
+sg51
+L541L
+ssL1184L
+(dp257
+g28
+VBirmingham
+p258
+sg30
+VStaples
+p259
+sg32
+V205-980-0596
+p260
+sg34
+VIn Stock
+p261
+sg36
+V35242
+p262
+sg38
+V\u000A\u000A4614 Highway 280\u000ABirmingham \u000AAL\u000A35242\u000A
+p263
+sg40
+VAL
+p264
+sg42
+I3
+sg43
+V4614 Highway 280
+p265
+sg45
+V33.426969
+p266
+sg47
+V-86.712230
+p267
+sg49
+S'Friday, 11. May 2012 04:06PM'
+p268
+sg51
+L1184L
+ssL560L
+(dp269
+g65
+VWinter Garden
+p270
+sg67
+VStaples
+p271
+sg69
+V407-656-3210
+p272
+sg71
+V34787
+p273
+sg73
+VLow Stock
+p274
+sg75
+V\u000A\u000A3065 Daniels Road\u000AWinter Garden \u000AFL\u000A34787\u000A
+p275
+sg77
+VFL
+p276
+sg79
+I2
+sg80
+V3065 Daniels Road
+p277
+sg82
+V28.522030
+p278
+sg84
+V-81.589540
+p279
+sg86
+S'Friday, 11. May 2012 03:51PM'
+p280
+sg88
+L560L
+ssL518L
+(dp281
+g3
+VCanton
+p282
+sg5
+VStaples
+p283
+sg7
+V770-345-9472
+p284
+sg9
+V30114
+p285
+sg11
+VIn Stock
+p286
+sg13
+V\u000A\u000A108 Riverstone Parkway\u000ACanton \u000AGA\u000A30114\u000A
+p287
+sg15
+VGA
+p288
+sg17
+I3
+sg18
+V108 Riverstone Parkway
+p289
+sg20
+V34.243330
+p290
+sg22
+V-84.495640
+p291
+sg24
+S'Friday, 11. May 2012 04:04PM'
+p292
+sg26
+L518L
+ssL1308L
+(dp293
+g28
+VNashville
+p294
+sg30
+VStaples
+p295
+sg32
+V615-298-1178
+p296
+sg34
+VIn Stock
+p297
+sg36
+V37204
+p298
+sg38
+V\u000A\u000A100 Powell Place\u000ANashville \u000ATN\u000A37204\u000A
+p299
+sg40
+VTN
+p300
+sg42
+I3
+sg43
+V100 Powell Place
+p301
+sg45
+V36.104920
+p302
+sg47
+V-86.764070
+p303
+sg49
+S'Friday, 11. May 2012 04:06PM'
+p304
+sg51
+L1308L
+ssL1070L
+(dp305
+g28
+VAthens
+p306
+sg30
+VStaples
+p307
+sg32
+V256-233-1840
+p308
+sg34
+VIn Stock
+p309
+sg36
+V35611
+p310
+sg38
+V\u000A\u000A1036 Highway 72 East\u000AAthens \u000AAL\u000A35611\u000A
+p311
+sg40
+VAL
+p312
+sg42
+I3
+sg43
+V1036 Highway 72 East
+p313
+sg45
+V34.785730
+p314
+sg47
+V-86.954370
+p315
+sg49
+S'Friday, 11. May 2012 04:06PM'
+p316
+sg51
+L1070L
+ssL48L
+(dp317
+g65
+VLake Mary
+p318
+sg67
+VStaples
+p319
+sg69
+V407-323-3206
+p320
+sg71
+V32746
+p321
+sg73
+VIn Stock
+p322
+sg75
+V\u000A\u000A4215 Lake Mary Blvd.\u000ALake Mary \u000AFL\u000A32746\u000A
+p323
+sg77
+VFL
+p324
+sg79
+I3
+sg80
+V4215 Lake Mary Blvd.
+p325
+sg82
+V28.755200
+p326
+sg84
+V-81.347700
+p327
+sg86
+S'Friday, 11. May 2012 03:51PM'
+p328
+sg88
+L48L
+ssL565L
+(dp329
+g3
+VPeachtree City
+p330
+sg5
+VStaples
+p331
+sg7
+V770-486-9767
+p332
+sg9
+V30269
+p333
+sg11
+VIn Stock
+p334
+sg13
+V\u000A\u000A225 Market Place Connector\u000APeachtree City \u000AGA\u000A30269\u000A
+p335
+sg15
+VGA
+p336
+sg17
+I3
+sg18
+V225 Market Place Connector
+p337
+sg20
+V33.397599
+p338
+sg22
+V-84.594100
+p339
+sg24
+S'Friday, 11. May 2012 04:04PM'
+p340
+sg26
+L565L
+ssL950L
+(dp341
+g65
+VOviedo
+p342
+sg67
+VStaples
+p343
+sg69
+V407-977-0586
+p344
+sg71
+V32765
+p345
+sg73
+VIn Stock
+p346
+sg75
+V\u000AOviedo Crossroads\u000A1950 W. State Road 426\u000AOviedo \u000AFL\u000A32765\u000A
+p347
+sg77
+VFL
+p348
+sg79
+I3
+sg80
+V1950 W. State Road 426
+p349
+sg82
+V28.647350
+p350
+sg84
+V-81.231440
+p351
+sg86
+S'Friday, 11. May 2012 03:51PM'
+p352
+sg88
+L950L
+ssL53L
+(dp353
+g28
+VSmyrna
+p354
+sg30
+VStaples
+p355
+sg32
+V615-220-2891
+p356
+sg34
+VIn Stock
+p357
+sg36
+V37167
+p358
+sg38
+V\u000A\u000A809 Industrial Blvd.\u000ASmyrna \u000ATN\u000A37167\u000A
+p359
+sg40
+VTN
+p360
+sg42
+I3
+sg43
+V809 Industrial Blvd.
+p361
+sg45
+V35.977700
+p362
+sg47
+V-86.568380
+p363
+sg49
+S'Friday, 11. May 2012 04:06PM'
+p364
+sg51
+L53L
+ssL1099L
+(dp365
+g3
+VHiram
+p366
+sg5
+VStaples
+p367
+sg7
+V770-943-2247
+p368
+sg9
+V30141
+p369
+sg11
+VLow Stock
+p370
+sg13
+V\u000A\u000A4471 Jimmy Lee Smith Pky Ste i\u000AHiram \u000AGA\u000A30141\u000A
+p371
+sg15
+VGA
+p372
+sg17
+I2
+sg18
+V4471 Jimmy Lee Smith Pky Ste i
+p373
+sg20
+V33.891360
+p374
+sg22
+V-84.753300
+p375
+sg24
+S'Friday, 11. May 2012 04:04PM'
+p376
+sg26
+L1099L
+ssL1078L
+(dp377
+g65
+VOrlando
+p378
+sg67
+VStaples
+p379
+sg69
+V407-295-4684
+p380
+sg71
+V32818
+p381
+sg73
+VIn Stock
+p382
+sg75
+V\u000A\u000A867 Good Homes Rd\u000AOrlando \u000AFL\u000A32818\u000A
+p383
+sg77
+VFL
+p384
+sg79
+I3
+sg80
+V867 Good Homes Rd
+p385
+sg82
+V28.552300
+p386
+sg84
+V-81.504510
+p387
+sg86
+S'Friday, 11. May 2012 03:51PM'
+p388
+sg88
+L1078L
+ssL1355L
+(dp389
+g65
+VOrlando
+p390
+sg67
+VStaples
+p391
+sg69
+V407-345-1006
+p392
+sg71
+V32819
+p393
+sg73
+VIn Stock
+p394
+sg75
+V\u000ASand Lake\u000A8421 S John Young Pkwy\u000AOrlando \u000AFL\u000A32819\u000A
+p395
+sg77
+VFL
+p396
+sg79
+I3
+sg80
+V8421 S John Young Pkwy
+p397
+sg82
+V28.449400
+p398
+sg84
+V-81.424400
+p399
+sg86
+S'Friday, 11. May 2012 03:51PM'
+p400
+sg88
+L1355L
+ssL333L
+(dp401
+g65
+VClermont
+p402
+sg67
+VStaples
+p403
+sg69
+V352-242-6296
+p404
+sg71
+V34711
+p405
+sg73
+VLow Stock
+p406
+sg75
+V\u000A\u000A1600 South Grand Highway\u000AClermont \u000AFL\u000A34711\u000A
+p407
+sg77
+VFL
+p408
+sg79
+I2
+sg80
+V1600 South Grand Highway
+p409
+sg82
+V28.546510
+p410
+sg84
+V-81.741270
+p411
+sg86
+S'Friday, 11. May 2012 03:51PM'
+p412
+sg88
+L333L
+ssL467L
+(dp413
+g65
+VOrlando
+p414
+sg67
+VStaples
+p415
+sg69
+V407-894-7226
+p416
+sg71
+V32803
+p417
+sg73
+VIn Stock
+p418
+sg75
+V\u000A\u000A2774 East Colonial Drive\u000AOrlando \u000AFL\u000A32803\u000A
+p419
+sg77
+VFL
+p420
+sg79
+I3
+sg80
+V2774 East Colonial Drive
+p421
+sg82
+V28.551910
+p422
+sg84
+V-81.350120
+p423
+sg86
+S'Friday, 11. May 2012 03:51PM'
+p424
+sg88
+L467L
+ssL728L
+(dp425
+g65
+VOrlando
+p426
+sg67
+VStaples
+p427
+sg69
+V407-482-0133
+p428
+sg71
+V32822
+p429
+sg73
+VIn Stock
+p430
+sg75
+V\u000AVista Palms\u000A7157 Narcoossee Road\u000AOrlando \u000AFL\u000A32822\u000A
+p431
+sg77
+VFL
+p432
+sg79
+I3
+sg80
+V7157 Narcoossee Road
+p433
+sg82
+V28.464870
+p434
+sg84
+V-81.273630
+p435
+sg86
+S'Friday, 11. May 2012 03:51PM'
+p436
+sg88
+L728L
+ssL89L
+(dp437
+g28
+VNashville (West)
+p438
+sg30
+VStaples
+p439
+sg32
+V615-354-1608
+p440
+sg34
+VIn Stock
+p441
+sg36
+V37209
+p442
+sg38
+V\u000A\u000A6622 Charlotte Pike Suite 104\u000ANashville (West) \u000ATN\u000A37209\u000A
+p443
+sg40
+VTN
+p444
+sg42
+I3
+sg43
+V6622 Charlotte Pike Suite 104
+p445
+sg45
+V36.138660
+p446
+sg47
+V-86.881320
+p447
+sg49
+S'Friday, 11. May 2012 04:06PM'
+p448
+sg51
+L89L
+ssL1423L
+(dp449
+g28
+VHuntsville
+p450
+sg30
+VStaples
+p451
+sg32
+V256-536-0526
+p452
+sg34
+VIn Stock
+p453
+sg36
+V35801
+p454
+sg38
+V\u000A\u000A1201 North Memorial Parkway\u000AHuntsville \u000AAL\u000A35801\u000A
+p455
+sg40
+VAL
+p456
+sg42
+I3
+sg43
+V1201 North Memorial Parkway
+p457
+sg45
+V34.741950
+p458
+sg47
+V-86.602250
+p459
+sg49
+S'Friday, 11. May 2012 04:06PM'
+p460
+sg51
+L1423L
+ssL37L
+(dp461
+g3
+VCartersville
+p462
+sg5
+VStaples
+p463
+sg7
+V770-386-9100
+p464
+sg9
+V30121
+p465
+sg11
+VLow Stock
+p466
+sg13
+V\u000A\u000A155 Cherokee Place\u000ACartersville \u000AGA\u000A30121\u000A
+p467
+sg15
+VGA
+p468
+sg17
+I2
+sg18
+V155 Cherokee Place
+p469
+sg20
+V34.167390
+p470
+sg22
+V-84.786620
+p471
+sg24
+S'Friday, 11. May 2012 04:04PM'
+p472
+sg26
+L37L
+ssL223L
+(dp473
+g28
+VDecatur
+p474
+sg30
+VStaples
+p475
+sg32
+V256-353-0373
+p476
+sg34
+VIn Stock
+p477
+sg36
+V35603
+p478
+sg38
+V\u000A\u000A817 Beltline Road\u000ADecatur \u000AAL\u000A35603\u000A
+p479
+sg40
+VAL
+p480
+sg42
+I3
+sg43
+V817 Beltline Road
+p481
+sg45
+V34.559830
+p482
+sg47
+V-87.000270
+p483
+sg49
+S'Friday, 11. May 2012 04:06PM'
+p484
+sg51
+L223L
+ssL480L
+(dp485
+g28
+VGuntersville
+p486
+sg30
+VStaples
+p487
+sg32
+V256-878-1592
+p488
+sg34
+VIn Stock
+p489
+sg36
+V35976
+p490
+sg38
+V\u000A\u000A11468 Highway 431 South\u000AGuntersville \u000AAL\u000A35976\u000A
+p491
+sg40
+VAL
+p492
+sg42
+I3
+sg43
+V11468 Highway 431 South
+p493
+sg45
+V34.302440
+p494
+sg47
+V-86.276410
+p495
+sg49
+S'Friday, 11. May 2012 04:06PM'
+p496
+sg51
+L480L
+ssL1280L
+(dp497
+g28
+VMurfreesboro
+p498
+sg30
+VStaples
+p499
+sg32
+V615-895-9908
+p500
+sg34
+VIn Stock
+p501
+sg36
+V37129
+p502
+sg38
+V\u000AOld Fort Crossing\u000A1740 Old Fort Parkway\u000AMurfreesboro \u000ATN\u000A37129\u000A
+p503
+sg40
+VTN
+p504
+sg42
+I3
+sg43
+V1740 Old Fort Parkway
+p505
+sg45
+V35.847700
+p506
+sg47
+V-86.428900
+p507
+sg49
+S'Friday, 11. May 2012 04:06PM'
+p508
+sg51
+L1280L
+ssL1170L
+(dp509
+g3
+VRoswell
+p510
+sg5
+VStaples
+p511
+sg7
+V770-992-9781
+p512
+sg9
+V30075
+p513
+sg11
+VIn Stock
+p514
+sg13
+V\u000A\u000A1125 Woodstock Road\u000ARoswell \u000AGA\u000A30075\u000A
+p515
+sg15
+VGA
+p516
+sg17
+I3
+sg18
+V1125 Woodstock Road
+p517
+sg20
+V34.066400
+p518
+sg22
+V-84.400500
+p519
+sg24
+S'Friday, 11. May 2012 04:04PM'
+p520
+sg26
+L1170L
+ssL169L
+(dp521
+g28
+VFranklin
+p522
+sg30
+VStaples
+p523
+sg32
+V615-771-2013
+p524
+sg34
+VIn Stock
+p525
+sg36
+V37067
+p526
+sg38
+V\u000ACool Spring Market\u000A2000 Mallory Ln\u000AFranklin \u000ATN\u000A37067\u000A
+p527
+sg40
+VTN
+p528
+sg42
+I3
+sg43
+V2000 Mallory Ln
+p529
+sg45
+V35.948750
+p530
+sg47
+V-86.817240
+p531
+sg49
+S'Friday, 11. May 2012 04:06PM'
+p532
+sg51
+L169L
+ssL632L
+(dp533
+g65
+VTitusville
+p534
+sg67
+VStaples
+p535
+sg69
+V321-383-1545
+p536
+sg71
+V32780
+p537
+sg73
+VLow Stock
+p538
+sg75
+V\u000A\u000A3155 Columbia Blvd.\u000ATitusville \u000AFL\u000A32780\u000A
+p539
+sg77
+VFL
+p540
+sg79
+I2
+sg80
+V3155 Columbia Blvd.
+p541
+sg82
+V28.553000
+p542
+sg84
+V-80.845800
+p543
+sg86
+S'Friday, 11. May 2012 03:51PM'
+p544
+sg88
+L632L
+ssL1401L
+(dp545
+g65
+VOrlando
+p546
+sg67
+VStaples
+p547
+sg69
+V407-381-3056
+p548
+sg71
+V32828
+p549
+sg73
+VIn Stock
+p550
+sg75
+V\u000A\u000A638 N Alafaya Trail\u000AOrlando \u000AFL\u000A32828\u000A
+p551
+sg77
+VFL
+p552
+sg79
+I3
+sg80
+V638 N Alafaya Trail
+p553
+sg82
+V28.562960
+p554
+sg84
+V-81.210050
+p555
+sg86
+S'Friday, 11. May 2012 03:51PM'
+p556
+sg88
+L1401L
+ssL1274L
+(dp557
+g65
+VSt. Cloud
+p558
+sg67
+VStaples
+p559
+sg69
+V407-892-2793
+p560
+sg71
+V34769
+p561
+sg73
+VIn Stock
+p562
+sg75
+V\u000AThe Oaks Shopping Center\u000A4058 13th Street\u000ASt. Cloud \u000AFL\u000A34769\u000A
+p563
+sg77
+VFL
+p564
+sg79
+I3
+sg80
+V4058 13th Street
+p565
+sg82
+V28.251380
+p566
+sg84
+V-81.313180
+p567
+sg86
+S'Friday, 11. May 2012 03:51PM'
+p568
+sg88
+L1274L
+ss.

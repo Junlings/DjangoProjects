@@ -1,0 +1,115 @@
+<html>
+<head>
+		<script src="http://fprimes.com/media/js/dojo-1.7.2/dojo/dojo.js" 
+			data-dojo-config="async: true"></script>
+		</script>
+		<script type="text/javascript">
+			require(["dijit/registry", "dojo/parser", "dojox/form/Manager", "dijit/dijit", "dijit/form/Button", "dijit/form/CheckBox", "dijit/form/RadioButton", "dijit/form/TextBox", "dijit/form/ComboBox", "dijit/form/SimpleTextarea", "dijit/form/Select", "dijit/layout/BorderContainer", "dijit/layout/ContentPane", "dojo/domReady!"], function(registry, parser) {
+				parser.parse();
+			});
+
+		</script>
+
+
+<script>
+require(["dojo/dom","dojo/store/JsonRest","dojo/_base/json","dojo/on","dijit/dijit", "dojox/form/Manager","dojo/query","dojo/dom-class","dojo/dom-attr","dojo/_base/json","dojo/NodeList-traverse","dojo/domReady!"], function(dom,JsonRestStore,dojo,on,dijit,formmagr,query,domClass,domAttr){
+
+    var mysubmitbutton = dom.byId("submitbutton");
+    var myinputs = {};
+
+    function handle_error(error_msg)
+        {
+        	for (var key in error_msg.field_errors)
+        	{
+             	node = dojo.query("#error-"+key)[0];
+             	console.log(node);
+             	node.innerHTML = error_msg.field_errors[key];
+             	
+           }
+        
+        };
+
+    function remove_handle_error()
+        {
+             	nodelist = dojo.query(".error-msg").forEach(function(node){
+                  node.innerHTML = '';});
+
+        
+        };
+        
+    function collect_form(form_id)
+      {
+          var myinputs = {};
+        
+          query(form_id+" input").forEach(function(node, index, nodelist){
+            // for each node in the array returned by query,
+            // execute the following code
+            
+            var mylabel = domAttr.get(node,'name')
+            var myvalue = domAttr.get(node,'value')
+            myinputs[mylabel] = myvalue;
+            /* domClass.add(node, "red"); */
+            });
+            return myinputs;
+      };
+
+    console.log(collect_form('#myform'));
+
+    
+    var store = new JsonRestStore({target: "address/" });
+    on(mysubmitbutton, "click", function(){
+        alert('start put data to server');
+       
+        
+        dfd= store.add(collect_form('#myform'));
+        dfd.addErrback(function(error){
+            if(error.status == 400){
+                 var parsed = error.responseText;
+                  alert(parsed);
+                  remove_handle_error()
+                  handle_error(dojo.fromJson(parsed))
+                  
+                  };
+                  
+                  
+                  
+                  });
+        dfd.addCallback(function(){
+            alert('success');});
+
+
+    });
+});
+
+
+    
+</script>
+
+
+
+</head>
+<body>
+
+
+<form id="myform" lang="en" data-dojo-type="dojox.form.Manager" widgetid="myform">
+	
+        <table class='form_table' border="1">
+        
+        {% for field in form.visible_fields %}
+                <tr>
+                <td>{{ field.label_tag }}</td>
+                <td>
+                <div class="flash">
+                	{{ field }}
+                	 <div id="error-{{field.name}}" class="error-msg">
+                	</div>
+                </td>
+                </tr>
+        {% endfor %}
+        </table>
+</form>
+<input type="submit" value="Submit" id="submitbutton"/>
+
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load url from future %}
+
+{% block scripts %}
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="{{ROOT_URL}}media/js/demos.css">
+{% endblock %}
+
+
+{% block content %}
+    <h2> List and count of exist assets </h2>
+    <table border='2'>
+    <td>Item Name</td>
+    <td>Total Quantity</td>
+    <td>Arrived</td>
+    <td>Listed</td>
+    <td>Sold</td>
+    <td>Shipped</td>
+    <td>Paid</td>
+    <td>Returned</td>
+    <td>Refuneded</td>
+    <td>no_state</td>
+        
+        {% for item in item_list %}
+            <tr>
+            <td> {{item.name}}</td>
+            <td>{{item.count}} </td>
+            <td>{{item.Arrived}} </td>
+            <td>{{item.Listed}} </td>
+            <td>{{item.Sold}} </td>
+            <td>{{item.Shipped}} </td>
+            <td>{{item.Paid}} </td>
+            <td>{{item.Returned}} </td>
+            <td>{{item.Refunded}} </td>
+            <td>{{item.no_state}} </td>
+	          </tr>
+		    {% endfor %}
+	  </table>
+	  
+	   <h2> List of active items based on locations </h2>
+        {% for loc in itemloclist %}
+           <h2> {{loc.name}} </h2>
+             {% for item in loc.item %}
+
+               <p> {{item.name}}------------{{item.count}}</p>
+	          {% endfor %}
+		    {% endfor %}
+	
+{% endblock %}
+		  

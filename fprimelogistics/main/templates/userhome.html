@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+    {% block scripts %}
+	<link rel="stylesheet" href="{{MEDIA_URL}}js/themes/redmond/jquery-ui-1.8.21.custom.css">
+	<script src="{{MEDIA_URL}}js/jquery-1.7.2.js"></script>
+	<script src="{{MEDIA_URL}}js/ui/jquery.ui.core.js"></script>
+	<script src="{{MEDIA_URL}}js/ui/jquery.ui.widget.js"></script>
+	<script src="{{MEDIA_URL}}js/ui/jquery.ui.tabs.js"></script>
+
+	<script>
+	$(function() {
+		$( "#tabs" ).tabs();
+	});
+	</script>
+	
+
+	
+    {% endblock %}
+  
+ {% block leftfloat %}
+ <hr color=#b9d2e3>
+    Accounts Owned     
+    <ul>
+      {% for account in accounts %}
+    <li>{{ account }}</li>
+      {% endfor %}  
+    </ul>
+    <p><a href="{{ROOT_URL}}financial/index/">Check account Balanace</a> </p>
+    <p><a href="{{ROOT_URL}}financial/ftrans/list/">Check account Transactions</a> </p>
+    
+ <hr color=#b9d2e3>
+    Storage Owned:      
+    <ul>
+      {% for storage in storages %}
+    <li>{{ storage }}</li>
+      {% endfor %}
+    </ul>   
+    <p><a href="{{ROOT_URL}}assets/list/user/">Check Owner inventory</a> </p>
+
+ <hr color=#b9d2e3>
+    Product Search and inventory check:      
+    <p><a href="{{ROOT_URL}}supply/supplies/create/search.*/">Add New Product</a> </p>
+    <p><a href="{{ROOT_URL}}supply/supplies/create/search.*/">Inventory Search</a> </p>
+
+    
+ {% endblock %}
+       
+ {% block content %}             
+    <div id="tabs">
+	  <ul id='tabs'>
+	  	<li><a href="#tabs-1">Latest 10 Purchase</a></li>
+		  <li><a href="#tabs-2">Latest 10 Sells</a></li>
+		  <li><a href="#tabs-3">Assets on Sale</a></li>
+		  <li><a href="#tabs-4">Assets in stock</a></li>
+		  
+	  </ul>
+
+      <div id="tabs-1">
+      <table>
+        {% for purchase in latest_Purchase %}
+          <tr><td>{{purchase.orderon|date:"Y-m-d"}}</td><td>{{purchase|slice:":30"}}</td></tr>
+        {% endfor %}
+        </table>
+      </div>
+    
+  
+    <div id="tabs-2">
+         <table>
+        {% for sell in latest_Sell %}
+        
+          <tr><td>{{sell.orderon|date:"Y-m-d"}}</td><td>{{sell.platform}}</td>
+            <td>{{sell.request.item_num}}</td><td>{{sell.request.item_list}}</td></tr>
+
+        {% endfor %}
+        </table>
+      </div>
+      
+      
+    
+    <div id="tabs-3">
+      <table>
+        {% for asset,num in asset_onsale.items %}
+        
+          <tr><td>{{asset}}</td><td>{{num}}</td></tr>
+
+        {% endfor %}    
+      </table>
+    
+    </div>
+
+    <div id="tabs-4">
+      <table>
+              {% for asset,num in asset_instock.items %}
+        
+               <tr><td><IMG SRC={{num.img}} height="50"> </td><td>{{asset}}</td><td>{{num.quantity}}</td><td>
+                 <ul>
+                 {% for location in num.location %}
+                   <li>{{location}}</li>
+                 {% endfor %}
+                </ul>
+                </td></tr>
+
+             {% endfor %} 
+             
+
+      </table>
+    
+    </div>
+    
+</div>
+    
+{% endblock %}
+

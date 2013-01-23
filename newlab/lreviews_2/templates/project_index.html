@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load url from future %}
+
+{% block scripts %}
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="{{ROOT_URL}}media/js/demos.css">
+{% endblock %}
+
+
+{% block content %}
+    {% if projects %}
+    <p> Related Lreview projects</p>
+          
+          <table class='list_table' border="1">
+          <tr>
+	      <td>ID</td>
+              <td>Name</td>
+              <td>Topics</td>
+              <td>Managers</td>
+              <td>Contributors</td>
+          </tr> 
+          {% for key,project in projects.items %}
+          <tr>
+	    <td>{{project.lib.id}}</td>
+              <td><a href="{{ROOT_URL}}lreviews/project/{{key}}/"> {{project.lib.shortname}} </a></td>
+              <td>{{project.lib.topics}}</td>
+              <td>{{project.Contributor}}</td>
+              <td>{{project.owner}}</td>
+          </tr>    
+      {% endfor %}
+          </table>
+    {% endif %}
+
+{% endblock %}
+		  

@@ -1,0 +1,25 @@
+   
+   <h2> Journal paper summary </h2>
+   <table class='list_table' border="1">
+      <tr> <td>Label</td><td>{{paper.label}}</td></tr>
+      <tr> <td>Title</td><td>{{paper.TI}}</td></tr>
+      <tr> <td>Journal</td><td>{{paper.T2.name}}</td></tr>
+      <tr> <td>Author</td><td>
+        {% for author in authors %}
+        
+            <a href="{{ROOT_URL}}author/{{author.id}}/">{{author.lastname}},{{author.firstname}}</a><br> 
+        {% endfor %}
+        </td></tr>
+      <tr> <td>Keywords</td><td>{{KWs}}</td></tr>
+      <tr> <td>Abstract</td><td>{{paper.abstract}}</td></tr>
+      <tr> <td>Placement</td><td>{{paper.PY}}-{{paper.VL}}-{{paper.IS}}</td></tr>
+      <tr>
+	 {% if fulltext %}
+	 <td>Fulltext</td><td><a href="{{MEDIA_URL}}{{fulltext.doc}}"> Link to full text </a></td>
+         {% else %}
+	  <td>Fulltext</td><td> No full text found </td>
+	 {% endif %}
+      </tr>
+  </table>
+   
+

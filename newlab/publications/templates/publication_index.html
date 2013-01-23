@@ -1,0 +1,62 @@
+{% extends "publication_base.html" %}
+{% load pagination_tags %}
+{% load url from future %}
+
+{% block scripts %}
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="{{ROOT_URL}}media/js/demos.css">
+{% endblock %}
+
+{% block content %}
+    <div id='journal'>
+        <h2> <a href="{{ROOT_URL}}publications/journal/">Journal</a> </h2>
+        <table class='table_journal' border="1">    
+            <tr> <td>Number of Journal</td><td>{{info.journal.journal}}</td></tr> 
+            <tr> <td>Number of Journal paper</td><td>{{info.journal.paper}}</td></tr> 
+
+       </table>	
+    </div>
+
+    <div id='conf'>
+        <h2> <a href="{{ROOT_URL}}publications/conference/">Conference</a> </h2>
+        <table class='table_Conference' border="1">    
+            <tr> <td>Number of Conference</td><td>{{info.conf.conf}}</td></tr> 
+            <tr> <td>Number of proceeding</td><td>{{info.conf.proc}}</td></tr>
+            <tr> <td>Number of Cpaper</td><td>{{info.conf.cpaper}}</td></tr> 
+
+       </table>	
+    </div>    
+
+    <div id='book'>
+        <h2><a href="{{ROOT_URL}}publications/books/"> Books </h2>
+        <table class='table_Conference' border="1">    
+            <tr> <td>Number of Books</td><td>{{info.book.book}}</td></tr> 
+
+       </table>	
+    </div>    
+
+    <div id='stand'>
+        <h2> <a href="{{ROOT_URL}}publications/standards/">Standard </h2>
+        <table class='table_stand' border="1">    
+            <tr> <td>Number of Standards</td><td>{{info.stand.stand}}</td></tr> 
+
+       </table>	
+    </div>     
+
+    <div id='thes'>
+        <h2> <a href="{{ROOT_URL}}publications/thesis/">Thesis </h2>
+        <table class='table_thes' border="1">    
+            <tr> <td>Number of Thesis</td><td>{{info.thes.thes}}</td></tr> 
+
+       </table>	
+    </div>
+
+    <div id='rprt'>
+        <h2> <a href="{{ROOT_URL}}publications/report/">Reports</a> </h2>
+        <table class='table_rprt' border="1">    
+            <tr> <td>Number of Reports</td><td>{{info.rprt.rprt}}</td></tr> 
+ 
+       </table>	
+    </div>
+    
+{% endblock %}

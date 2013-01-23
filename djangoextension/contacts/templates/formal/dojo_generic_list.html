@@ -1,0 +1,91 @@
+<html>
+<head>
+		<script src="http://127.0.0.1:8000/media/js/dojo-1.7.2/dojo/dojo.js" 
+			data-dojo-config="async: true"></script>
+	<style type="text/css">
+		@import "http://127.0.0.1:8000/media/js/dojo-1.7.2/dojo/resources/dojo.css";
+		@import "http://127.0.0.1:8000/media/js/dojo-1.7.2/dojox/grid/resources/Grid.css";
+		@import "http://127.0.0.1:8000/media/js/dojo-1.7.2/dojox/grid/resources/tundraGrid.css";
+		body {
+			font-size: 0.9em;
+			font-family: Geneva, Arial, Helvetica, sans-serif;
+		}
+		.heading {
+			font-weight: bold;
+			padding-bottom: 0.25em;
+		}
+		#mygrid {
+			width: 65em;
+			height: 25em;
+			padding: 1px;
+		}
+	</style>
+	
+		<script type="text/javascript">
+			require(["dijit/registry", "dojo/parser", "dojox/form/Manager", "dijit/dijit", "dijit/form/Button", "dijit/form/CheckBox", "dijit/form/RadioButton", "dijit/form/TextBox", "dijit/form/ComboBox", "dijit/form/SimpleTextarea", "dijit/form/Select", "dijit/layout/BorderContainer", "dijit/layout/ContentPane", "dojo/domReady!"], function(registry, parser) {
+				parser.parse();
+			});
+
+		</script>
+
+
+<script>
+require([
+    "dojox/grid/DataGrid",
+    "dojo/data/ObjectStore",
+    "dojo/store/JsonRest",
+    "dojo/domReady!"
+], function(DataGrid, ObjectStore,JsonRestStore){
+	   var myStore = new JsonRestStore({target: "null/" });
+     console.log(myStore)
+     var gridLayout = [
+                { name: "id", field: "id", width: "25%" },
+                { name: "address_line1", field: "address_line1", width: "15%" },
+                { name: "address_line2", field: "address_line2", width: "10%" },
+                { name: "nickname", field: "nickname", width: "10%" },
+                { name: "country", field: "country", width: "10%" },
+                { name: "state", field: "state", width: "10%" },
+                { name: "city", field: "city", width: "10%" },
+                { name: "zipcode", field: "zipcode", width: "5%" },
+                { name: "notes", field: "notes", width: "5%" }
+            ]
+            
+    grid = new DataGrid({
+        store: dataStore = ObjectStore({objectStore: myStore}),
+        structure: gridLayout
+    }, "mygrid"); // make sure you have a target HTML element with this id
+    grid.startup();
+    console.log(dataStore)
+});
+	
+	
+require(["dojo/dom","dojo/store/JsonRest","dojo/_base/json","dojo/on","dijit/dijit", "dojox/form/Manager","dojo/query","dojo/dom-class","dojo/dom-attr","dojo/_base/json","dojox/grid/DataGrid","dojo/domReady!"], function(dom,JsonRestStore,dojo,on,dijit,formmagr,query,domClass,domAttr){
+
+    var mysubmitbutton = dojo.query("#submit-query")
+    on(mysubmitbutton, "click", function(){
+        
+   
+    });
+});
+
+
+    
+</script>
+
+
+
+</head>
+<body>
+	  <button type="button" id="submit-query">Submit!</button> 
+    <table class='list_table' border="1">
+			<tr>
+			    {% for field in fields %}
+			        <td>
+				         {{field}}
+				     </td>
+			    {% endfor %}
+			</tr>
+    </table>
+   <div id="mygrid"></div>
+</body>
+</html>

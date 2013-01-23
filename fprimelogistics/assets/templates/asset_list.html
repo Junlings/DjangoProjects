@@ -1,0 +1,153 @@
+﻿{% extends "asset_base.html" %}
+	
+{% block scripts %}
+		 $(document).ready(function () {
+          $.ajax({
+                url: {{URL}},
+                dataType: 'json',
+                data: {},
+                success: function(data1, textStatus, jqXHR){
+
+                	$("#id_product").empty();
+                	$.each(data1, function(index, value) {
+
+                		    $("#id_product").last().append(
+			                  "<tr><td>" + value.title + "</td>" + 
+			                  "<td>" + value.author + "</td>" + 
+			                  "<td>" + "<a href=" + value.link +">" + value.link + "</a>"  + "</td>" 
+			                  +"</tr>");
+			                  
+                		    $("#id_all").last().append(
+			                  "<tr><td>" + value.title + "</td>" + 
+			                  "<td>" + value.author + "</td>" + 
+			                  "<td>" + "<a href=" + value.link +">" + value.link + "</a>"  + "</td>" 
+			                  +"</tr>");			                  
+			                  
+                    });
+                          },
+
+                error:function(xhr, status, error) {
+                         alert("An AJAX error occured: " + status + "\nError: " + error);
+                          },
+
+                  });
+        
+        
+        };
+        
+        ajax_call();
+        
+        $('#countdown').countdown({until: 1000*60,onExpiry:ajax_call});
+          });
+		 		
+		 		</script>
+		 		
+		 		
+		 	  <script>
+    $(document).ready(function(){  
+      
+        //when a link in the filters div is clicked...  
+        $('#id_filterbutton').click(function(){  
+      
+            //hide all rows
+            $('#id_product tr').hide();  
+            $('#id_all tr').hide();  
+
+            
+            ///turn on only 
+            if ($('#id_forsell').is(':checked')) {
+              $('#id_product td:contains(售)').parent().show();  
+              $('#id_all td:contains(售)').parent().show();  
+            };
+
+            if ($('#id_forbuy').is(':checked')) {
+              $('#id_product td:contains(购)').parent().show();  
+              $('#id_all td:contains(购)').parent().show();  
+            };
+            
+            var keyword = $("#id_keywords").val()
+            //console.log(keyword);
+            if(keyword != '') {
+            	//alert('do filter');
+            	$('#id_product').find('tr').find('td:first-child').not(':contains("' + keyword + '")').parent().hide();  
+            	$('#id_all').find('tr').find('td:first-child').not(':contains("' + keyword + '")').parent().hide();  
+            	
+            	};
+ 
+        
+        });
+        
+        $('#id_filterreset').click(function(){
+        	$('#id_product tr').show();  
+        	
+        	
+        	
+        });
+      
+    });  		 	  	
+		 	  	
+		 	  	
+		 	  </script>
+		 		
+		 		
+{% endblock %}
+	
+	
+{% block content %}
+	Refresh every 
+<select name="example" id="id_timeinterval">
+    <option value="5">5</option>
+    <option value="10">10</option>
+    <option value="30">30</option>
+    <option value="60">60</option>
+</select> Minutes
+
+
+	<p>    Next refresh countdown </p>
+	<div id="countdown">
+		
+	</div>
+	
+	
+  <div>
+  	<h2> Filter input</h2>
+  	<p> Leave blank to include all updates, or filter by the keywords separate by ',' </p>
+	
+	<label for="keywords">Select channel</label> <br />
+  <input type="checkbox" name="vehicle" value="Sell" id='id_forsell'/>出售<br />
+  <input type="checkbox" name="vehicle" value="Buy"  id='id_forbuy'/> 求购<br />
+  
+	<label for="keywords">Filter Key Words</label>
+  <input type="text" size="100" name="keywords" id="id_keywords" /> <br />
+  <button type="button" id='id_filterbutton'>Filter</button>
+  <button type="button" id='id_filterreset'>reset</button> 
+  </div>
+	
+	
+	<h2> Update post since last refresh </h2>
+ 	<div id='id_res'>
+ 	</div>
+ 			
+	<div id="id_feedupdate">
+
+  
+
+
+ 		
+		<table id='id_product' border=2>
+          <tr><td>title</td><td>author</td><td>link</td></tr>
+    </table>
+
+	
+	
+	<h2> All Update since pageload </h2>
+	 	<div id='id_res2'>
+ 	</div>
+ 	<div id='id_all2'>
+		<table id='id_all' border=2>
+          <tr><td>title</td><td>author</td><td>link</td></tr>
+    </table>
+	</div>	
+	  </div>
+	
+{% endblock %}
